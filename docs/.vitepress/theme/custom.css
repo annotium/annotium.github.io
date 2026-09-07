@@ -1,0 +1,64 @@
+:root {
+  --vp-c-brand-1: #17624a;
+  --vp-c-brand-2: #1f765a;
+  --vp-c-brand-3: #174a3a;
+  --vp-c-brand-soft: rgba(23, 98, 74, 0.14);
+  --vp-button-brand-border: #174a3a;
+  --vp-button-brand-bg: #174a3a;
+  --vp-button-brand-hover-border: #17624a;
+  --vp-button-brand-hover-bg: #17624a;
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #174a3a, #2b9672);
+}
+
+.VPHomeHero .image-bg {
+  background: rgba(43, 150, 114, 0.18);
+  filter: blur(42px);
+}
+
+.store-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  min-height: 56px;
+  margin: 20px 0;
+}
+
+.store-links a {
+  display: inline-flex;
+  border-radius: 7px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.store-links a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 14px rgba(23, 74, 58, 0.22);
+}
+
+.store-links img {
+  display: block;
+  height: 48px;
+  width: auto;
+}
+
+/* The official Play badge is proportionally narrower than Apple's badge. */
+.store-links__google-play img {
+  height: 56px;
+}
+
+.guide-outline {
+  margin: 24px 0;
+  padding: 12px 16px;
+  border: 1px solid #e6c761;
+  border-radius: 8px;
+  color: #6c5514;
+  background: #fff8e5;
+  font-size: 14px;
+}
+
+.dark .guide-outline {
+  border-color: #8a7429;
+  color: #f0d980;
+  background: rgba(138, 116, 41, 0.16);
+}
