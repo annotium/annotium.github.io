@@ -23,6 +23,15 @@ Create a subsection with steps and one focused screenshot for each tool:
 - Coordinate tool (Premium).
 
 <!-- TODO(screenshot): Tool group open with every line and measurement tool labeled. -->
+<div style="position: relative; width: 100%; max-width: 360px; aspect-ratio: 9 / 16;">
+  <iframe
+    src="https://www.youtube.com/embed/zTTl7vG_94k"
+    title="Annotium lines, arrows, and measurements"
+    style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+</div>
 
 ## Shared properties
 
