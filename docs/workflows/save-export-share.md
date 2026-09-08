@@ -1,9 +1,5 @@
 # Save, export, and share
 
-<p class="guide-outline">
-  Outline · This page is ready for verified steps and current screenshots.
-</p>
-
 ## Understand the output types
 
 | Output | Best for | Editable later? |
@@ -14,17 +10,19 @@
 
 ## Save from Projects
 
-- Explain when project data is saved and remains editable.
-- Describe the prompt shown when leaving with unsaved changes.
-- Explain the optional **Auto save** preference for also saving an image to the
-  gallery.
+- Project data is saved and remains editable.
+- The optional **Auto save** preference for also saving an image to the gallery.
+
+<img
+  src="/images/projects/save.png"
+  alt="Save"
+  style="max-width: 360px; width: 100%; height: auto;"
+/>
 
 ## Save from Photos
 
-- Explain that the result goes to the device photo library and does not appear
-  in Projects.
-- Verify overwrite versus new-item behavior separately on Android and iOS
-  before removing the outline notice.
+- Explain that the result goes to the device photo library and does not appear in Projects.
+- Verify overwrite versus new-item behavior separately on Android and iOS before removing the outline notice.
 
 ## Export and share
 
@@ -34,10 +32,13 @@
 - Export a folder as PDF (Premium).
 - Use the operating-system share sheet.
 
-<!-- TODO(screenshot): Export action sheet and PDF template chooser. -->
+
+<img
+  src="/images/projects/export.png"
+  alt="export"
+  style="max-width: 360px; width: 100%; height: auto;"
+/>
 
 ## Quality, format, and watermark
 
-Document **Image Quality** and **Save Image Format** settings. Confirm current
-free-tier watermark and install-day behavior in a release build before writing
-user-facing promises.
+Document **Image Quality** and **Save Image Format** settings. Confirm current free-tier watermark and install-day behavior in a release build before writing user-facing promises.

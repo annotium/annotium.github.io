@@ -1,9 +1,5 @@
 # Notes
 
-<p class="guide-outline">
-  Outline · This page is ready for verified steps and current screenshots.
-</p>
-
 Project notes are a Premium feature. They hold context that would make the
 image too crowded: observations, identifiers, follow-up items, or a short
 explanation for collaborators.
@@ -14,6 +10,12 @@ explanation for collaborators.
 - Write in rich-text mode.
 - Switch to Markdown source mode.
 - Close the sheet and confirm how the note is retained with the project.
+
+<img
+  src="/images/projects/note.png"
+  alt="Note"
+  style="max-width: 360px; width: 100%; height: auto;"
+/>
 
 ## Add useful notes
 
@@ -36,5 +38,3 @@ Use a text annotation when the words must travel with the exported image. Use a 
 
 Explain how each PDF template arranges the image and note text. Include the
 behavior for empty and very long notes after testing both cases.
-
-<!-- TODO(screenshot): Note editor showing Rich Text and Markdown Source modes. -->

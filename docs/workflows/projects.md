@@ -12,11 +12,25 @@ the base image, supported annotation objects, and project context.
 Open or capture a photo, add annotations, then leave the editor through the
 save flow. The result appears in the Projects grid.
 
+<img
+  src="/images/projects/create.png"
+  alt="Create new project"
+  style="max-width: 360px; width: 100%; height: auto;"
+/>
+
+
 ## Reopen and edit
 
 - With Premium, reopen the saved document and continue editing its objects.
 - Without Premium, create a new flattened copy while keeping the original
   project intact, or choose to unlock Premium.
+
+<img
+  src="/images/projects/items.png"
+  alt="Listing items"
+  style="max-width: 360px; width: 100%; height: auto;"
+/>
+
 
 ## Organize projects
 
@@ -25,6 +39,13 @@ save flow. The result appears in the Projects grid.
 - Duplicate one or more projects.
 - Add a project note (Premium).
 - Export a folder to PDF (Premium).
+
+<img
+  src="/images/projects/note.png"
+  alt="Note"
+  style="max-width: 360px; width: 100%; height: auto;"
+/>
+
 
 ## Delete carefully
 
