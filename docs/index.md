@@ -69,9 +69,11 @@ phones and tablets** through Google Play.
 
 ## Desktop is on the way
 
-We are planning a dedicated desktop version, starting with **macOS**. It is not
+Please be patient ;-)
+
+<!-- We are planning a dedicated desktop version, starting with **macOS**. It is not
 available yet. Other desktop platforms may follow later; platform availability
-and release timing will be announced when they are ready.
+and release timing will be announced when they are ready. -->
 
 ::: tip New to Annotium?
 Start with [Getting started](/guide/getting-started), then compare

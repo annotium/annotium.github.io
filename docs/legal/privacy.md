@@ -4,9 +4,9 @@ title: Privacy Policy
 
 # Privacy Policy
 
-_Last updated: September 7, 2026_
+_Last updated: September 20, 2026_
 
-This Privacy Policy explains how Annotium ("the App"), developed by Hoang Le ("we", "us", "our"), handles information when you use it. Annotium does not require an account, does not run its own server, and does not upload your photos anywhere on its own — most of what the App does happens entirely on your device. This policy also covers the third-party services the App relies on for advertising, crash reporting, and purchases.
+This Privacy Policy explains how Annotium ("the App"), developed by Hoang Le ("we", "us", "our"), handles information when you use it. Annotium does not require an account, does not run its own server, and does not upload your photos anywhere on its own — most of what the App does happens entirely on your device. This policy also covers the third-party services the App relies on for crash reporting, analytics, and purchases.
 
 ## 1. Information We Do Not Collect
 
@@ -22,16 +22,18 @@ We do not require you to create an account, and we do not operate servers that s
 
 You can decline or later revoke any of these permissions in your device's system settings; the App will simply be unable to offer the corresponding feature.
 
-## 3. Advertising (Google AdMob)
+## 3. Advertising
 
-The free tier of the App shows ads served by Google AdMob. AdMob and its partners may collect device identifiers (such as your device's advertising ID) and other technical data to serve and measure ads, including personalized ads where you have consented to tracking (on iOS, via Apple's App Tracking Transparency prompt). Purchasing Annotium PRO removes ads and stops this data collection going forward. See Google's own policies for how AdMob handles data:
+Annotium does not display advertisements and does not include any advertising SDK. The App does not request App Tracking Transparency permission on iOS and does not read your device's advertising identifier on either platform.
+
+**Older versions (4.7.x and earlier):** the free tier of those versions showed interstitial ads served by Google AdMob. In those versions, AdMob and its partners could collect device identifiers (such as the advertising ID) and technical data to serve and measure ads, including personalized ads where you consented to tracking. That data was processed by Google, not by us; we never received or stored any of it. Updating to version 4.8.0 or later removes this behaviour entirely. If you still run an older version, see Google's policies for how AdMob handles data:
 
 - [Google Privacy Policy](https://policies.google.com/privacy)
 - [How Google uses data when you use AdMob-supported apps](https://support.google.com/admob/answer/6128543)
 
 ## 4. Crash Reporting and Analytics
 
-We use Firebase Crashlytics and Firebase Analytics to understand crashes and general, aggregated app usage (for example, which features are used and on which device types), so we can fix bugs and improve the App. This data is technical/diagnostic (device model, OS version, crash logs, anonymized usage events) and is not linked to your photos or annotation content. See [Firebase's privacy documentation](https://firebase.google.com/support/privacy).
+We use Firebase Crashlytics and Firebase Analytics to understand crashes and general, aggregated app usage (for example, which features are used and on which device types), so we can fix bugs and improve the App. This data is technical/diagnostic (device model, OS version, crash logs, anonymized usage events) and is not linked to your photos or annotation content. Advertising-identifier collection is disabled in our Firebase Analytics configuration, so Analytics does not receive your device's advertising ID. See [Firebase's privacy documentation](https://firebase.google.com/support/privacy).
 
 ## 5. Purchases
 
@@ -52,8 +54,7 @@ The App is not directed at children under 13, and we do not knowingly collect pe
 ## 9. Your Choices
 
 - Revoke camera, photo library, or location permissions any time in your device settings.
-- Decline or reset ad tracking consent (App Tracking Transparency on iOS, or your device's ad settings on Android) to limit personalized advertising.
-- Purchase Annotium PRO to remove ads entirely.
+- If you are still on version 4.7.x or earlier, decline or reset ad tracking consent (App Tracking Transparency on iOS, or your device's ad settings on Android) to limit personalized advertising — or simply update the App, which has no ads.
 - Uninstall the App to remove all locally stored data.
 
 ## 10. Changes to This Policy
