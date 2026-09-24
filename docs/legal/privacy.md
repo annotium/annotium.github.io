@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # Privacy Policy
 
-_Last updated: September 20, 2026_
+_Last updated: September 24, 2026_
 
 This Privacy Policy explains how Annotium ("the App"), developed by Hoang Le ("we", "us", "our"), handles information when you use it. Annotium does not require an account, does not run its own server, and does not upload your photos anywhere on its own — most of what the App does happens entirely on your device. This policy also covers the third-party services the App relies on for crash reporting, analytics, and purchases.
 
@@ -31,9 +31,11 @@ Annotium does not display advertisements and does not include any advertising SD
 - [Google Privacy Policy](https://policies.google.com/privacy)
 - [How Google uses data when you use AdMob-supported apps](https://support.google.com/admob/answer/6128543)
 
-## 4. Crash Reporting and Analytics
+## 4. Crash Reporting
 
-We use Firebase Crashlytics and Firebase Analytics to understand crashes and general, aggregated app usage (for example, which features are used and on which device types), so we can fix bugs and improve the App. This data is technical/diagnostic (device model, OS version, crash logs, anonymized usage events) and is not linked to your photos or annotation content. Advertising-identifier collection is disabled in our Firebase Analytics configuration, so Analytics does not receive your device's advertising ID. See [Firebase's privacy documentation](https://firebase.google.com/support/privacy).
+We use Firebase Crashlytics to understand crashes so we can fix bugs and improve the App. This data is technical/diagnostic (device model, OS version, crash logs) and is not linked to your photos or annotation content. See [Firebase's privacy documentation](https://firebase.google.com/support/privacy).
+
+**Older versions (before 4.9.1):** those versions also used Firebase Analytics to collect general, aggregated app usage (for example, which features are used and on which device types). Advertising-identifier collection was disabled in that configuration, so Analytics never received your device's advertising ID. Version 4.9.1 removes Firebase Analytics entirely; the App no longer collects usage-analytics data of any kind.
 
 ## 5. Purchases
 
