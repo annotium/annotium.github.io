@@ -24,12 +24,7 @@ You can decline or later revoke any of these permissions in your device's system
 
 ## 3. Advertising
 
-Annotium does not display advertisements and does not include any advertising SDK. The App does not request App Tracking Transparency permission on iOS and does not read your device's advertising identifier on either platform.
-
-**Older versions (4.7.x and earlier):** the free tier of those versions showed interstitial ads served by Google AdMob. In those versions, AdMob and its partners could collect device identifiers (such as the advertising ID) and technical data to serve and measure ads, including personalized ads where you consented to tracking. That data was processed by Google, not by us; we never received or stored any of it. Updating to version 4.8.0 or later removes this behaviour entirely. If you still run an older version, see Google's policies for how AdMob handles data:
-
-- [Google Privacy Policy](https://policies.google.com/privacy)
-- [How Google uses data when you use AdMob-supported apps](https://support.google.com/admob/answer/6128543)
+Annotium does not display advertisements, does not include any advertising SDK, and does not read your device's advertising identifier. **Older versions (4.7.x and earlier)** showed ads via Google AdMob, which could collect device identifiers for ad serving/measurement — that data was processed by Google, not by us. Updating removes this entirely; see [Google's AdMob data policy](https://support.google.com/admob/answer/6128543) if you still run an older version.
 
 ## 4. Crash Reporting
 
