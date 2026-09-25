@@ -45,6 +45,20 @@ feedback. Start with a photo or screenshot, point to the important detail, add
 context with shapes, text, measurements, or callouts, and share a result people
 can understand at a glance.
 
+### Tablet:
+<img
+  src="/images/tablet.png"
+  alt="Work on tablet"
+  style="max-width: 800px; width: 100%; height: auto;"
+/>
+
+### Phone:
+<img
+  src="/images/phone.png"
+  alt="Work on phone"
+  style="max-width: 300px; width: 100%; height: auto;"
+/>
+
 Use **Projects** when the work needs to remain editable. Your annotations and
 notes stay together so you can return and revise them. Use **Photos** when you
 want to annotate directly from the device photo library and save a finished
