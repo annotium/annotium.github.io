@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # Privacy Policy
 
-_Last updated: September 24, 2026_
+_Last updated: September 27, 2026_
 
 This Privacy Policy explains how Annotium ("the App"), developed by Hoang Le ("we", "us", "our"), handles information when you use it. Annotium does not require an account, does not run its own server, and does not upload your photos anywhere on its own — most of what the App does happens entirely on your device. This policy also covers the third-party services the App relies on for crash reporting, analytics, and purchases.
 
@@ -19,8 +19,15 @@ We do not require you to create an account, and we do not operate servers that s
 | Photo library (read & save) | To let you pick a photo to annotate and save the annotated result back to your gallery. Only photos you actively pick or save are touched. |
 | Camera | To let you take a new photo to annotate directly, instead of picking an existing one. |
 | Location (while using the app) | Only used if you choose to insert a location stamp into a note — your coordinates are embedded into that note/project locally and are never sent to us. If you don't use this feature, your location is never read. |
+| Microphone | Only used when you actively start the optional voice-typing feature. Audio is sent to your device's speech-recognition service to turn speech into text. |
 
 You can decline or later revoke any of these permissions in your device's system settings; the App will simply be unable to offer the corresponding feature.
+
+### Voice typing and system speech recognition
+
+Voice typing is optional and starts only after you tap the microphone. Annotium uses the speech-recognition service configured on your device (for example, a service provided by your device manufacturer, Apple, Google, or another provider). Depending on that service and your device settings, audio may be processed on the device or sent to that provider's servers for recognition. That provider's privacy policy and settings apply to this processing.
+
+Annotium does not operate a speech-recognition service and does not receive, upload, or retain your voice audio or recognition transcript on its own servers. The recognized text is inserted into your annotation only after it is returned by the system service and is then stored locally with your project, like text you type manually.
 
 ## 3. Advertising
 
@@ -38,7 +45,7 @@ In-app purchases (the PRO subscription and the legacy one-time purchases) are pr
 
 ## 6. Fonts and Network Access
 
-If you use the App's optional Google Fonts catalog to browse or download additional fonts, your device fetches those font files directly from Google's font-serving infrastructure, subject to Google's own privacy policy. If you import your own local font files instead, nothing is sent anywhere.
+If you use the App's optional Google Fonts catalog to browse or download additional fonts, your device fetches those font files directly from Google's font-serving infrastructure, subject to Google's own privacy policy. If you import your own local font files instead, nothing is sent anywhere. Voice typing may also use network access when the speech-recognition service selected on your device performs recognition remotely.
 
 ## 7. Data Storage and Retention
 
@@ -51,6 +58,7 @@ The App is not directed at children under 13, and we do not knowingly collect pe
 ## 9. Your Choices
 
 - Revoke camera, photo library, or location permissions any time in your device settings.
+- Revoke microphone permission any time in your device settings to disable voice typing.
 - If you are still on version 4.7.x or earlier, decline or reset ad tracking consent (App Tracking Transparency on iOS, or your device's ad settings on Android) to limit personalized advertising — or simply update the App, which has no ads.
 - Uninstall the App to remove all locally stored data.
 
