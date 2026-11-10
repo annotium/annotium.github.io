@@ -4,34 +4,27 @@
   Outline · This page is ready for verified steps and current screenshots.
 </p>
 
-## Direction and path tools
+## Point out a feature
 
-Create a subsection with steps and one focused screenshot for each tool:
-
-- Arrow.
-- Straight line.
-- Curve.
-- Connector.
+- [Arrow](/tools/arrow) points from open space to a specific detail.
+- A straight **Line** marks an edge or connects two points.
+- **Curve** follows a curved path.
+- **Connector** links objects or locations in a diagram.
 
 ## Measurement tools
 
-- Line measure.
-- Angle measure.
-- Leader line (Premium).
-- Dimension line (Premium).
-- Tick measure (Premium).
-- Coordinate tool (Premium).
+- **Line Measure** (Premium) labels the distance between two points.
+- **Angle Measure** marks the angle between two arms.
+- **Leader Line** (Premium) routes a pointer from a detail to a label area.
+- [Dimension Line](/tools/dimension-line) (Premium) marks a distance between two points with a dimension rail.
+- **Tick Measure** (Premium) marks a line with repeated tick marks.
+- **Coordinate** (Premium) marks a point against coordinate axes.
 
-<!-- TODO(screenshot): Tool group open with every line and measurement tool labeled. -->
-<div style="position: relative; width: 100%; max-width: 360px; aspect-ratio: 9 / 16;">
-  <iframe
-    src="https://www.youtube.com/embed/zTTl7vG_94k"
-    title="Annotium lines, arrows, and measurements"
-    style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-  ></iframe>
-</div>
+**Radius** and **Diameter** are in the Shapes group. Both measurement tools require Premium.
+
+::: info Photo reference
+The linked Dimension Line page uses a subject photo, not an Annotium screenshot. Menu locations and the other measurement workflows still need verification on current phone and tablet builds.
+:::
 
 ## Shared properties
 

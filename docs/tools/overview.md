@@ -1,49 +1,41 @@
-# Annotation tool overview
+# Annotation tools
 
-<p class="guide-outline">
-  Outline · This page is ready for verified steps and current screenshots.
-</p>
+Pick a tool by the result you want. Each example uses a simple photo and one clear annotation.
 
-Choose a tool by the kind of explanation you need.
+## Point to a detail
 
-| Goal | Recommended tools |
-| --- | --- |
-| Point at a specific detail | Arrow, line, icon, leader line |
-| Trace or connect items | Line, curve, free draw |
-| Emphasize an area | Highlight, rectangle, oval, spotlight |
-| Add an explanation | Text, pointer text box, callout, text icon |
-| Record geometry | Line measure, angle measure, dimension line, tick measure |
-| Protect private content | Obfuscate, pixelate |
-| Add context | Date and time, location, inserted image |
-| Reframe the source | Crop |
+<img src="/images/tool-scenes/hinge-detail.jpg" alt="A close-up photograph of a metal hinge on wooden boards." style="max-width:720px;width:100%;height:auto;border-radius:12px;" />
 
-## Line group
+[Add an Arrow](/tools/arrow) · [Add a callout](/tools/callout-rectangle)
 
-Arrow, line, curve, connector, measurement tools, and coordinate tools share a
-line-oriented group. Some professional measurement tools require Premium.
+## Measure a distance
 
-## Shape group
+<img src="/images/tool-scenes/technician-pipe.jpg" alt="A technician working on plumbing inside a wall." style="max-width:720px;width:100%;height:auto;border-radius:12px;" />
 
-Rectangle, oval, triangle, polygon, parallelogram, arc, and donut define regions
-or geometry. Rectangle corner radius replaces the need for a separate rounded
-rectangle tool.
+[Use Dimension Line (Premium)](/tools/dimension-line)
 
-## Text group
+## Magnify a detail
 
-Use simple text for labels. Pointer text boxes connect an explanation to a
-target. Cloud, burst, and thought bubbles add expressive callouts.
+<img src="/images/tool-scenes/cracked-concrete-wall.jpg" alt="A close-up photograph of a crack across a concrete wall." style="max-width:720px;width:100%;height:auto;border-radius:12px;" />
 
-## Focus and privacy group
+[Use Loupe](/tools/loupe)
 
-Loupe magnifies detail, Spotlight draws attention to a region, and obfuscation
-or pixel effects conceal content. Icons, short text icons, date and time, and
-location stamps add compact markers.
+## Conceal private information
 
-## Crop
+<img src="/images/tool-scenes/blank-clipboard.jpg" alt="A blank clipboard and paper ready for a privacy-safe annotation example." style="max-width:720px;width:100%;height:auto;border-radius:12px;" />
 
-## Image tools
+[Compare Blur and Mosaic](/tools/blur-and-mosaic)
 
-Copy an image region, insert another image (Premium), crop the canvas, or
-compose multiple photos before annotating.
+## Explore by tool group
 
-<!-- TODO(screenshot): All expanded tool groups on the current phone and tablet UI. -->
+- [Lines, arrows, and measurements](/tools/lines-arrows-measurements)
+- [Shapes](/tools/shapes)
+- [Text and callouts](/tools/text-callouts)
+- [Icons and stamps](/tools/icons-stamps)
+- [Focus and privacy](/tools/focus-privacy)
+- [Freehand and highlight](/tools/freehand-highlight)
+- [Images and composition](/tools/images-compose)
+
+::: info About these photos
+These are subject photos for trying the tools, not screenshots from Annotium. Check the linked topic for details and any steps still awaiting verification on the current app.
+:::

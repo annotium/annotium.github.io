@@ -6,7 +6,7 @@
 
 ## Magnify a detail
 
-- Add a Loupe object.
+- Add a [Loupe](/tools/loupe) object.
 - Move the source area and magnified lens.
 - Adjust the magnification ratio.
 
@@ -18,8 +18,7 @@
 
 ## Obscure private information
 
-- Use blur or obfuscation.
-- Use mosaic pixelation.
+- Use [Blur or Mosaic](/tools/blur-and-mosaic) to cover a selected area.
 - Adjust pixel cell size and effect amount.
 
 ## Advanced pixel effects
@@ -29,7 +28,7 @@
 - Pointillize (Premium).
 - Color halftone (Premium).
 
-<!-- TODO(screenshot): Before-and-after comparison using fictional personal data. -->
+**Blur** and **Mosaic** are the current English tool labels. Use fictional content in every example.
 
 ::: danger Protect screenshot subjects
 Never publish a real address, account number, face, or location while

@@ -50,10 +50,15 @@ export default defineConfig({
           items: [
             { text: 'Tool overview', link: '/tools/overview' },
             { text: 'Lines, arrows, and measurements', link: '/tools/lines-arrows-measurements' },
+            { text: 'Arrow', link: '/tools/arrow' },
+            { text: 'Dimension Line', link: '/tools/dimension-line' },
             { text: 'Shapes', link: '/tools/shapes' },
             { text: 'Text and callouts', link: '/tools/text-callouts' },
+            { text: 'Callout (Rectangle)', link: '/tools/callout-rectangle' },
             { text: 'Icons and stamps', link: '/tools/icons-stamps' },
             { text: 'Focus and privacy', link: '/tools/focus-privacy' },
+            { text: 'Loupe', link: '/tools/loupe' },
+            { text: 'Blur and Mosaic', link: '/tools/blur-and-mosaic' },
             { text: 'Freehand and highlight', link: '/tools/freehand-highlight' },
             { text: 'Images and composition', link: '/tools/images-compose' }
           ]

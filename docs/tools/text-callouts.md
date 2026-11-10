@@ -15,7 +15,7 @@
 - Plain text.
 - Rounded rectangle text.
 - Oval text.
-- Rounded pointer callout.
+- [Rounded pointer callout](/tools/callout-rectangle) (Callout (Rectangle)).
 - Oval pointer callout.
 
 ## Expressive callouts
