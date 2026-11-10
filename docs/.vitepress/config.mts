@@ -51,6 +51,7 @@ export default defineConfig({
             { text: 'Tool overview', link: '/tools/overview' },
             { text: 'Lines, arrows, and measurements', link: '/tools/lines-arrows-measurements' },
             { text: 'Arrow', link: '/tools/arrow' },
+            { text: 'Line Measure', link: '/tools/line-measure' },
             { text: 'Dimension Line', link: '/tools/dimension-line' },
             { text: 'Shapes', link: '/tools/shapes' },
             { text: 'Text and callouts', link: '/tools/text-callouts' },

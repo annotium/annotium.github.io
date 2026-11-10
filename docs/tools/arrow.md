@@ -1,30 +1,19 @@
 ---
 title: Arrow
-description: Point to one detail in a photo with an arrow that stays easy to follow.
+description: Point to one detail in a photo with a clear, adjustable arrow.
 ---
 
 # Arrow
 
-Point to one specific detail, such as a loose hinge or a mark on a surface.
+Drag from the open area toward the detail. The arrowhead lands at the end of the drag.
 
-<img src="/images/tool-scenes/hinge-detail.jpg" alt="A close-up photograph of a metal hinge on wooden boards." style="width:100%;height:auto;border-radius:12px;" />
+<img src="/images/tools/arrow/arrow-result.webp" alt="A long red arrow points to a small notice on a garage door." style="width:100%;height:auto;border-radius:12px;" />
 
-## Add an arrow
+1. Open a photo and choose **Arrow** from the line tools.
+2. Drag from the starting point to the detail.
+3. Select the arrow to change its color, width, or end style.
 
-1. Open a photo in **Projects** or **Photos**.
-2. Choose **Arrow** from the line tools.
-3. Drag from open space toward the detail you want to identify.
-4. Select the arrow to adjust its color, width, or end style.
-
-Keep the arrowhead close to the detail. A short arrow is easier to read than one that crosses the whole image.
-
-::: tip Projects or Photos?
-Use **Projects** to keep the annotation editable. Use **Photos** to work from your device library and save a finished image there.
-:::
-
-::: info Photo reference
-This is a subject photo for trying the tool, not an Annotium screenshot. The control location and steps need a final check on current phone and tablet builds.
-:::
+The arrow above was drawn with one continuous drag. Projects keep the annotation editable; Photos works from your device library.
 
 ## Next
 

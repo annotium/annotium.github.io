@@ -13,7 +13,7 @@
 
 ## Measurement tools
 
-- **Line Measure** (Premium) labels the distance between two points.
+- [**Line Measure**](/tools/line-measure) (Premium) labels a span directly across its endpoints.
 - **Angle Measure** marks the angle between two arms.
 - **Leader Line** (Premium) routes a pointer from a detail to a label area.
 - [Dimension Line](/tools/dimension-line) (Premium) marks a distance between two points with a dimension rail.
@@ -23,7 +23,7 @@
 **Radius** and **Diameter** are in the Shapes group. Both measurement tools require Premium.
 
 ::: info Photo reference
-The linked Dimension Line page uses a subject photo, not an Annotium screenshot. Menu locations and the other measurement workflows still need verification on current phone and tablet builds.
+The Line Measure and Dimension Line pages include editor captures. Menu locations and the remaining measurement workflows still need verification on current phone and tablet builds.
 :::
 
 ## Shared properties

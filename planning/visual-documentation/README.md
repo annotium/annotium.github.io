@@ -108,13 +108,15 @@ Xem [tool-coverage.md](tool-coverage.md) để theo dõi đủ **50 mục catalo
 | Đợt | Công việc | Điều kiện hoàn tất |
 | --- | --- | --- |
 | 0 — Chuẩn bị | Cập nhật AUTHORING source map, chốt version app, chuẩn bị scene/project mẫu và danh mục chụp | Mỗi tool có brief, đường dẫn asset dự kiến và trạng thái xác minh |
-| 1 — Pilot hình ảnh | Arrow, Callout (Rectangle), Dimension Line, Loupe, cặp Blur/Mosaic | 5 bài mẫu, 6 tool; đủ result, steps, properties/before–after phù hợp; đọc tốt trên phone/tablet |
+| 1 — Pilot hình ảnh | Arrow, Callout (Rectangle), Dimension Line, Loupe, cặp Blur/Mosaic; thêm Line Measure theo ảnh garage reference | 6 ảnh tool đã chụp, Callout còn chờ capture; hoàn tất steps/properties/before–after và QA phone/tablet trước khi đánh dấu nghiệm thu |
 | 2 — Khung docs | Component, gallery, mẫu trang, home dẫn vào tác vụ, search và badge PRO | Áp dụng pilot vào VitePress; responsive, keyboard và link hoạt động |
 | 3 — Người mới | Getting started, Projects/Photos, chọn/chỉnh, lưu/xuất | Người dùng theo ảnh hoàn tất mở → annotate → lưu; khác biệt workspace/platform rõ |
 | 4 — Phủ tool | Hoàn thiện từng nhóm theo bảng 50 mục; measurements/callouts trước, effects sau | Mỗi mục có ảnh riêng và thao tác đã lặp lại; không dùng ảnh nhóm để đánh dấu hoàn tất |
 | 5 — Workflows & phát hành | Compose, Collage/Stitch, notes/PDF, troubleshooting, QA assets | Không còn outline ở bài đã công bố hoàn chỉnh; build và liên kết đạt; cập nhật quy trình bảo trì |
 
 Không chốt lịch theo ngày trước khi biết tốc độ chụp và kiểm chứng 5 bài pilot. Khối lượng phụ thuộc nhiều vào số khác biệt phone/tablet và Android/iOS. Mỗi đợt có thể phát hành phần đã hoàn chỉnh mà giữ trạng thái outline trung thực cho phần còn lại.
+
+**Tiến độ pilot (2026-11-10):** đã chụp và tích hợp ảnh kết quả cho Arrow, Line Measure, Dimension Line, Loupe, Blur và Mosaic; garage dùng Line Measure theo ảnh reference, Dimension Line minh họa trên ống nước. Callout đang chờ ảnh: bản harness hiện lưu text nhưng không vẽ nội dung lên canvas. Đây là kết quả một simulator iPhone và editor test harness; chưa đáp ứng nghiệm thu đầy đủ của đợt 1 (steps, properties/before–after, tablet/phone QA). Xem [pilot-run.md](pilot-run.md) và [tool-coverage.md](tool-coverage.md).
 
 ## 9. Nghiệm thu và bảo trì
 
@@ -126,4 +128,4 @@ Không chốt lịch theo ngày trước khi biết tốc độ chụp và kiể
 - Chạy `npm run docs:build`, kiểm tra link và ảnh, local search, light/dark, keyboard và thời gian tải gallery. Render/kiểm tra UI sau khi có component thực tế.
 - Chỉ bỏ `guide-outline` sau khi trang đạt các điều kiện trên. Mỗi release thay tool/property/gate cần rà lại dòng tương ứng trong coverage và tái chụp ảnh liên quan.
 
-Đợt khảo sát này chỉ thêm kế hoạch, danh mục và ảnh tham chiếu; chưa sửa website public hay nội dung pháp lý.
+Website public đã được cập nhật cho pilot ảnh. Các bài ngoài pilot, thao tác Projects/Photos, lưu/xuất, Android/tablet và kiểm chứng store build vẫn cần hoàn thiện theo các đợt ở trên. Không có thay đổi trong tài liệu pháp lý.
