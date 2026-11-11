@@ -13,6 +13,21 @@ Drag from the open area toward the detail. The arrowhead lands at the end of the
 2. Drag from the starting point to the detail.
 3. Select the arrow to change its color, width, or end style.
 
+<figure>
+  <img src="/images/tools/arrow/arrow-tool-picker.webp" alt="Annotium's tool picker is open over an outlet-and-plug photo, with the Arrow tool highlighted in teal." style="width:100%;height:auto;border-radius:12px;" />
+  <figcaption>Step 1: open the tool picker and choose the teal Arrow icon in the line tools.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/tools/arrow/arrow-drag-step.webp" alt="A selected red Arrow runs from a plug toward a wall outlet; a circular Loupe remains over the outlet." style="width:100%;height:auto;border-radius:12px;" />
+  <figcaption>Step 2: drag from the plug toward the outlet. The Arrow is selected; the existing Loupe remains visible over the target.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/tools/arrow/arrow-properties.webp" alt="Properties for a selected red Arrow show Fill, Stroke, and Path tabs, opacity, color choices, and unlocked style controls." style="width:100%;height:auto;border-radius:12px;" />
+  <figcaption>Step 3: open Properties to change the selected arrow's appearance. Premium style controls are unlocked in this simulator capture.</figcaption>
+</figure>
+
 The arrow above was drawn with one continuous drag. Projects keep the annotation editable; Photos works from your device library.
 
 ## Next

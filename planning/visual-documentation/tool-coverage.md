@@ -4,6 +4,8 @@ Snapshot 2026-11-10 · app source `42c2bb1f`, version `4.16.0+428`.
 
 50 mục trong `kEditorToolCatalog`: mỗi mục có ảnh kết quả riêng và strip thao tác. Dùng chung ảnh nền được; một ảnh nhóm không thay thế minh họa riêng. Brief dưới đây là mục tiêu sản xuất, phải điều chỉnh theo render và thao tác thật khi chụp app.
 
+Trước khi chọn ảnh nền cho brief, dùng [image-library.md](image-library.md) để xem nội dung, điểm mạnh và hạn chế của từng ảnh có sẵn.
+
 Nhãn English lấy từ `apps/annotium_mobile/lib/l10n/app_en.arb` qua `TextProvider`. Đã xác nhận key `tooltipdrag`: "Pan" (ARB dòng 322), getter `TextProvider.tooltipDrag` và mapping `ProductId.drag: t.tooltipDrag` trong `model/iap/constants.dart`. `select` là ID core; đây là mapping nhãn mobile, chưa xác minh tương đương hành vi Pan/chọn đối tượng trên từng UI.
 
 **Đã đối chiếu core + mobile lockedTools** cho cả 50 mục: cột core ghi feature từ `kEditorToolCatalog`; cột mobile chỉ ghi membership trong `ProductManager.lockedTools`. Hai nguồn đồng ý về membership cho 49 mục; Lasso là ngoại lệ cần xác minh gate mobile. Membership không chứng minh entry point thực thi gate: chưa trace toàn bộ enforcement hay chạy app. Move/Open/Close và các thao tác riêng vẫn phải kiểm tra. Parallelogram hiện không gate ở hai danh sách này.

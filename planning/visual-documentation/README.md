@@ -39,6 +39,8 @@ Core catalog và gate ở mobile phải kiểm tra cùng nhau. Lasso có khác b
 
 ## 3. Bộ ảnh tham chiếu và cách áp dụng
 
+Hướng dẫn chọn ảnh theo tool và bối cảnh nằm trong [image-library.md](image-library.md). Tài liệu này mô tả bộ 10 ảnh nền, ảnh invoice/Dimension do người dùng cung cấp, moodboard và các capture Annotium hiện hành để agent chọn đúng loại ảnh.
+
 Đã copy nguyên bản 6 PNG vào [references](references/), có [manifest SHA-256](references/manifest.json). Tổng khoảng 44,4 MB (42,4 MiB); nằm ngoài `docs/public` để không đưa toàn bộ ảnh master vào bản deploy.
 
 Hai file `*-v2.png` là tham chiếu chính:

@@ -5,9 +5,9 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 ## Capture setup
 
 - Device: iPhone 18 simulator, iOS 27.0 (`iPhone19,2`).
-- App surface: real Annotium `DrawingContainer` and editor core rendered by the mobile integration test.
-- Host services: Photos, storage, IAP, and export replaced with the app's test adapters.
-- Premium: locally seeded fake entitlement for the Dimension Line capture; no purchase or store entitlement was exercised.
+- App surface: real Annotium `DrawingContainer` and editor core. Arrow and Line Measure result captures used the integration harness; later Arrow, Loupe, Blur, and Mosaic screens were captured manually in the running app.
+- Host services: Photos, storage, IAP, and export were replaced with test adapters in harness captures.
+- Premium: Arrow Properties was captured with debug-only `FORCE_PREMIUM=true`; no purchase or store entitlement was exercised.
 - Backgrounds: exposed electrical socket for Arrow; garage for Line Measure; sink repair photo for Loupe; invoice for Blur and Mosaic; user-supplied annotated component photo for Dimension Line.
 - Automation: `apps/annotium_mobile/integration_test/arrow_gesture_automation_test.dart`, via `apps/annotium_mobile/test_driver/automation.dart`.
 
@@ -15,7 +15,7 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 
 | Tool | Published result | Capture notes |
 | --- | --- | --- |
-| Arrow | `docs/public/images/tools/arrow/arrow-result.webp` | Current published image is the manual full-screen capture from the running iPhone 18 app: a long red Arrow to an exposed wall socket, with a Loupe visible over the target. It replaces the earlier garage result. The separate harness result remains in the app repo's pilot output. |
+| Arrow | `docs/public/images/tools/arrow/arrow-result.webp`; `docs/public/images/tools/arrow/arrow-tool-picker.webp`; `docs/public/images/tools/arrow/arrow-drag-step.webp`; `docs/public/images/tools/arrow/arrow-properties.webp` | Result image is the manual full-screen capture from the running iPhone 18 app: a long red Arrow to an exposed wall socket, with a Loupe visible over the target. Tool picker image shows Arrow selected over the plug-and-outlet scene. Drag step shows the selected Arrow running from the plug toward the outlet, with the existing Loupe visible. Properties image shows Fill/Stroke/Path, opacity, colors, and unlocked style controls under debug-only `FORCE_PREMIUM=true`. The separate harness result remains in the app repo's pilot output. |
 | Line Measure | `docs/public/images/tools/line-measure/line-measure-result.webp` | Garage door span follows the marketing reference. `2.40 m` is sample text typed into the annotation, not inferred from the photo. Premium was test-seeded. |
 | Dimension Line | `docs/public/images/tools/dimension-line/dimension-line-result.jpg` | User-supplied reference image used as-is; the dimension marks and values are already part of the photo, not an Annotium capture. |
 | Loupe | `docs/public/images/tools/loupe/loupe-result.webp` | Manual capture from the running iPhone 18 app; the lens magnifies a plumbing connection and its pointer tail leads back to the source. |
