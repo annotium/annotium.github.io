@@ -18,13 +18,23 @@
 - [Rounded pointer callout](/tools/callout-rectangle) (Callout (Rectangle)).
 - Oval pointer callout.
 
+### Callout (Oval)
+
+Use an oval callout for a short note when the pointer should identify a nearby detail.
+
+<img src="/images/tools/callout-oval-result.webp" alt="An oval callout reading Check clearance points to a hinge on a weathered wooden door." style="width:100%;height:auto;border-radius:12px;" />
+
+Choose **Callout (Oval)**, enter a concise label, then position the pointer tip on the detail. This manual iPhone 18 capture shows the callout over a hinge.
+
 ## Expressive callouts
 
 - Cloud text (Premium).
 - Burst text (Premium).
 - Thought bubble text (Premium).
 
-<!-- TODO(screenshot): One image comparing supported text container styles. -->
+<img src="/images/tools/cloud-text-result.webp" alt="A red outlined Cloud Text bubble reading Review sits over a blank clipboard on a straw background." style="width:100%;height:auto;border-radius:12px;" />
+
+Cloud Text can place a short thought or status label in a cloud-shaped bubble.
 
 ## Format text
 

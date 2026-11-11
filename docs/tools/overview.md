@@ -43,5 +43,5 @@ Pick a tool by the result you want. The measurement examples use different photo
 - [Images and composition](/tools/images-compose)
 
 ::: info Screenshot status
-Line Measure uses a cropped editor capture. Arrow, Callout, Loupe, Blur, and Mosaic use full-screen simulator captures. Dimension Line uses a user-supplied annotated reference photo. The Callout result is from manual app use; its integration-harness text issue is still noted in the guide.
+Line Measure uses a cropped editor capture. Arrow, Callout, Cloud Text, Loupe, Blur, and Mosaic use full-screen simulator captures. Dimension Line uses a user-supplied annotated reference photo. The Callout result is from manual app use; its integration-harness text issue is still noted in the guide.
 :::

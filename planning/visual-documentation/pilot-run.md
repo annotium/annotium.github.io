@@ -7,7 +7,7 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 - Device: iPhone 18 simulator, iOS 27.0 (`iPhone19,2`).
 - App surface: real Annotium `DrawingContainer` and editor core. Arrow and Line Measure result captures used the integration harness; later Arrow, Callout, Loupe, Blur, and Mosaic screens were captured manually in the running app.
 - Host services: Photos, storage, IAP, and export were replaced with test adapters in harness captures.
-- Premium: Arrow Properties was captured with debug-only `FORCE_PREMIUM=true`; no purchase or store entitlement was exercised.
+- Premium: Arrow Properties and Cloud Text were captured with debug-only `FORCE_PREMIUM=true`; no purchase or store entitlement was exercised.
 - Backgrounds: exposed electrical socket for Arrow; garage for Line Measure; sink repair photo for Loupe; invoice for Blur and Mosaic; user-supplied annotated component photo for Dimension Line.
 - Automation: `apps/annotium_mobile/integration_test/arrow_gesture_automation_test.dart`, via `apps/annotium_mobile/test_driver/automation.dart`.
 
@@ -22,6 +22,8 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 | Blur | `docs/public/images/tools/blur/blur-result.webp` | Manual capture in the running iPhone 18 app over the CC0 sample invoice. The selected Blur area softens handwritten line items; selection handles remain visible to show the active effect. |
 | Mosaic | `docs/public/images/tools/mosaic/mosaic-result.webp` | Manual capture in the running iPhone 18 app over the CC0 sample invoice. Coarse pixel blocks cover handwritten line items; selection handles remain visible. |
 | Callout (Rectangle) | `docs/public/images/tools/callout-rectangle/callout-rectangle-result.webp`; `docs/public/images/tools/callout-rectangle/callout-tool-picker.webp`; `docs/public/images/tools/callout-rectangle/callout-properties.webp`; `docs/public/images/tools/callout-rectangle/callout-stroke-properties.webp`; `docs/public/images/tools/callout-rectangle/callout-fill-properties.webp` | Manual full-screen result capture from the running iPhone 18 app: `Check clearance` renders, with the pointer aligned to the small yellow notice. Picker capture shows Callout (Rectangle) selected in Text tools. Text Properties shows size, auto fit, font, and color; Stroke Properties shows outline controls and color palette; Fill Properties shows fill toggle, opacity, and color palettes. The earlier integration-harness capture still showed a blank text result. |
+| Callout (Oval) | `docs/public/images/tools/callout-oval-result.webp` | Manual full-screen iPhone 18 capture: oval `Check clearance` callout with its pointer aimed at a hinge on a weathered wooden door. |
+| Cloud Text | `docs/public/images/tools/cloud-text-result.webp` | Manual full-screen iPhone 18 capture with `Review` in a cloud bubble over a blank clipboard on straw; Premium access was debug-forced. |
 
 The Line Measure WebP is cropped to the editor canvas. Arrow, Loupe, Blur, and Mosaic are full-screen simulator captures; Dimension Line is a user-supplied JPG reference. The original harness screenshots and automation result are in the app repository under `apps/annotium_mobile/build/automation/pilot-2026-11-10/` and should be treated as temporary capture output.
 

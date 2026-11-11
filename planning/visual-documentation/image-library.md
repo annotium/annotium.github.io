@@ -55,6 +55,8 @@ These are finished results or UI examples. Use them to show the tool’s actual 
 | [Callout Properties](../../docs/public/images/tools/callout-rectangle/callout-properties.webp) | Full editor screen with the Text Properties tab open, showing size, auto fit, font, and color controls for `Check clearance`. |
 | [Callout Stroke Properties](../../docs/public/images/tools/callout-rectangle/callout-stroke-properties.webp) | Full editor screen with Stroke Properties open for the selected callout, showing outline toggle, width control, and color palette. |
 | [Callout Fill Properties](../../docs/public/images/tools/callout-rectangle/callout-fill-properties.webp) | Full editor screen with Fill Properties open for the selected callout, showing fill toggle, opacity, and color palettes. |
+| [Callout Oval result](../../docs/public/images/tools/callout-oval-result.webp) | Full iPhone 18 screen with an oval `Check clearance` callout pointing to a hinge on a weathered wooden door. |
+| [Cloud Text result](../../docs/public/images/tools/cloud-text-result.webp) | Full iPhone 18 screen with `Review` in a cloud bubble over a blank clipboard on straw; captured with debug Premium access. |
 | [Line Measure result](../../docs/public/images/tools/line-measure/line-measure-result.webp) | Garage door span labelled `2.40 m`; the value is sample text, not inferred from the photo. |
 | [Loupe result](../../docs/public/images/tools/loupe/loupe-result.webp) | Full screen with a lens over a plumbing connection and a tail back to the source in the sink-repair photo. |
 | [Blur result](../../docs/public/images/tools/blur/blur-result.webp) | Full screen showing a selected Blur area across sample-invoice handwriting. |

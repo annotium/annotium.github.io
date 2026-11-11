@@ -62,3 +62,27 @@
   color: #f0d980;
   background: rgba(138, 116, 41, 0.16);
 }
+
+/* Keep documentation screenshots useful without letting portrait captures
+   dominate the article column or push the instructions far below the fold. */
+.vp-doc img {
+  display: block;
+  width: auto !important;
+  max-width: min(100%, 680px);
+  max-height: min(720px, 80vh);
+  height: auto;
+  object-fit: contain;
+  margin: 1.25rem auto;
+}
+
+.vp-doc .store-links img {
+  width: auto;
+  max-width: none;
+  max-height: none;
+  height: 48px;
+  margin: 0;
+}
+
+.vp-doc .store-links__google-play img {
+  height: 56px;
+}
