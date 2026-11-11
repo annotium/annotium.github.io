@@ -57,6 +57,10 @@ These are finished results or UI examples. Use them to show the tool’s actual 
 | [Callout Fill Properties](../../docs/public/images/tools/callout-rectangle/callout-fill-properties.webp) | Full editor screen with Fill Properties open for the selected callout, showing fill toggle, opacity, and color palettes. |
 | [Callout Oval result](../../docs/public/images/tools/callout-oval-result.webp) | Full iPhone 18 screen with an oval `Check clearance` callout pointing to a hinge on a weathered wooden door. |
 | [Cloud Text result](../../docs/public/images/tools/cloud-text-result.webp) | Full iPhone 18 screen with `Review` in a cloud bubble over a blank clipboard on straw; captured with debug Premium access. |
+| [Burst Text result](../../docs/public/images/tools/burst-text-result.webp) | Full iPhone 18 screen with `Check` in a burst shape beside a crack in a rough stone surface; captured with debug Premium access. |
+| [Thought Bubble result](../../docs/public/images/tools/thought-bubble-result.webp) | Full iPhone 18 screen with `Alternative` in a thought bubble above blank clipboard paper; captured with debug Premium access. |
+| [Icon result](../../docs/public/images/tools/icon-result.webp) | Full iPhone 18 screen with a green circular check icon and leader line identifying a plumbing connection under a sink. |
+| [Text Icon result](../../docs/public/images/tools/text-icon-result.webp) | Full iPhone 18 screen with a circular `1` marker and leader line identifying another plumbing connection, alongside the earlier check icon. |
 | [Line Measure result](../../docs/public/images/tools/line-measure/line-measure-result.webp) | Garage door span labelled `2.40 m`; the value is sample text, not inferred from the photo. |
 | [Loupe result](../../docs/public/images/tools/loupe/loupe-result.webp) | Full screen with a lens over a plumbing connection and a tail back to the source in the sink-repair photo. |
 | [Blur result](../../docs/public/images/tools/blur/blur-result.webp) | Full screen showing a selected Blur area across sample-invoice handwriting. |

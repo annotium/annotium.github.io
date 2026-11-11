@@ -36,6 +36,14 @@ Choose **Callout (Oval)**, enter a concise label, then position the pointer tip 
 
 Cloud Text can place a short thought or status label in a cloud-shaped bubble.
 
+<img src="/images/tools/burst-text-result.webp" alt="A red outlined Burst Text shape reading Check points toward a crack in a rough stone surface." style="width:100%;height:auto;border-radius:12px;" />
+
+Use Burst Text to make a brief inspection note stand out next to the defect.
+
+<img src="/images/tools/thought-bubble-result.webp" alt="A red outlined Thought Bubble reading Alternative floats above the blank paper on a clipboard." style="width:100%;height:auto;border-radius:12px;" />
+
+Thought Bubble works for a short idea or alternative on a planning surface.
+
 ## Format text
 
 - Choose a font family and size.
