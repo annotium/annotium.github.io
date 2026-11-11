@@ -15,7 +15,7 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 
 | Tool | Published result | Capture notes |
 | --- | --- | --- |
-| Arrow | `docs/public/images/tools/arrow/arrow-result.webp` | Selected Arrow from the real tool menu; one 60-move pointer drag. Requested length 222.5 logical px; rendered length 203.9 px; endpoint error under 1 px. |
+| Arrow | `docs/public/images/tools/arrow/arrow-result.webp` | Result capture: selected Arrow from the real tool menu; one 60-move pointer drag. Requested length 222.5 logical px; rendered length 203.9 px; endpoint error under 1 px. Manual step capture: `docs/public/images/tools/arrow/step-02-drag.webp`, long Arrow to an exposed wall socket, with a Loupe visible over the target. |
 | Line Measure | `docs/public/images/tools/line-measure/line-measure-result.webp` | Garage door span follows the marketing reference. `2.40 m` is sample text typed into the annotation, not inferred from the photo. Premium was test-seeded. |
 | Dimension Line | `docs/public/images/tools/dimension-line/dimension-line-result.jpg` | User-supplied reference image used as-is; the dimension marks and values are already part of the photo, not an Annotium capture. |
 | Loupe | `docs/public/images/tools/loupe/loupe-result.webp` | Manual capture from the running iPhone 18 app; the lens magnifies a plumbing connection and its pointer tail leads back to the source. |
