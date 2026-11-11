@@ -14,7 +14,7 @@ Nhãn English lấy từ `apps/annotium_mobile/lib/l10n/app_en.arb` qua `TextPro
 
 **Legacy purchases:** `ProductManager` vẫn đăng ký SKU callout đã ngừng bán (`ProductId.textPointer`), với `textPointerRoundRect`, `textPointerOval`, `burstText` trong danh sách unlock. Vì vậy PRO trong bảng là yêu cầu catalog, không phải khẳng định PRO là đường sở hữu duy nhất. Chưa xác minh restore/enforcement của SKU cũ; cần kiểm tra trước khi mô tả quyền của người mua cũ. `textPointerRoundRect` không gate ở hai danh sách hiện tại dù vẫn thuộc SKU cũ.
 
-**Trạng thái chung:** hiện có 5 ảnh kết quả chụp từ Annotium trên iPhone 18 simulator: Arrow, Line Measure, Loupe, Blur và Mosaic. Dimension Line dùng ảnh tham chiếu do người dùng cung cấp, không phải ảnh chụp kết quả Annotium. Callout chưa có ảnh dùng được: simulator tạo được khung và lưu text trong model nhưng phần chữ không hiện trên canvas, nên không xuất bản ảnh đó. Cả 50 mục chưa được xác minh đầy đủ trên app phát hành hoặc trên Android/tablet. Chi tiết lần chạy và điều kiện test nằm trong [pilot-run.md](pilot-run.md).
+**Trạng thái chung:** hiện có 6 ảnh kết quả chụp từ Annotium trên iPhone 18 simulator: Arrow, Line Measure, Callout, Loupe, Blur và Mosaic. Dimension Line dùng ảnh tham chiếu do người dùng cung cấp, không phải ảnh chụp kết quả Annotium. Callout text hiển thị trong lần thao tác thủ công; integration harness trước đó vẫn cho kết quả trống. Cả 50 mục chưa được xác minh đầy đủ trên app phát hành hoặc trên Android/tablet. Chi tiết lần chạy và điều kiện test nằm trong [pilot-run.md](pilot-run.md).
 
 Trang đích là nhóm biên tập, không phải menu app. Radius/Diameter thuộc menu Shapes nhưng hướng dẫn nằm trong measurements.
 
@@ -48,7 +48,7 @@ Trang đích là nhóm biên tập, không phải menu app. Radius/Diameter thu�
 | `text` | Text | `tools/text-callouts` | Không gate ở catalog | Không có trong lockedTools; khớp core | Ảnh kiểm tra tường: chữ Check clearance đặt trong vùng trống, không hộp hay đường dẫn; so sánh font/size. |
 | `roundRectText` | Rounded Text Box | `tools/text-callouts` | Không gate ở catalog | Không có trong lockedTools; khớp core | Ảnh kiểm tra: Check clearance trong hộp chữ bo góc, thể hiện padding, nền và viền theo thuộc tính thật. |
 | `ovalText` | Oval Text Box | `tools/text-callouts` | Không gate ở catalog | Không có trong lockedTools; khớp core | Cùng ảnh kiểm tra: Check clearance trong hộp oval, đủ khoảng trống để đọc nhãn và thấy đường bao. |
-| `textPointerRoundRect` | Callout (Rectangle) | `tools/text-callouts` | Không gate ở catalog | Không có trong lockedTools; khớp core | Ảnh garage: hộp callout chữ nhật Check clearance với đường dẫn tới bản lề; hiện handles hộp và đầu chỉ. |
+| `textPointerRoundRect` | Callout (Rectangle) | `tools/text-callouts` | Không gate ở catalog | Không có trong lockedTools; khớp core | Ảnh garage: hộp callout chữ nhật Check clearance với đường dẫn tới biển báo; giữ biển nhìn thấy và chữ đọc được trên mobile. |
 | `textPointerOval` | Callout (Oval) | `tools/text-callouts` | PRO / calloutShapes | Có trong lockedTools; khớp core | Cùng bản lề: callout oval Check clearance nối tới điểm cần chú ý; so sánh riêng với bản chữ nhật. |
 | `cloudText` | Cloud Text | `tools/text-callouts` | PRO / advancedShapes | Có trong lockedTools; khớp core | Ảnh bản vẽ: nhãn Review trong cloud text, phóng to đường bao mây và phần chữ. |
 | `burstText` | Burst Text | `tools/text-callouts` | PRO / calloutShapes | Có trong lockedTools; khớp core | Ảnh khuyết tật: nhãn Check trong burst text; thể hiện đường bao tia rõ ở kích thước mobile. |
