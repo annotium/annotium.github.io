@@ -4,7 +4,7 @@ Pick a tool by the result you want. The measurement examples use different photo
 
 ## Point to a detail
 
-<img src="/images/tools/arrow/arrow-result.webp" alt="An Annotium arrow points to a notice on a garage door." style="max-width:720px;width:100%;height:auto;border-radius:12px;" />
+<img src="/images/tools/arrow/arrow-result.webp" alt="An Annotium arrow points to an exposed wall socket, magnified by a Loupe." style="max-width:720px;width:100%;height:auto;border-radius:12px;" />
 
 [Add an Arrow](/tools/arrow) · [Add a callout](/tools/callout-rectangle)
 
@@ -43,5 +43,5 @@ Pick a tool by the result you want. The measurement examples use different photo
 - [Images and composition](/tools/images-compose)
 
 ::: info Screenshot status
-Arrow and Line Measure use cropped editor captures. Loupe, Blur, and Mosaic use full-screen simulator captures. Dimension Line uses a user-supplied annotated reference photo. The Callout guide uses a practice photo until its text-entry result can be captured clearly.
+Line Measure uses a cropped editor capture. Arrow, Loupe, Blur, and Mosaic use full-screen simulator captures. Dimension Line uses a user-supplied annotated reference photo. The Callout guide uses a practice photo until its text-entry result can be captured clearly.
 :::

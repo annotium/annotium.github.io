@@ -8,14 +8,14 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 - App surface: real Annotium `DrawingContainer` and editor core rendered by the mobile integration test.
 - Host services: Photos, storage, IAP, and export replaced with the app's test adapters.
 - Premium: locally seeded fake entitlement for the Dimension Line capture; no purchase or store entitlement was exercised.
-- Backgrounds: garage for Arrow and Line Measure; sink repair photo for Loupe; invoice for Blur and Mosaic; user-supplied annotated component photo for Dimension Line.
+- Backgrounds: exposed electrical socket for Arrow; garage for Line Measure; sink repair photo for Loupe; invoice for Blur and Mosaic; user-supplied annotated component photo for Dimension Line.
 - Automation: `apps/annotium_mobile/integration_test/arrow_gesture_automation_test.dart`, via `apps/annotium_mobile/test_driver/automation.dart`.
 
 ## Captured results
 
 | Tool | Published result | Capture notes |
 | --- | --- | --- |
-| Arrow | `docs/public/images/tools/arrow/arrow-result.webp` | Result capture: selected Arrow from the real tool menu; one 60-move pointer drag. Requested length 222.5 logical px; rendered length 203.9 px; endpoint error under 1 px. Manual step capture: `docs/public/images/tools/arrow/step-02-drag.webp`, long Arrow to an exposed wall socket, with a Loupe visible over the target. |
+| Arrow | `docs/public/images/tools/arrow/arrow-result.webp` | Current published image is the manual full-screen capture from the running iPhone 18 app: a long red Arrow to an exposed wall socket, with a Loupe visible over the target. It replaces the earlier garage result. The separate harness result remains in the app repo's pilot output. |
 | Line Measure | `docs/public/images/tools/line-measure/line-measure-result.webp` | Garage door span follows the marketing reference. `2.40 m` is sample text typed into the annotation, not inferred from the photo. Premium was test-seeded. |
 | Dimension Line | `docs/public/images/tools/dimension-line/dimension-line-result.jpg` | User-supplied reference image used as-is; the dimension marks and values are already part of the photo, not an Annotium capture. |
 | Loupe | `docs/public/images/tools/loupe/loupe-result.webp` | Manual capture from the running iPhone 18 app; the lens magnifies a plumbing connection and its pointer tail leads back to the source. |
@@ -23,7 +23,7 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 | Mosaic | `docs/public/images/tools/mosaic/mosaic-result.webp` | Manual capture in the running iPhone 18 app over the CC0 sample invoice. Coarse pixel blocks cover handwritten line items; selection handles remain visible. |
 | Callout (Rectangle) | No published result | The element and text were committed and the model assertion passed, but rendered text was blank. The captured empty callout is intentionally excluded. Validate the actual text-entry UI before recapturing. |
 
-Published WebP files are cropped to the editor canvas and resized to 900 px wide. The full simulator PNGs and automation result are in the app repository under `apps/annotium_mobile/build/automation/pilot-2026-11-10/` and should be treated as temporary capture output.
+The Line Measure WebP is cropped to the editor canvas. Arrow, Loupe, Blur, and Mosaic are full-screen simulator captures; Dimension Line is a user-supplied JPG reference. The original harness screenshots and automation result are in the app repository under `apps/annotium_mobile/build/automation/pilot-2026-11-10/` and should be treated as temporary capture output.
 
 ## Limits
 
