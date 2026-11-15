@@ -61,6 +61,9 @@ These are finished results or UI examples. Use them to show the tool’s actual 
 | [Thought Bubble result](../../docs/public/images/tools/thought-bubble-result.webp) | Full iPhone 18 screen with `Alternative` in a thought bubble above blank clipboard paper; captured with debug Premium access. |
 | [Icon result](../../docs/public/images/tools/icon-result.webp) | Full iPhone 18 screen with a green circular check icon and leader line identifying a plumbing connection under a sink. |
 | [Text Icon result](../../docs/public/images/tools/text-icon-result.webp) | Full iPhone 18 screen with a circular `1` marker and leader line identifying another plumbing connection, alongside the earlier check icon. |
+| [Plain Icon result](../../docs/public/images/tools/plain-icon-result.webp) | Full iPhone 18 screen with two yellow check glyphs marking plumbing points, alongside a separate `A1` Text Icon for comparison. |
+| [Date & Time result](../../docs/public/images/tools/date-time-result.webp) | Full iPhone 18 screen with a yellow `2026-11-15 17:24` stamp at the lower right of the plumbing photo; the value is the simulator's date and time. |
+| [Location result](../../docs/public/images/tools/location-result.webp) | Full iPhone 18 screen with a location pin and sample coordinates `51.51661, -0.11361`; not the device's current location. Captured with debug Premium access. |
 | [Line Measure result](../../docs/public/images/tools/line-measure/line-measure-result.webp) | Garage door span labelled `2.40 m`; the value is sample text, not inferred from the photo. |
 | [Loupe result](../../docs/public/images/tools/loupe/loupe-result.webp) | Full screen with a lens over a plumbing connection and a tail back to the source in the sink-repair photo. |
 | [Blur result](../../docs/public/images/tools/blur/blur-result.webp) | Full screen showing a selected Blur area across sample-invoice handwriting. |
