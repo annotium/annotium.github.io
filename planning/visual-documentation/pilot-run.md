@@ -7,7 +7,7 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 - Device: iPhone 18 simulator, iOS 27.0 (`iPhone19,2`).
 - App surface: real Annotium `DrawingContainer` and editor core. Arrow and Line Measure result captures used the integration harness; later Arrow, Callout, Loupe, Blur, and Mosaic screens were captured manually in the running app.
 - Host services: Photos, storage, IAP, and export were replaced with test adapters in harness captures.
-- Premium: Arrow Properties, Cloud Text, Burst Text, Thought Bubble, and Location were captured with debug-only `FORCE_PREMIUM=true`; no purchase or store entitlement was exercised.
+- Premium: Arrow Properties, Cloud Text, Burst Text, Thought Bubble, Location, and Spotlight (Polygon) were captured with debug-only `FORCE_PREMIUM=true`; no purchase or store entitlement was exercised.
 - Backgrounds: exposed electrical socket for Arrow; garage for Line Measure; sink repair photo for Loupe; invoice for Blur and Mosaic; user-supplied annotated component photo for Dimension Line.
 - Automation: `apps/annotium_mobile/integration_test/arrow_gesture_automation_test.dart`, via `apps/annotium_mobile/test_driver/automation.dart`.
 
@@ -31,6 +31,9 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 | Plain Icon | `docs/public/images/tools/plain-icon-result.webp` | Manual full-screen iPhone 18 capture with two yellow check glyphs directly marking plumbing points; the separate `A1` Text Icon remains visible for comparison. |
 | Date & Time | `docs/public/images/tools/date-time-result.webp` | Manual full-screen iPhone 18 capture; yellow timestamp `2026-11-15 17:24` is placed at the lower right of the plumbing photo and reflects simulator time. |
 | Location | `docs/public/images/tools/location-result.webp` | Manual full-screen iPhone 18 capture with a location pin and sample coordinates `51.51661, -0.11361`; not the device's current location. Premium access was debug-forced. |
+| Spotlight (Polygon) | `docs/public/images/tools/spotlight-polygon-result.webp` | Manual full-screen iPhone 18 capture over the cracked plaster scene: the irregular exposed brick and timber stay bright while the surrounding canvas darkens. `Check wall cracked` remains as a caption; Premium access was debug-forced. |
+| Spotlight (Rectangle) | `docs/public/images/tools/spotlight-rectangle-result.webp` | Manual full-screen iPhone 18 capture over an outlet photo: the rectangular spotlight area stays bright against the dark surrounding canvas; selection handles are visible. |
+| Spotlight | `docs/public/images/tools/spotlight-result.webp` | Manual full-screen iPhone 18 capture: circular area isolates the wiring in an exposed wall socket while the surrounding photo is darkened; selection handles are visible. |
 
 The Line Measure WebP is cropped to the editor canvas. Arrow, Loupe, Blur, and Mosaic are full-screen simulator captures; Dimension Line is a user-supplied JPG reference. The original harness screenshots and automation result are in the app repository under `apps/annotium_mobile/build/automation/pilot-2026-11-10/` and should be treated as temporary capture output.
 
