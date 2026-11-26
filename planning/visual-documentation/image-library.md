@@ -59,6 +59,7 @@ These are finished results or UI examples. Use them to show the tool’s actual 
 | [Arc result](../../docs/public/images/tools/arc/arc-result.webp) | Full iPhone 18 screen: selected red circular arc over the drain bend with yellow angle guides and `228°` label. |
 | [Donut result](../../docs/public/images/tools/donut/donut-result.webp) | Full iPhone 18 screen: selected white and red ring with angle label `307°` and edit handles. |
 | [Coordinate result](../../docs/public/images/tools/coordinate/coordinate-result.webp) | Full iPhone 18 screen on the clipboard: red dashed axes meet on the sheet, with arrowheads and no numeric labels. |
+| [Radius result](../../docs/public/images/tools/radius/radius-result.webp) | Full iPhone 18 screen: orange radius outline on a circular socket with `R15 mm` sample label; not a calibrated measurement. |
 | [Callout Rectangle pipe result](../../docs/public/images/tools/callout-rectangle/callout-pipe-result.webp) | Full iPhone 18 screen: `Check pipe` in a rounded rectangular callout points to the drain pipe; the prior Highlight remains on the pipe to the right. |
 | [Callout Oval pipe result](../../docs/public/images/tools/callout-oval/callout-pipe-result.webp) | Full iPhone 18 screen: `Check pipe` in an oval callout points to a drain pipe; the prior Highlight remains visible on another pipe. |
 | [Highlight result](../../docs/public/images/tools/highlight/highlight-result.webp) | Full iPhone 18 screen: a selected translucent red Highlight stroke emphasizes an exposed pipe against the brick wall. |

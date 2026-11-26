@@ -32,6 +32,10 @@ Curve follows a bent path; the selected example shows the curve's arrowhead and 
 
 **Radius** and **Diameter** are in the Shapes group. Both measurement tools require Premium.
 
+<img src="/images/tools/radius/radius-result.webp" alt="A Radius annotation outlines an exposed circular electrical socket and displays the sample label R15 mm." />
+
+The `R15 mm` label is illustrative; this photo has no calibrated scale.
+
 ::: info Photo reference
 The Line Measure and Dimension Line pages include editor captures. Menu locations and the remaining measurement workflows still need verification on current phone and tablet builds.
 :::
