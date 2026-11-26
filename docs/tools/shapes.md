@@ -11,6 +11,8 @@
 - Triangle.
 - Polygon with additional points.
 
+<img src="/images/tools/rectangle/rectangle-result.webp" alt="A red rounded rectangle outlines a water-pipe connection and surrounding brickwork." />
+
 ## Advanced shapes
 
 - Parallelogram (Premium).
