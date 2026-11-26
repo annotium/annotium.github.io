@@ -45,6 +45,10 @@ After confirmation, the crop becomes the project's base photo.
 
 Trace around the region to select. This preview shows the irregular selection before choosing **Crop** to keep it or **Erase** to remove it.
 
+<img src="/images/tools/lasso-crop-result.webp" alt="The Lasso crop keeps the damaged plaster opening as an irregular cutout, with white canvas around the selected region." style="width:100%;height:auto;border-radius:12px;" />
+
+Choosing **Crop** keeps the lassoed area and removes the surrounding photo. Use **Erase** to remove the selected area instead.
+
 ## Compose photos
 
 Document the Premium composition modes:
