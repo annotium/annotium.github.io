@@ -15,6 +15,7 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 
 | Tool | Published result | Capture notes |
 | --- | --- | --- |
+| Polygon | `docs/public/images/tools/polygon/polygon-result.webp` | Manual full-screen iPhone 18 capture: a yellow dashed multi-point polygon surrounds the left brick wall and plumbing area; vertices are visible. |
 | Triangle | `docs/public/images/tools/triangle/triangle-result.webp` | Manual full-screen iPhone 18 capture: a red dashed triangle frames pipework and the angled brick-wall section. |
 | Circle | `docs/public/images/tools/circle/circle-result.webp` | Manual full-screen iPhone 18 capture: a red circle highlights the small green and red water valve on the left side of the brick wall. |
 | Oval | `docs/public/images/tools/oval/oval-result.webp` | Manual full-screen iPhone 18 capture: a red oval outlines the upper-left pipe junction and nearby pipework on the brick wall. |
