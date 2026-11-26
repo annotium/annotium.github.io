@@ -15,6 +15,7 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 
 | Tool | Published result | Capture notes |
 | --- | --- | --- |
+| Angle Measure | `docs/public/images/tools/angle-measure/angle-measure-result.webp` | Manual full-screen iPhone 18 capture on `home-water-pipes.jpg`: yellow arms meet at the drain bend and show `24°`; illustrative angle on the photo. |
 | Diameter | `docs/public/images/tools/diameter/diameter-result.webp` | Manual full-screen iPhone 18 capture over `exposed-electrical-socket.jpg`: red line with arrowheads spans the circular socket through its center and shows `Ø30 mm`; illustrative value, not calibrated to the photo. |
 | Radius | `docs/public/images/tools/radius/radius-result.webp` | Manual full-screen iPhone 18 capture over `exposed-electrical-socket.jpg`: orange radius outline on a circular socket with `R15 mm` label; illustrative value, not calibrated to the photo. |
 | Coordinate | `docs/public/images/tools/coordinate/coordinate-result.webp` | Manual full-screen iPhone 18 capture on `blank-clipboard.jpg`: red dashed horizontal and vertical axes cross on the sheet with arrowheads; no numeric coordinate labels are visible. |
