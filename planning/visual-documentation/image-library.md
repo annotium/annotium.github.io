@@ -49,6 +49,7 @@ These are finished results or UI examples. Use them to show the tool’s actual 
 
 | [Text result](../../docs/public/images/tools/text/text-result.webp) | Full iPhone 18 screen: selected `Check pipe` label over brickwork; the prior Highlight is still visible on the pipe to the right. |
 | [Callout Rectangle pipe result](../../docs/public/images/tools/callout-rectangle/callout-pipe-result.webp) | Full iPhone 18 screen: `Check pipe` in a rounded rectangular callout points to the drain pipe; the prior Highlight remains on the pipe to the right. |
+| [Callout Oval pipe result](../../docs/public/images/tools/callout-oval/callout-pipe-result.webp) | Full iPhone 18 screen: `Check pipe` in an oval callout points to a drain pipe; the prior Highlight remains visible on another pipe. |
 | [Highlight result](../../docs/public/images/tools/highlight/highlight-result.webp) | Full iPhone 18 screen: a selected translucent red Highlight stroke emphasizes an exposed pipe against the brick wall. |
 | [Free Draw result](../../docs/public/images/tools/free-draw/free-draw-result.webp) | Full iPhone 18 screen: a red freehand stroke traces the drain bend; an unrelated vertical red stroke also remains visible. |
 | [Curve result](../../docs/public/images/tools/curve/curve-result.webp) | Full iPhone 18 screen: selected red curved arrow follows the drain bend in `home-water-pipes.jpg`; three control handles are visible. |

@@ -26,6 +26,8 @@ Use an oval callout for a short note when the pointer should identify a nearby d
 
 <img src="/images/tools/callout-oval-result.webp" alt="An oval callout reading Check clearance points to a hinge on a weathered wooden door." style="width:100%;height:auto;border-radius:12px;" />
 
+<img src="/images/tools/callout-oval/callout-pipe-result.webp" alt="An oval callout reading Check pipe points to a drain pipe; a translucent red Highlight remains on another pipe." style="width:100%;height:auto;border-radius:12px;" />
+
 Choose **Callout (Oval)**, enter a concise label, then position the pointer tip on the detail. This manual iPhone 18 capture shows the callout over a hinge.
 
 ## Expressive callouts
