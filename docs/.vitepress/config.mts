@@ -11,7 +11,7 @@ export default defineConfig({
   ],
   themeConfig: {
     logo: '/logo.png',
-    siteTitle: 'Annotium Guide',
+    siteTitle: 'Annotium',
     nav: [
       { text: 'Guide', link: '/guide/getting-started' },
       { text: 'Tools', link: '/tools/overview' },

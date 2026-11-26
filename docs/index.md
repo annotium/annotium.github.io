@@ -3,11 +3,8 @@ layout: home
 
 hero:
   name: Annotium
-  text: Make every image explain itself
-  tagline: Turn photos and screenshots into precise visual explanations—then keep the work editable, organized, and ready to share.
-  image:
-    src: /logo.png
-    alt: Annotium logo
+  text: Turn field photos into clear, actionable visual reports.
+  tagline: Point at the defect, label it with your own measurements, hide what shouldn't be shared, and send it — from the phone in your hand.
   actions:
     - theme: brand
       text: Download on the App Store
@@ -17,57 +14,73 @@ hero:
       link: https://play.google.com/store/apps/details?id=app.ngockhanh.annotium
 
 features:
-  - icon: 🗂️
-    title: Editable projects
-    details: Keep annotations as projects so you can return, select objects, and revise your work.
-  - icon: ✏️
-    title: Precise annotation
-    details: Combine arrows, lines, shapes, text, callouts, measurements, focus effects, and privacy tools.
-  - icon: 🖼️
-    title: Photo composition
-    details: Build collages or stitch multiple images vertically or horizontally before annotating them.
-  - icon: 📄
-    title: Flexible export
-    details: Save automatically to Photos or Gallery, share a flattened image, or create a PDF.
-  - icon: 📝
-    title: Notes with context
-    details: Keep supporting details alongside a project without crowding the image.
-  - icon: 📱
-    title: Built for work in the field
-    details: Capture, mark up, organize, and deliver clear visual feedback from one focused mobile workflow.
+  - title: Precise, CAD-style markup
+    details: Dimension lines for the values you measured (PRO), angle measure on the photo, radius and diameter labels (PRO), plus snap and alignment guides that keep lines straight.
+  - title: Show exactly where to look
+    details: Spotlight dims everything else, the loupe magnifies a small part, callouts carry the note, and text can sit right inside a shape.
+  - title: Private and focused
+    details: Most editing happens on your device. Blur or pixelate plates, names and addresses before sharing.
 ---
 
-## Explain what matters, clearly
+## Built for the work you photograph
 
-Annotium is a precision photo-annotation app for explaining a defect, recording
-an inspection, marking up a design, documenting a repair, or giving visual
-feedback. Start with a photo or screenshot, point to the important detail, add
-context with shapes, text, measurements, or callouts, and share a result people
-can understand at a glance.
+<div class="home-use-case-grid">
+  <section class="home-use-case-card">
+    <h3>Construction &amp; site inspection</h3>
+    <ul>
+      <li>Arrow and callout on each defect</li>
+      <li>Dimension lines with tape readings (PRO)</li>
+      <li>Polygon spotlight on slanted walls and roofs (PRO)</li>
+    </ul>
+  </section>
+  <section class="home-use-case-card">
+    <h3>Maintenance &amp; field service</h3>
+    <ul>
+      <li>Spotlight and loupe on the failed part</li>
+      <li>Radius and diameter labels on pipes and flanges (PRO)</li>
+      <li>Voice typing when your hands are busy</li>
+    </ul>
+  </section>
+  <section class="home-use-case-card">
+    <h3>Home inspection &amp; handover</h3>
+    <ul>
+      <li>Camera opens in one tap from the home screen</li>
+      <li>Notes and PDF export with page templates (PRO)</li>
+      <li>Blur house numbers and plates</li>
+    </ul>
+  </section>
+  <section class="home-use-case-card">
+    <h3>QC &amp; tech support</h3>
+    <ul>
+      <li>Box and arrow the problem on a screenshot</li>
+      <li>Angle measure for alignment checks</li>
+      <li>Pixelate personal data before sending</li>
+    </ul>
+  </section>
+</div>
 
-### Tablet:
-<img
-  src="/images/tablet.png"
-  alt="Work on tablet"
-  style="max-width: 800px; width: 100%; height: auto;"
-/>
+<img class="home-marketing-image" src="/images/homepage/annotium-search-results-v2.webp" alt="Annotated garage door with a 2.40 m dimension line and a Check clearance callout." width="5244" height="2950" loading="lazy">
 
-### Phone:
-<img
-  src="/images/phone.png"
-  alt="Work on phone"
-  style="max-width: 300px; width: 100%; height: auto;"
-/>
+## Honest about measurements
 
-Use **Projects** when the work needs to remain editable. Your annotations and
-notes stay together so you can return and revise them. Use **Photos** when you
-want to annotate directly from the device photo library and save a finished
-image back to it.
+Annotium measures **angles** on a photo. For lengths, you measure on site with a tape or meter and Annotium draws a clean dimension line with your value. It does not guess distances from a picture.
 
-## Available now
+## Free and Premium
 
-Annotium is available on mobile today, with layouts designed for both phone and
-tablet work.
+<div class="home-plan-grid">
+  <section class="home-plan-card">
+    <h3>Free</h3>
+    <p>Arrows, lines, shapes, text and callouts, angle measure, spotlight, loupe, blur and mosaic, crop, JPEG/PNG export. Free exports carry a small Annotium stamp.</p>
+  </section>
+  <section class="home-plan-card">
+    <h3>Premium</h3>
+    <p>Dimension, leader, tick, radius and diameter tools, polygon spotlight, text inside shapes, lasso erase/crop, group, move mode, PDF export, notes, collage and stitching, more pixel effects, zoom to 10×, no export stamp.</p>
+  </section>
+</div>
+
+<p class="home-fineprint">Premium features and purchase options are shown in the app stores. <a href="/help/premium">See Premium and purchase details</a>.</p>
+
+## Get Annotium
 
 <div class="store-links">
   <a class="store-links__app-store" href="https://apps.apple.com/us/app/annotium-photo-markup/id1537304734" aria-label="Download Annotium on the App Store">
@@ -78,16 +91,7 @@ tablet work.
   </a>
 </div>
 
-Available for **iPhone and iPad** through the App Store, and for **Android
-phones and tablets** through Google Play.
-
-## Desktop is on the way
-
-Please be patient ;-)
-
-<!-- We are planning a dedicated desktop version, starting with **macOS**. It is not
-available yet. Other desktop platforms may follow later; platform availability
-and release timing will be announced when they are ready. -->
+Available for **iPhone, iPad and Android phones and tablets**.
 
 ::: tip New to Annotium?
 Start with [Getting started](/guide/getting-started), then compare

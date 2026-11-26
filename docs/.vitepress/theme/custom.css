@@ -16,6 +16,66 @@
   filter: blur(42px);
 }
 
+.VPContent.is-home {
+  padding-top: var(--vp-nav-height);
+}
+
+.VPHome .home-hero-banner {
+  display: block;
+  width: 100vw;
+  height: min(56.25vw, 720px);
+  max-width: none;
+  max-height: none;
+  margin-inline: calc(50% - 50vw);
+  margin-block: 0;
+  border-radius: 0;
+  object-fit: cover;
+  object-position: center 54%;
+}
+
+.VPHomeHero {
+  margin-top: 0;
+  padding: 44px 24px 40px;
+}
+
+.VPHomeHero .container {
+  display: block;
+  text-align: center;
+}
+
+.VPHomeHero .main {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.VPHomeHero .heading,
+.VPHomeHero .tagline {
+  margin-inline: auto;
+}
+
+.VPHomeHero .name {
+  max-width: 100%;
+  font-size: clamp(28px, 3vw, 40px);
+  line-height: 1.1;
+}
+
+.VPHomeHero .text {
+  max-width: 920px;
+  font-size: clamp(36px, 4.2vw, 56px);
+  line-height: 1.08;
+}
+
+.VPHomeHero .tagline {
+  max-width: 760px;
+  font-size: clamp(17px, 1.8vw, 21px);
+  line-height: 1.5;
+}
+
+.VPHomeHero .actions {
+  justify-content: center;
+}
+
 .store-links {
   display: flex;
   flex-wrap: wrap;
@@ -85,4 +145,93 @@
 
 .vp-doc .store-links__google-play img {
   height: 56px;
+}
+
+/* Campaign imagery and cards on the documentation homepage. */
+.VPHome .vp-doc .home-marketing-image {
+  display: block;
+  width: 100% !important;
+  max-width: 1120px;
+  max-height: none;
+  height: auto;
+  margin: 2rem auto;
+  border-radius: 16px;
+  object-fit: contain;
+}
+
+.VPHome .vp-doc .home-use-case-grid,
+.VPHome .vp-doc .home-plan-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 1.5rem 0;
+}
+
+.VPHome .vp-doc .home-use-case-card,
+.VPHome .vp-doc .home-plan-card {
+  padding: 20px 22px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 14px;
+  background: var(--vp-c-bg-soft);
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    background-color 180ms ease;
+}
+
+.VPHome .vp-doc .home-use-case-card:hover,
+.VPHome .vp-doc .home-use-case-card:focus-within,
+.VPHome .vp-doc .home-plan-card:hover,
+.VPHome .vp-doc .home-plan-card:focus-within {
+  transform: translateY(-4px);
+  border-color: var(--vp-c-brand-1);
+  background: var(--vp-c-bg);
+  box-shadow: 0 12px 28px rgba(23, 74, 58, 0.14);
+}
+
+.VPHome .vp-doc .home-use-case-card h3,
+.VPHome .vp-doc .home-plan-card h3 {
+  margin-top: 0;
+}
+
+.VPHome .vp-doc .home-use-case-card ul,
+.VPHome .vp-doc .home-plan-card p {
+  margin-bottom: 0;
+}
+
+.VPHome .vp-doc .home-fineprint {
+  color: var(--vp-c-text-2);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 640px) {
+  .VPHome .home-hero-banner {
+    height: 56.25vw;
+    min-height: 190px;
+  }
+
+  .VPHomeHero {
+    padding: 32px 24px 28px;
+  }
+
+  .VPHomeHero .text {
+    font-size: clamp(32px, 8vw, 42px);
+  }
+
+  .VPHome .vp-doc .home-use-case-grid,
+  .VPHome .vp-doc .home-plan-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .VPHome .vp-doc .home-marketing-image {
+    border-radius: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .VPHome .vp-doc .home-use-case-card,
+  .VPHome .vp-doc .home-plan-card {
+    transition: none;
+  }
 }
