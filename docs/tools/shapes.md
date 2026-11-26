@@ -30,6 +30,8 @@
 
 <img src="/images/tools/parallelogram/parallelogram-result.webp" alt="A red dashed parallelogram overlays the pipe and brick wall, with a 129-degree angle label and edit handles visible." />
 
+<img src="/images/tools/arc/arc-result.webp" alt="An Arc annotation displays a red circular curve with yellow angle guides and a 228-degree label over a pipe bend." />
+
 <!-- TODO(screenshot): Shape group with free and Premium tools identified. -->
 
 ## Style a shape
