@@ -22,6 +22,8 @@
 
 <img src="/images/tools/rounded-text-box/rounded-text-box-result.webp" alt="A rounded rectangular text box reading Check pipe sits over the brick wall; a red Highlight and pointer line remain visible from prior annotations." />
 
+<img src="/images/tools/oval-text-box/oval-text-box-result.webp" alt="An oval text box reading Check pipe sits over the brick wall; a translucent red Highlight remains on the pipe to the right." />
+
 ### Callout (Oval)
 
 Use an oval callout for a short note when the pointer should identify a nearby detail.
