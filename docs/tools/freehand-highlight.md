@@ -6,11 +6,15 @@
 
 ## Draw freehand
 
+<img src="/images/tools/free-draw/free-draw-result.webp" alt="A red freehand stroke traces the bend of an exposed drain pipe; a separate stray red stroke remains in the screenshot." />
+
 - Select the freehand tool.
 - Draw one continuous stroke.
 - Change its width, color, opacity, and line style.
 
 ## Highlight an area
+
+<img src="/images/tools/highlight/highlight-result.webp" alt="A translucent red Highlight stroke follows an exposed pipe against a brick wall." />
 
 - Select the highlight tool.
 - Sweep over text or a region of the image.

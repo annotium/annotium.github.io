@@ -47,6 +47,8 @@ This is the working image guide for documentation authors and agents. Use it to 
 
 These are finished results or UI examples. Use them to show the tool’s actual rendering; do not feed them back as clean photo backgrounds.
 
+| [Highlight result](../../docs/public/images/tools/highlight/highlight-result.webp) | Full iPhone 18 screen: a selected translucent red Highlight stroke emphasizes an exposed pipe against the brick wall. |
+| [Free Draw result](../../docs/public/images/tools/free-draw/free-draw-result.webp) | Full iPhone 18 screen: a red freehand stroke traces the drain bend; an unrelated vertical red stroke also remains visible. |
 | [Curve result](../../docs/public/images/tools/curve/curve-result.webp) | Full iPhone 18 screen: selected red curved arrow follows the drain bend in `home-water-pipes.jpg`; three control handles are visible. |
 | [Line result](../../docs/public/images/tools/line/line-result.webp) | Full iPhone 18 screen: straight red Line follows a crack in concrete without an arrowhead. |
 
