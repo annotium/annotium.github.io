@@ -36,6 +36,10 @@ Curve follows a bent path; the selected example shows the curve's arrowhead and 
 
 The `R15 mm` label is illustrative; this photo has no calibrated scale.
 
+<img src="/images/tools/diameter/diameter-result.webp" alt="A red Diameter line with arrowheads crosses a circular electrical socket through its center and displays the sample label Ø30 mm." />
+
+The `Ø30 mm` label is illustrative; this photo has no calibrated scale.
+
 ::: info Photo reference
 The Line Measure and Dimension Line pages include editor captures. Menu locations and the remaining measurement workflows still need verification on current phone and tablet builds.
 :::
