@@ -82,7 +82,8 @@ These are finished results or UI examples. Use them to show the tool’s actual 
 | [Crop frame preview](../../docs/public/images/tools/crop-frame.webp) | Full iPhone 18 screen in Crop mode. The frame keeps the garage door and both notices; grid and corner handles are visible. This is the preview before applying the crop. |
 | [Crop result](../../docs/public/images/tools/crop-result.webp) | Full iPhone 18 screen after confirmation: the garage door and both notices fill the canvas, with most outer wall and pavement removed. |
 | [Lasso selection preview](../../docs/public/images/tools/lasso-selection.webp) | Full iPhone 18 screen with a freeform selection around a damaged plaster opening and nearby wall; Crop and Erase actions remain available. Preview only, before applying either operation. |
-| [Lasso Crop result](../../docs/public/images/tools/lasso-crop-result.webp) | Full iPhone 18 screen after Crop: the selected damaged wall remains as an irregular cutout on a white canvas. The separate Erase outcome is still pending. |
+| [Lasso Crop result](../../docs/public/images/tools/lasso-crop-result.webp) | Full iPhone 18 screen after Crop: the selected damaged wall remains as an irregular cutout on a white canvas. |
+| [Lasso Erase result](../../docs/public/images/tools/lasso-erase-result.webp) | Full iPhone 18 screen after Erase: the selected opening is replaced by a blank white patch while the surrounding wall remains. |
 
 ## Selection rules for agents
 

@@ -49,6 +49,10 @@ Trace around the region to select. This preview shows the irregular selection be
 
 Choosing **Crop** keeps the lassoed area and removes the surrounding photo. Use **Erase** to remove the selected area instead.
 
+<img src="/images/tools/lasso-erase-result.webp" alt="The lassoed damaged opening has been erased, leaving a large white area in the plaster wall while the surrounding wall remains." style="width:100%;height:auto;border-radius:12px;" />
+
+The Erase result removes the selected area and leaves a blank region in its place.
+
 ## Compose photos
 
 Document the Premium composition modes:
