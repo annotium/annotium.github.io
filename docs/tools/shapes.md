@@ -28,6 +28,8 @@
 - Donut or ring (Premium).
 - Coordinate shape (Premium).
 
+<img src="/images/tools/parallelogram/parallelogram-result.webp" alt="A red dashed parallelogram overlays the pipe and brick wall, with a 129-degree angle label and edit handles visible." />
+
 <!-- TODO(screenshot): Shape group with free and Premium tools identified. -->
 
 ## Style a shape
