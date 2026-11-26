@@ -81,6 +81,7 @@ These are finished results or UI examples. Use them to show the tool’s actual 
 | [Insert Image result](../../docs/public/images/tools/insert-image-result.webp) | Full iPhone 18 screen with a small hinge photo inserted at the upper left of the garage image and selected with its outline visible; captured with debug Premium access. |
 | [Crop frame preview](../../docs/public/images/tools/crop-frame.webp) | Full iPhone 18 screen in Crop mode. The frame keeps the garage door and both notices; grid and corner handles are visible. This is the preview before applying the crop. |
 | [Crop result](../../docs/public/images/tools/crop-result.webp) | Full iPhone 18 screen after confirmation: the garage door and both notices fill the canvas, with most outer wall and pavement removed. |
+| [Lasso selection preview](../../docs/public/images/tools/lasso-selection.webp) | Full iPhone 18 screen with a freeform selection around a damaged plaster opening and nearby wall; Crop and Erase actions remain available. Preview only, before applying either operation. |
 
 ## Selection rules for agents
 

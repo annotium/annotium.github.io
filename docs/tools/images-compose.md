@@ -39,6 +39,12 @@ Adjust the frame to keep the door and its notices, then tap **Crop** to apply it
 
 After confirmation, the crop becomes the project's base photo.
 
+## Lasso
+
+<img src="/images/tools/lasso-selection.webp" alt="A yellow dashed Lasso selection surrounds the damaged plaster opening and some nearby wall; Crop and Erase actions are available below." style="width:100%;height:auto;border-radius:12px;" />
+
+Trace around the region to select. This preview shows the irregular selection before choosing **Crop** to keep it or **Erase** to remove it.
+
 ## Compose photos
 
 Document the Premium composition modes:
