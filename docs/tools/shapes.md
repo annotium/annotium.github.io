@@ -13,6 +13,8 @@
 
 <img src="/images/tools/rectangle/rectangle-result.webp" alt="A red rounded rectangle outlines a water-pipe connection and surrounding brickwork." />
 
+<img src="/images/tools/oval/oval-result.webp" alt="A red oval outlines the upper water-pipe junction and nearby pipework on a brick wall." />
+
 ## Advanced shapes
 
 - Parallelogram (Premium).

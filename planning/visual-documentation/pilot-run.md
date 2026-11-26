@@ -15,6 +15,7 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 
 | Tool | Published result | Capture notes |
 | --- | --- | --- |
+| Oval | `docs/public/images/tools/oval/oval-result.webp` | Manual full-screen iPhone 18 capture: a red oval outlines the upper-left pipe junction and nearby pipework on the brick wall. |
 | Rectangle | `docs/public/images/tools/rectangle/rectangle-result.webp` | Manual full-screen iPhone 18 capture: a red rounded rectangle frames a white water-pipe connection and surrounding brickwork. |
 | Oval Text Box | `docs/public/images/tools/oval-text-box/oval-text-box-result.webp` | Manual full-screen iPhone 18 capture: oval `Check pipe` text container without a pointer; the prior Highlight remains visible over the pipe on the right. |
 | Rounded Text Box | `docs/public/images/tools/rounded-text-box/rounded-text-box-result.webp` | Manual full-screen iPhone 18 capture: rounded rectangle `Check pipe` box over brickwork; prior Highlight and a pointer line remain visible. |
