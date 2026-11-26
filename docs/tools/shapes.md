@@ -15,6 +15,10 @@
 
 <img src="/images/tools/oval/oval-result.webp" alt="A red oval outlines the upper water-pipe junction and nearby pipework on a brick wall." />
 
+<img src="/images/tools/circle/circle-result.webp" alt="A red circle highlights a round green and red water valve on a brick wall." />
+
+<img src="/images/tools/triangle/triangle-result.webp" alt="A red dashed triangle outlines a pipe junction and angled section of brick wall." />
+
 ## Advanced shapes
 
 - Parallelogram (Premium).

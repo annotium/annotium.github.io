@@ -52,6 +52,8 @@ These are finished results or UI examples. Use them to show the tool’s actual 
 | [Oval Text Box result](../../docs/public/images/tools/oval-text-box/oval-text-box-result.webp) | Full iPhone 18 screen: `Check pipe` in an oval text box without a pointer; the prior Highlight remains visible over the right-hand pipe. |
 | [Rectangle result](../../docs/public/images/tools/rectangle/rectangle-result.webp) | Full iPhone 18 screen: a red rounded rectangle outlines a water-pipe connection and surrounding brickwork. |
 | [Oval result](../../docs/public/images/tools/oval/oval-result.webp) | Full iPhone 18 screen: a red oval outlines the upper-left pipe junction and surrounding pipework. |
+| [Circle result](../../docs/public/images/tools/circle/circle-result.webp) | Full iPhone 18 screen: a red Circle encloses the green and red valve on the left side of the brick wall. |
+| [Triangle result](../../docs/public/images/tools/triangle/triangle-result.webp) | Full iPhone 18 screen: a red dashed triangle frames pipework and the angled section of brick wall. |
 | [Callout Rectangle pipe result](../../docs/public/images/tools/callout-rectangle/callout-pipe-result.webp) | Full iPhone 18 screen: `Check pipe` in a rounded rectangular callout points to the drain pipe; the prior Highlight remains on the pipe to the right. |
 | [Callout Oval pipe result](../../docs/public/images/tools/callout-oval/callout-pipe-result.webp) | Full iPhone 18 screen: `Check pipe` in an oval callout points to a drain pipe; the prior Highlight remains visible on another pipe. |
 | [Highlight result](../../docs/public/images/tools/highlight/highlight-result.webp) | Full iPhone 18 screen: a selected translucent red Highlight stroke emphasizes an exposed pipe against the brick wall. |
