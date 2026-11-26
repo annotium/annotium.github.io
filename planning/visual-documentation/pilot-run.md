@@ -15,6 +15,7 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 
 | Tool | Published result | Capture notes |
 | --- | --- | --- |
+| Leader Line | `docs/public/images/tools/leader-line/leader-line-result.webp` | Manual full-screen iPhone 18 capture on `home-water-pipes.jpg`: dashed yellow line starts at a pipe joint, bends toward the `Check joint` label, and runs below it. |
 | Angle Measure | `docs/public/images/tools/angle-measure/angle-measure-result.webp` | Manual full-screen iPhone 18 capture on `home-water-pipes.jpg`: yellow dashed arms meet beside the pipe and show `85°`; illustrative angle on the photo. |
 | Diameter | `docs/public/images/tools/diameter/diameter-result.webp` | Manual full-screen iPhone 18 capture over `exposed-electrical-socket.jpg`: red line with arrowheads spans the circular socket through its center and shows `Ø30 mm`; illustrative value, not calibrated to the photo. |
 | Radius | `docs/public/images/tools/radius/radius-result.webp` | Manual full-screen iPhone 18 capture over `exposed-electrical-socket.jpg`: orange radius outline on a circular socket with `R15 mm` label; illustrative value, not calibrated to the photo. |

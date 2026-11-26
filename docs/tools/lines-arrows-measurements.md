@@ -42,6 +42,8 @@ The `Ø30 mm` label is illustrative; this photo has no calibrated scale.
 
 <img src="/images/tools/angle-measure/angle-measure-result.webp" alt="Yellow dashed Angle Measure arms meet beside a drain pipe and show 85 degrees." />
 
+<img src="/images/tools/leader-line/leader-line-result.webp" alt="A dashed yellow Leader Line starts at a pipe joint, turns toward the label Check joint, and runs beneath it." />
+
 ::: info Photo reference
 The Line Measure and Dimension Line pages include editor captures. Menu locations and the remaining measurement workflows still need verification on current phone and tablet builds.
 :::
