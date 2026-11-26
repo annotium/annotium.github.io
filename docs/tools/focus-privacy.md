@@ -39,8 +39,18 @@ Use a rectangle to isolate a compact detail such as an outlet. The handles show 
 
 ## Advanced pixel effects
 
-- Crystallize (Premium).
-- Mezzotint (Premium).
+### Crystallize (Premium)
+
+<img src="/images/tools/crystallize-result.webp" alt="The stained-glass photo is shown as an original on the left and a faceted Crystallize effect on the right, with the selected region outlined." style="width:100%;height:auto;border-radius:12px;" />
+
+Apply Crystallize to part of a colorful image to preview its faceted look. The untreated glass on the left makes the effect easy to compare.
+
+### Mezzotint (Premium)
+
+<img src="/images/tools/mezzotint-result.webp" alt="The stained-glass image remains original on the left; the selected region on the right shows Mezzotint as a dense black dot pattern." style="width:100%;height:auto;border-radius:12px;" />
+
+Mezzotint adds a fine black dot texture. The untreated glass on the left gives a direct comparison.
+
 - Pointillize (Premium).
 - Color halftone (Premium).
 
