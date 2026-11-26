@@ -9,6 +9,8 @@ Use a brief label when the detail needs an explanation.
 
 <img src="/images/tools/callout-rectangle/callout-rectangle-result.webp" alt="A red-outlined white callout reading Check clearance points directly to the small yellow notice on a closed garage door." style="width:100%;height:auto;border-radius:12px;" />
 
+<img src="/images/tools/callout-rectangle/callout-pipe-result.webp" alt="A white rounded rectangle callout reading Check pipe points to a drain pipe; a translucent red Highlight remains over another pipe." style="width:100%;height:auto;border-radius:12px;" />
+
 1. Choose **Callout (Rectangle)** from the text tools.
 2. Drag to set the box size and place its pointer near the detail.
 3. Enter a short note, then move the box if it obscures the photo.
