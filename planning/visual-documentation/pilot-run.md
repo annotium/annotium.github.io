@@ -7,7 +7,7 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 - Device: iPhone 18 simulator, iOS 27.0 (`iPhone19,2`).
 - App surface: real Annotium `DrawingContainer` and editor core. Arrow and Line Measure result captures used the integration harness; later Arrow, Callout, Loupe, Blur, and Mosaic screens were captured manually in the running app.
 - Host services: Photos, storage, IAP, and export were replaced with test adapters in harness captures.
-- Premium: Arrow Properties, Cloud Text, Burst Text, Thought Bubble, Location, Spotlight (Polygon), Crystallize, Mezzotint, Pointillize, and Color Halftone were captured with debug-only `FORCE_PREMIUM=true`; no purchase or store entitlement was exercised.
+- Premium: Arrow Properties, Cloud Text, Burst Text, Thought Bubble, Location, Spotlight (Polygon), Crystallize, Mezzotint, Pointillize, Color Halftone, and Insert Image were captured with debug-only `FORCE_PREMIUM=true`; no purchase or store entitlement was exercised.
 - Backgrounds: exposed electrical socket for Arrow; garage for Line Measure; sink repair photo for Loupe; invoice for Blur and Mosaic; user-supplied annotated component photo for Dimension Line.
 - Automation: `apps/annotium_mobile/integration_test/arrow_gesture_automation_test.dart`, via `apps/annotium_mobile/test_driver/automation.dart`.
 
@@ -39,6 +39,7 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 | Pointillize | `docs/public/images/tools/pointillize-result.webp` | Manual full-screen iPhone 18 capture over the same stained-glass scene: left side shows high-contrast colored dots, right side remains original. Premium access was debug-forced. |
 | Color Halftone | `docs/public/images/tools/color-halftone-result.webp` | Manual full-screen iPhone 18 capture over the same stained-glass scene: left side shows a dense RGB and black halftone pattern, right side remains original. Premium access was debug-forced. |
 | Copy Region | `docs/public/images/tools/copy-region-result.webp` | Manual full-screen iPhone 18 capture on the cracked plaster wall: a rectangular duplicate of the exposed masonry area is placed below its source and remains selected for repositioning. |
+| Insert Image | `docs/public/images/tools/insert-image-result.webp` | Manual full-screen iPhone 18 capture: a small hinge photo is inserted at the upper left of the garage image and selected with its outline visible. Premium access was debug-forced. |
 
 The Line Measure WebP is cropped to the editor canvas. Arrow, Loupe, Blur, and Mosaic are full-screen simulator captures; Dimension Line is a user-supplied JPG reference. The original harness screenshots and automation result are in the app repository under `apps/annotium_mobile/build/automation/pilot-2026-11-10/` and should be treated as temporary capture output.
 

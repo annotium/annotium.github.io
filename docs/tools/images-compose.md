@@ -10,6 +10,10 @@
 - Pick an image and place it over the base image.
 - Move and resize the inserted image.
 
+<img src="/images/tools/insert-image-result.webp" alt="A small hinge photo is inserted at the upper left of a garage-door photo and selected with its resize outline visible." style="width:100%;height:auto;border-radius:12px;" />
+
+Keep the inserted photo small enough to leave the base image visible. Select it to show the outline and positioning controls.
+
 ## Copy an image region
 
 - Select the copy tool and mark a region.
