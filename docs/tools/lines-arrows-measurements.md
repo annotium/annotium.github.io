@@ -15,6 +15,10 @@
 
 The Line is drawn from one endpoint to the other. In this example, it marks the crack without an arrowhead.
 
+<img src="/images/tools/curve/curve-result.webp" alt="A red curved arrow follows the bend of an exposed drain pipe, with curve control points visible." />
+
+Curve follows a bent path; the selected example shows the curve's arrowhead and its editable control points.
+
 ## Measurement tools
 
 - [**Line Measure**](/tools/line-measure) (Premium) labels a span directly across its endpoints.
