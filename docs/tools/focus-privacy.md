@@ -51,7 +51,12 @@ Apply Crystallize to part of a colorful image to preview its faceted look. The u
 
 Mezzotint adds a fine black dot texture. The untreated glass on the left gives a direct comparison.
 
-- Pointillize (Premium).
+### Pointillize (Premium)
+
+<img src="/images/tools/pointillize-result.webp" alt="The original stained glass remains on the right; the selected region on the left shows a high-contrast Pointillize texture made of colored dots." style="width:100%;height:auto;border-radius:12px;" />
+
+Pointillize turns a selected area into a field of colored dots. The untouched glass on the right shows the source colors and patterns for comparison.
+
 - Color halftone (Premium).
 
 **Blur** and **Mosaic** are the current English tool labels. Use fictional content in every example.

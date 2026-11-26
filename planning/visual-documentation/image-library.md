@@ -75,6 +75,7 @@ These are finished results or UI examples. Use them to show the tool’s actual 
 | [Mosaic result](../../docs/public/images/tools/mosaic/mosaic-result.webp) | Full screen showing coarse Mosaic blocks over sample-invoice handwriting. |
 | [Crystallize result](../../docs/public/images/tools/crystallize-result.webp) | Full iPhone 18 screen using the stained-glass source: untreated panes remain on the left while a selected region on the right shows the faceted Crystallize effect. Captured with debug Premium access. |
 | [Mezzotint result](../../docs/public/images/tools/mezzotint-result.webp) | Full iPhone 18 screen using the stained-glass source: untreated panes remain on the left while a selected region on the right shows the black dot texture. Captured with debug Premium access. |
+| [Pointillize result](../../docs/public/images/tools/pointillize-result.webp) | Full iPhone 18 screen using the stained-glass source: the selected left region shows high-contrast colored dots while the right side remains original. Captured with debug Premium access. |
 
 ## Selection rules for agents
 
