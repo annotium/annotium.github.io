@@ -31,6 +31,10 @@ Copy Region creates a movable duplicate of the selected photo area. The example 
 - Confirm or cancel the crop.
 - Explain that cropping changes the project's base image.
 
+<img src="/images/tools/crop-frame.webp" alt="The Crop preview frame surrounds the garage door and both notices, with a grid and corner handles visible." style="width:100%;height:auto;border-radius:12px;" />
+
+Adjust the frame to keep the door and its notices, then tap **Crop** to apply it. This screen shows the preview before confirmation.
+
 ## Compose photos
 
 Document the Premium composition modes:

@@ -79,6 +79,7 @@ These are finished results or UI examples. Use them to show the tool’s actual 
 | [Color Halftone result](../../docs/public/images/tools/color-halftone-result.webp) | Full iPhone 18 screen using the stained-glass source: the selected left region shows dense red, green, blue, and black dots while the right side remains original. Captured with debug Premium access. |
 | [Copy Region result](../../docs/public/images/tools/copy-region-result.webp) | Full iPhone 18 screen on the cracked plaster wall: a rectangular duplicate of the masonry and plaster is placed below its source, with selection handles visible. |
 | [Insert Image result](../../docs/public/images/tools/insert-image-result.webp) | Full iPhone 18 screen with a small hinge photo inserted at the upper left of the garage image and selected with its outline visible; captured with debug Premium access. |
+| [Crop frame preview](../../docs/public/images/tools/crop-frame.webp) | Full iPhone 18 screen in Crop mode. The frame keeps the garage door and both notices; grid and corner handles are visible. This is the preview before applying the crop. |
 
 ## Selection rules for agents
 

@@ -40,6 +40,7 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 | Color Halftone | `docs/public/images/tools/color-halftone-result.webp` | Manual full-screen iPhone 18 capture over the same stained-glass scene: left side shows a dense RGB and black halftone pattern, right side remains original. Premium access was debug-forced. |
 | Copy Region | `docs/public/images/tools/copy-region-result.webp` | Manual full-screen iPhone 18 capture on the cracked plaster wall: a rectangular duplicate of the exposed masonry area is placed below its source and remains selected for repositioning. |
 | Insert Image | `docs/public/images/tools/insert-image-result.webp` | Manual full-screen iPhone 18 capture: a small hinge photo is inserted at the upper left of the garage image and selected with its outline visible. Premium access was debug-forced. |
+| Crop (preview) | `docs/public/images/tools/crop-frame.webp` | Manual full-screen iPhone 18 capture in Crop mode: the frame keeps the garage door and both notices, with the grid and corner handles visible. Crop has not yet been confirmed in this capture. |
 
 The Line Measure WebP is cropped to the editor canvas. Arrow, Loupe, Blur, and Mosaic are full-screen simulator captures; Dimension Line is a user-supplied JPG reference. The original harness screenshots and automation result are in the app repository under `apps/annotium_mobile/build/automation/pilot-2026-11-10/` and should be treated as temporary capture output.
 
