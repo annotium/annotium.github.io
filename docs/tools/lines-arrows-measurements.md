@@ -11,6 +11,10 @@
 - **Curve** follows a curved path.
 - **Connector** links objects or locations in a diagram.
 
+<img src="/images/tools/line/line-result.webp" alt="A straight red Line follows a crack across a concrete wall, with no arrowhead." />
+
+The Line is drawn from one endpoint to the other. In this example, it marks the crack without an arrowhead.
+
 ## Measurement tools
 
 - [**Line Measure**](/tools/line-measure) (Premium) labels a span directly across its endpoints.

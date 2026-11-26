@@ -15,6 +15,7 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 
 | Tool | Published result | Capture notes |
 | --- | --- | --- |
+| Line | `docs/public/images/tools/line/line-result.webp` | Manual full-screen capture in the running iPhone 18 app: a straight red Line follows a crack in concrete, with no arrowhead. |
 | Arrow | `docs/public/images/tools/arrow/arrow-result.webp`; `docs/public/images/tools/arrow/arrow-tool-picker.webp`; `docs/public/images/tools/arrow/arrow-drag-step.webp`; `docs/public/images/tools/arrow/arrow-properties.webp` | Result image is the manual full-screen capture from the running iPhone 18 app: a long red Arrow to an exposed wall socket, with a Loupe visible over the target. Tool picker image shows Arrow selected over the plug-and-outlet scene. Drag step shows the selected Arrow running from the plug toward the outlet, with the existing Loupe visible. Properties image shows Fill/Stroke/Path, opacity, colors, and unlocked style controls under debug-only `FORCE_PREMIUM=true`. The separate harness result remains in the app repo's pilot output. |
 | Line Measure | `docs/public/images/tools/line-measure/line-measure-result.webp` | Garage door span follows the marketing reference. `2.40 m` is sample text typed into the annotation, not inferred from the photo. Premium was test-seeded. |
 | Dimension Line | `docs/public/images/tools/dimension-line/dimension-line-result.jpg` | User-supplied reference image used as-is; the dimension marks and values are already part of the photo, not an Annotium capture. |

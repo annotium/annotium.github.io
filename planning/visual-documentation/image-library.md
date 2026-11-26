@@ -46,6 +46,8 @@ This is the working image guide for documentation authors and agents. Use it to 
 
 These are finished results or UI examples. Use them to show the tool’s actual rendering; do not feed them back as clean photo backgrounds.
 
+| [Line result](../../docs/public/images/tools/line/line-result.webp) | Full iPhone 18 screen: straight red Line follows a crack in concrete without an arrowhead. |
+
 | Capture | Current content |
 | --- | --- |
 | [Arrow result](../../docs/public/images/tools/arrow/arrow-result.webp) | Full iPhone 18 screen: long red Arrow to an exposed wall socket; a Loupe also remains over the target. |
