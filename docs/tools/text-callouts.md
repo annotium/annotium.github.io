@@ -6,6 +6,8 @@
 
 ## Add text
 
+<img src="/images/tools/text/text-result.webp" alt="The selected text Check pipe is placed diagonally on the brickwork; a translucent red Highlight remains across the pipes to the right." />
+
 - Draw a text area and enter its content.
 - Reopen an existing label for editing.
 - Resize the text container without losing legibility.
