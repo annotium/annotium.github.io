@@ -35,6 +35,10 @@ Copy Region creates a movable duplicate of the selected photo area. The example 
 
 Adjust the frame to keep the door and its notices, then tap **Crop** to apply it. This screen shows the preview before confirmation.
 
+<img src="/images/tools/crop-result.webp" alt="The cropped garage photo fills the canvas, keeping the complete door and both notices while removing most of the outer wall and pavement." style="width:100%;height:auto;border-radius:12px;" />
+
+After confirmation, the crop becomes the project's base photo.
+
 ## Compose photos
 
 Document the Premium composition modes:

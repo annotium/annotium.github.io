@@ -80,6 +80,7 @@ These are finished results or UI examples. Use them to show the tool’s actual 
 | [Copy Region result](../../docs/public/images/tools/copy-region-result.webp) | Full iPhone 18 screen on the cracked plaster wall: a rectangular duplicate of the masonry and plaster is placed below its source, with selection handles visible. |
 | [Insert Image result](../../docs/public/images/tools/insert-image-result.webp) | Full iPhone 18 screen with a small hinge photo inserted at the upper left of the garage image and selected with its outline visible; captured with debug Premium access. |
 | [Crop frame preview](../../docs/public/images/tools/crop-frame.webp) | Full iPhone 18 screen in Crop mode. The frame keeps the garage door and both notices; grid and corner handles are visible. This is the preview before applying the crop. |
+| [Crop result](../../docs/public/images/tools/crop-result.webp) | Full iPhone 18 screen after confirmation: the garage door and both notices fill the canvas, with most outer wall and pavement removed. |
 
 ## Selection rules for agents
 
