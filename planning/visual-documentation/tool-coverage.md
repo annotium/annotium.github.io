@@ -1,0 +1,72 @@
+# Danh mục minh họa từng tool
+
+Snapshot 2026-11-10 · app source `42c2bb1f`, version `4.16.0+428`.
+
+50 mục trong `kEditorToolCatalog`: mỗi mục có ảnh kết quả riêng và strip thao tác. Dùng chung ảnh nền được; một ảnh nhóm không thay thế minh họa riêng. Brief dưới đây là mục tiêu sản xuất, phải điều chỉnh theo render và thao tác thật khi chụp app.
+
+Trước khi chọn ảnh nền cho brief, dùng [image-library.md](image-library.md) để xem nội dung, điểm mạnh và hạn chế của từng ảnh có sẵn.
+
+Nhãn English lấy từ `apps/annotium_mobile/lib/l10n/app_en.arb` qua `TextProvider`. Đã xác nhận key `tooltipdrag`: "Pan" (ARB dòng 322), getter `TextProvider.tooltipDrag` và mapping `ProductId.drag: t.tooltipDrag` trong `model/iap/constants.dart`. `select` là ID core; đây là mapping nhãn mobile, chưa xác minh tương đương hành vi Pan/chọn đối tượng trên từng UI.
+
+**Đã đối chiếu core + mobile lockedTools** cho cả 50 mục: cột core ghi feature từ `kEditorToolCatalog`; cột mobile chỉ ghi membership trong `ProductManager.lockedTools`. Hai nguồn đồng ý về membership cho 49 mục; Lasso là ngoại lệ cần xác minh gate mobile. Membership không chứng minh entry point thực thi gate: chưa trace toàn bộ enforcement hay chạy app. Move/Open/Close và các thao tác riêng vẫn phải kiểm tra. Parallelogram hiện không gate ở hai danh sách này.
+
+**Lasso:** core cho vào/vẽ không gate và gate Crop/Erase; mobile liệt kê `ProductId.lasso` trong lockedTools. Overlay có gate khi áp dụng. Không viết lời hứa vào/vẽ miễn phí trên mobile trước khi xác minh entry point phone/tablet và app thực tế.
+
+**Legacy purchases:** `ProductManager` vẫn đăng ký SKU callout đã ngừng bán (`ProductId.textPointer`), với `textPointerRoundRect`, `textPointerOval`, `burstText` trong danh sách unlock. Vì vậy PRO trong bảng là yêu cầu catalog, không phải khẳng định PRO là đường sở hữu duy nhất. Chưa xác minh restore/enforcement của SKU cũ; cần kiểm tra trước khi mô tả quyền của người mua cũ. `textPointerRoundRect` không gate ở hai danh sách hiện tại dù vẫn thuộc SKU cũ.
+
+**Trạng thái chung:** hiện có 6 ảnh kết quả chụp từ Annotium trên iPhone 18 simulator: Arrow, Line Measure, Callout, Loupe, Blur và Mosaic. Dimension Line dùng ảnh tham chiếu do người dùng cung cấp, không phải ảnh chụp kết quả Annotium. Callout text hiển thị trong lần thao tác thủ công; integration harness trước đó vẫn cho kết quả trống. Cả 50 mục chưa được xác minh đầy đủ trên app phát hành hoặc trên Android/tablet. Chi tiết lần chạy và điều kiện test nằm trong [pilot-run.md](pilot-run.md).
+
+Trang đích là nhóm biên tập, không phải menu app. Radius/Diameter thuộc menu Shapes nhưng hướng dẫn nằm trong measurements.
+
+| ID nguồn | Nhãn English hiện tại | Trang đích dự kiến | Truy cập ở core catalog / ngoại lệ | Mobile lockedTools đã đối chiếu | Brief ảnh kết quả riêng |
+| --- | --- | --- | --- | --- | --- |
+| `select` | Pan | `guide/editing-basics` | Không gate ở catalog | Không có trong lockedTools; khớp core | Arrow đang được chọn: hiện handles, kéo thân sang vị trí mới và kéo endpoint; thêm cặp khung Pan dịch viewport, phân biệt với dịch đối tượng. |
+| `crop` | Crop | `tools/images-compose` | Không gate ở catalog | Không có trong lockedTools; khớp core | Ảnh garage có mép thừa: khung crop giữ cửa và bỏ phần đường; đặt ảnh gốc, vùng crop và kết quả cạnh nhau. |
+| `lasso` | Lasso | `tools/images-compose` | Core: vào/vẽ không gate, Crop/Erase gated; mobile: có trong lockedTools — cần xác minh gate mobile | Có trong lockedTools; khác core, chưa xác minh enforcement | Ảnh tường vữa vỡ: vùng chọn tự do; Crop giữ phần trong thành cutout, Erase xóa phần trong và để lại nền trắng. |
+| `line` | Line | `tools/lines-arrows-measurements` | Không gate ở catalog | Không có trong lockedTools; khớp core | Đã chụp: nét Line đỏ thẳng bám vết nứt bê tông, không có đầu mũi tên. |
+| `curve` | Curve | `tools/lines-arrows-measurements` | Không gate ở catalog | Không có trong lockedTools; khớp core | Đã chụp trên `home-water-pipes.jpg`: mũi tên cong đỏ bám đoạn ống thoát nước uốn; ba điểm điều khiển đang hiện. |
+| `freeHand` | Free Draw | `tools/freehand-highlight` | Không gate ở catalog | Không có trong lockedTools; khớp core | Đã chụp trên `home-water-pipes.jpg`: nét tự do đỏ bám đoạn ống thoát nước uốn; còn một nét đỏ dọc riêng trong ảnh. |
+| `arrow` | Arrow | `tools/lines-arrows-measurements` | Không gate ở catalog | Không có trong lockedTools; khớp core | Ảnh chi tiết ổ điện: một mũi tên đỏ dài chỉ vào đầu nối; Loupe trên mục tiêu giúp thấy rõ điểm cần chú ý. |
+| `connector` | Connector | `tools/lines-arrows-measurements` | Không gate ở catalog | Không có trong lockedTools; khớp core | Sơ đồ hai thiết bị: nối hai điểm bằng connector; hiện các điểm điều chỉnh tuyến nối trong khung thao tác. |
+| `leaderLine` | Leader Line | `tools/lines-arrows-measurements` | PRO / professionalMeasurements | Có trong lockedTools; khớp core | Đã chụp trên `home-water-pipes.jpg`: nét đứt vàng xuất phát từ khớp nối, gấp góc tới nhãn `Check joint`. |
+| `dimensionLine` | Dimension Line | `tools/lines-arrows-measurements` | PRO / professionalMeasurements | Có trong lockedTools; khớp core | Ảnh thợ sửa ống: đo đoạn ống nằm ngang; kéo rail lên khỏi ống, nhãn mẫu 18 cm. |
+| `tickMeasure` | Tick Measure | `tools/lines-arrows-measurements` | PRO / professionalMeasurements | Có trong lockedTools; khớp core | Bản vẽ thanh vật liệu: tick measure dọc một cạnh; phóng to dấu tick và nhãn theo render thực tế. |
+| `lineMeasure` | Line Measure | `tools/lines-arrows-measurements` | PRO / professionalMeasurements | Có trong lockedTools; khớp core | Cửa garage: Line Measure kéo ngang gần hết bề rộng cửa, hai đầu mũi tên và nhãn mẫu 2.40 m như ảnh reference; giá trị nhập tay, chưa scale. |
+| `angleMeasure` | Angle Measure | `tools/lines-arrows-measurements` | Không gate ở catalog | Không có trong lockedTools; khớp core | Đã chụp trên `home-water-pipes.jpg`: hai nhánh vàng nét đứt đặt theo hai hướng cạnh ống, nhãn góc 85° hiện rõ. |
+| `rectangle` | Rectangle | `tools/shapes` | Không gate ở catalog | Không có trong lockedTools; khớp core | Đã chụp trên `home-water-pipes.jpg`: khung chữ nhật đỏ khoanh khớp nối và đoạn ống trắng trên tường gạch. |
+| `oval` | Oval | `tools/shapes` | Không gate ở catalog | Không có trong lockedTools; khớp core | Đã chụp trên `home-water-pipes.jpg`: oval đỏ khoanh cụm khớp nối và đường ống phía trên bên trái. |
+| `circle` | Circle | `tools/shapes` | Không gate ở catalog | Không có trong lockedTools; khớp core | Đã chụp trên `home-water-pipes.jpg`: Circle đỏ khoanh van tròn xanh đỏ ở phía trái ảnh. |
+| `radiusMeasure` | Radius | `tools/lines-arrows-measurements` | PRO / professionalMeasurements | Có trong lockedTools; khớp core | Đã chụp trên ổ cắm điện tròn: viền Radius cam khoanh vành; nhãn `R15 mm` chỉ là mẫu, ảnh không có thước chuẩn; mở từ Shapes. |
+| `diameterMeasure` | Diameter | `tools/lines-arrows-measurements` | PRO / professionalMeasurements | Có trong lockedTools; khớp core | Đã chụp trên ổ cắm tròn: đường đỏ có hai đầu mũi tên đi qua tâm, nhãn `Ø30 mm` là mẫu và chưa hiệu chuẩn theo ảnh; mở từ Shapes. |
+| `triangle` | Triangle | `tools/shapes` | Không gate ở catalog | Không có trong lockedTools; khớp core | Đã chụp trên `home-water-pipes.jpg`: viền tam giác đỏ nét đứt khoanh vùng ống và góc tường; ba đỉnh rõ. |
+| `polygon` | Polygon | `tools/shapes` | Không gate ở catalog | Không có trong lockedTools; khớp core | Đã chụp trên `home-water-pipes.jpg`: polygon vàng nét đứt khoanh mảng tường gạch và ống bên trái; các đỉnh hiện rõ. |
+| `arc` | Arc | `tools/shapes` | PRO / advancedShapes | Có trong lockedTools; khớp core | Đã chụp: cung đỏ với đường hướng dẫn góc màu vàng và nhãn 228° đặt trên khúc ống uốn; điểm chỉnh đang hiện. |
+| `parallelogram` | Parallelogram | `tools/shapes` | Không gate ở catalog | Không có trong lockedTools; khớp core | Đã chụp: hình tứ giác nghiêng viền đỏ nét đứt, hiện điểm chỉnh và nhãn góc 129° trên ảnh đường ống. |
+| `coordinate` | Coordinate | `tools/lines-arrows-measurements` | PRO / advancedShapes | Có trong lockedTools; khớp core | Đã chụp trên `blank-clipboard.jpg`: hai trục tọa độ đỏ nét đứt giao nhau giữa tờ giấy, đầu trục có mũi tên; chưa thấy nhãn số tọa độ. |
+| `donut` | Donut | `tools/shapes` | PRO / advancedShapes | Có trong lockedTools; khớp core | Đã chụp: Donut dạng vành trắng/đỏ với nhãn 307° và các điểm chỉnh trên ảnh ống nước. |
+| `highlight` | Highlight | `tools/freehand-highlight` | Không gate ở catalog | Không có trong lockedTools; khớp core | Đã chụp trên `home-water-pipes.jpg`: nét Highlight đỏ bán trong suốt phủ dọc đoạn ống nổi trên tường gạch. |
+| `text` | Text | `tools/text-callouts` | Không gate ở catalog | Không có trong lockedTools; khớp core | Đã chụp: chữ `Check pipe` nghiêng trên tường gạch; Highlight đỏ từ bước trước vẫn hiện trên ống bên phải. |
+| `roundRectText` | Rounded Text Box | `tools/text-callouts` | Không gate ở catalog | Không có trong lockedTools; khớp core | Đã chụp: `Check pipe` trong hộp chữ bo góc; nét Highlight đỏ và đường chỉ từ annotation trước vẫn còn trong ảnh. |
+| `ovalText` | Oval Text Box | `tools/text-callouts` | Không gate ở catalog | Không có trong lockedTools; khớp core | Đã chụp: `Check pipe` trong hộp oval không có đuôi; Highlight đỏ từ bước trước vẫn còn trên ống bên phải. |
+| `textPointerRoundRect` | Callout (Rectangle) | `tools/text-callouts` | Không gate ở catalog | Không có trong lockedTools; khớp core | Đã có ảnh garage và ảnh `home-water-pipes.jpg`: hộp Check pipe có đuôi chỉ vào ống; Highlight đỏ từ bước trước còn hiện. |
+| `textPointerOval` | Callout (Oval) | `tools/text-callouts` | PRO / calloutShapes | Có trong lockedTools; khớp core | Đã có ảnh bản lề và ảnh `home-water-pipes.jpg`: callout oval Check pipe có đuôi chỉ vào ống; Highlight đỏ bước trước còn hiện. |
+| `cloudText` | Cloud Text | `tools/text-callouts` | PRO / advancedShapes | Có trong lockedTools; khớp core | Ảnh bản vẽ: nhãn Review trong cloud text, phóng to đường bao mây và phần chữ. |
+| `burstText` | Burst Text | `tools/text-callouts` | PRO / calloutShapes | Có trong lockedTools; khớp core | Ảnh khuyết tật: nhãn Check trong burst text; thể hiện đường bao tia rõ ở kích thước mobile. |
+| `thoughtText` | Thought Bubble | `tools/text-callouts` | PRO / advancedShapes | Có trong lockedTools; khớp core | Clipboard: nhãn Alternative trong thought bubble phía trên giấy trống; giữ chuỗi bóng nhìn rõ trên nền giấy. |
+| `icon` | Icon | `tools/icons-stamps` | Không gate ở catalog | Không có trong lockedTools; khớp core | Ảnh ống nước dưới bồn rửa: Icon dấu kiểm xanh có nền tròn, leader line nối tới khớp ống; thể hiện marker và điểm được đánh dấu. |
+| `textIcon` | Icon with Text | `tools/icons-stamps` | Không gate ở catalog | Không có trong lockedTools; khớp core | Ảnh ống nước dưới bồn rửa: Text Icon số 1, leader line chỉ khớp nối thứ hai; Icon dấu kiểm đánh dấu điểm trước đó. |
+| `plainIcon` | Plain Icon | `tools/icons-stamps` | Không gate ở catalog | Không có trong lockedTools; khớp core | Ảnh ống nước dưới bồn rửa: hai glyph dấu kiểm vàng đánh dấu trực tiếp các khớp nối, không có container; giữ Text Icon A1 làm đối chiếu. |
+| `dateTime` | Date & Time | `tools/icons-stamps` | Không gate ở catalog | Không có trong lockedTools; khớp core | Ảnh ống nước dưới bồn rửa: stamp ngày giờ ở góc phải dưới, ghi rõ giá trị lấy từ thời gian simulator và giữ chi tiết sửa chữa nhìn thấy. |
+| `location` | Location | `tools/icons-stamps` | PRO / advancedShapes | Có trong lockedTools; khớp core | Ảnh ống nước dưới bồn rửa: pin và tọa độ mẫu `51.51661, -0.11361`; ghi rõ không phải GPS thiết bị. |
+| `loupe` | Loupe | `tools/focus-privacy` | Không gate ở catalog | Không có trong lockedTools; khớp core | Ảnh vết nứt nhỏ: Loupe phóng to đúng vùng nứt trong lens; hiển thị nguồn/lens và thay đổi tỷ lệ. |
+| `spotlight` | Spotlight | `tools/focus-privacy` | Không gate ở catalog | Không có trong lockedTools; khớp core | Ảnh ổ điện lộ dây: vùng Spotlight hình tròn giữ phần dây sáng, vùng xung quanh tối; có thể giữ handles để thấy vùng chọn. |
+| `spotlightRect` | Spotlight (Rectangle) | `tools/focus-privacy` | Không gate ở catalog | Không có trong lockedTools; khớp core | Ảnh ổ điện: vùng Spotlight hình chữ nhật giữ cặp ổ cắm sáng trên nền xung quanh tối; có thể để handles nếu giải thích vùng chỉnh sửa. |
+| `spotlightPolygon` | Spotlight (Polygon) | `tools/focus-privacy` | PRO / advancedShapes | Có trong lockedTools; khớp core | Ảnh tường vữa vỡ: polygon giữ vùng gạch và gỗ lộ ra sáng, làm tối canvas xung quanh; dùng ảnh kết quả sau khi áp dụng. |
+| `obfuscate` | Blur | `tools/focus-privacy` | Không gate ở catalog | Không có trong lockedTools; khớp core | Phiếu công việc hoàn toàn giả: Blur che một mã giả; ảnh trước–sau cùng crop và mẫu thay đổi cường độ. |
+| `pixelate` | Mosaic | `tools/focus-privacy` | Không gate ở catalog | Không có trong lockedTools; khớp core | Cùng phiếu giả: Mosaic che mã bằng ô pixel; phóng to ô và so sánh hai kích thước ô. |
+| `crystallize` | Crystallize | `tools/focus-privacy` | PRO / advancedPixelEffects | Có trong lockedTools; khớp core | Kính màu nhiều màu: vùng bên phải hiển thị mặt tinh thể; phần kính gốc bên trái làm đối chiếu. |
+| `mezzotint` | Mezzotint | `tools/focus-privacy` | PRO / advancedPixelEffects | Có trong lockedTools; khớp core | Kính màu nhiều màu: vùng bên phải có hạt chấm đen của Mezzotint; phần gốc bên trái làm đối chiếu. |
+| `pointillize` | Pointillize | `tools/focus-privacy` | PRO / advancedPixelEffects | Có trong lockedTools; khớp core | Kính màu nhiều màu: vùng bên trái thành trường chấm màu tương phản mạnh; phần gốc bên phải làm đối chiếu. |
+| `colorHalftone` | Color Halftone | `tools/focus-privacy` | PRO / advancedPixelEffects | Có trong lockedTools; khớp core | Kính màu nhiều màu: vùng trái có halftone chấm đỏ, xanh lá, xanh dương và đen; phần gốc bên phải làm đối chiếu. |
+| `copy` | Copy Region | `tools/images-compose` | Không gate ở catalog | Không có trong lockedTools; khớp core | Ảnh tường vữa nứt: bản sao chữ nhật của vùng gạch lộ ra đặt dưới vùng nguồn; hiển thị handles để chỉ cách di chuyển bản sao. |
+| `insertedImage` | Insert Image | `tools/images-compose` | PRO / insertedImages | Có trong lockedTools; khớp core | Ảnh garage làm nền: ảnh cận bản lề được chèn dạng inset nhỏ ở góc trên trái; ảnh nền còn nhìn thấy, outline chọn đang hiện. |

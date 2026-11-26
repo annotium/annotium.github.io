@@ -1,49 +1,47 @@
-# Annotation tool overview
+# Annotation tools
 
-<p class="guide-outline">
-  Outline · This page is ready for verified steps and current screenshots.
-</p>
+Pick a tool by the result you want. The measurement examples use different photos and tools for different tasks.
 
-Choose a tool by the kind of explanation you need.
+## Point to a detail
 
-| Goal | Recommended tools |
-| --- | --- |
-| Point at a specific detail | Arrow, line, icon, leader line |
-| Trace or connect items | Line, curve, free draw |
-| Emphasize an area | Highlight, rectangle, oval, spotlight |
-| Add an explanation | Text, pointer text box, callout, text icon |
-| Record geometry | Line measure, angle measure, dimension line, tick measure |
-| Protect private content | Obfuscate, pixelate |
-| Add context | Date and time, location, inserted image |
-| Reframe the source | Crop |
+<img src="/images/tools/arrow/arrow-result.webp" alt="An Annotium arrow points to an exposed wall socket, magnified by a Loupe." style="max-width:720px;width:100%;height:auto;border-radius:12px;" />
 
-## Line group
+[Add an Arrow](/tools/arrow) · [Add a callout](/tools/callout-rectangle)
 
-Arrow, line, curve, connector, measurement tools, and coordinate tools share a
-line-oriented group. Some professional measurement tools require Premium.
+## Measure a span
 
-## Shape group
+<img src="/images/tools/line-measure/line-measure-result.webp" alt="An Annotium Line Measure spans a garage door with a centered sample label." style="max-width:720px;width:100%;height:auto;border-radius:12px;" />
 
-Rectangle, oval, triangle, polygon, parallelogram, arc, and donut define regions
-or geometry. Rectangle corner radius replaces the need for a separate rounded
-rectangle tool.
+[Use Line Measure (Premium)](/tools/line-measure)
 
-## Text group
+## Raise a measurement rail
 
-Use simple text for labels. Pointer text boxes connect an explanation to a
-target. Cloud, burst, and thought bubbles add expressive callouts.
+<img src="/images/tools/dimension-line/dimension-line-result.jpg" alt="A metal component on a teal work surface with existing dimension annotations." style="max-width:720px;width:100%;height:auto;border-radius:12px;" />
 
-## Focus and privacy group
+[Use Dimension Line (Premium)](/tools/dimension-line)
 
-Loupe magnifies detail, Spotlight draws attention to a region, and obfuscation
-or pixel effects conceal content. Icons, short text icons, date and time, and
-location stamps add compact markers.
+## Magnify a detail
 
-## Crop
+<img src="/images/tools/loupe/loupe-result.webp" alt="An Annotium loupe magnifies a plumbing connection and points back to its location." style="max-width:720px;width:100%;height:auto;border-radius:12px;" />
 
-## Image tools
+[Use Loupe](/tools/loupe)
 
-Copy an image region, insert another image (Premium), crop the canvas, or
-compose multiple photos before annotating.
+## Conceal private information
 
-<!-- TODO(screenshot): All expanded tool groups on the current phone and tablet UI. -->
+<img src="/images/tools/blur/blur-result.webp" alt="An Annotium blur effect covers part of a garage door notice." style="max-width:720px;width:100%;height:auto;border-radius:12px;" />
+
+[Compare Blur and Mosaic](/tools/blur-and-mosaic)
+
+## Explore by tool group
+
+- [Lines, arrows, and measurements](/tools/lines-arrows-measurements)
+- [Shapes](/tools/shapes)
+- [Text and callouts](/tools/text-callouts)
+- [Icons and stamps](/tools/icons-stamps)
+- [Focus and privacy](/tools/focus-privacy)
+- [Freehand and highlight](/tools/freehand-highlight)
+- [Images and composition](/tools/images-compose)
+
+::: info Screenshot status
+Line Measure uses a cropped editor capture. Crop has full-screen frame preview and confirmed result captures. Lasso has full-screen selection, Crop, and Erase captures. Arrow, Callout, Cloud Text, Burst Text, Thought Bubble, Icon, Text Icon, Plain Icon, Date & Time, Location, Spotlight, Spotlight (Rectangle), Spotlight (Polygon), Crystallize, Mezzotint, Pointillize, Color Halftone, Copy Region, Insert Image, Loupe, Blur, and Mosaic use full-screen simulator captures. Dimension Line uses a user-supplied annotated reference photo. The Callout result is from manual app use; its integration-harness text issue is still noted in the guide.
+:::

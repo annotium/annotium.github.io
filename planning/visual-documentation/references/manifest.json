@@ -1,0 +1,36 @@
+{
+  "source": "/Users/Hoang/Documents/Codex/2026-11-03/new-ways-to-market-apps-elevate/outputs",
+  "copied_on": "2026-11-10",
+  "files": [
+    {
+      "file": "annotium-header-5244x2950-v2.png",
+      "bytes": 8714528,
+      "sha256": "7e08efbddedd700b98a0e9cc2759b0242e3cfbf68f030d851260472db188b3c6"
+    },
+    {
+      "file": "annotium-header-5244x2950.png",
+      "bytes": 7164736,
+      "sha256": "efa2bcc3c9f6dc37a0d8af247e9e9da1a37e7915de776094f95d296e492a4e44"
+    },
+    {
+      "file": "annotium-header-concept.png",
+      "bytes": 1560843,
+      "sha256": "6c41e6d2d92da01eb35b62e09a9a2d334f133642838395fd4ee233188725f793"
+    },
+    {
+      "file": "annotium-search-results-5244x2950-v2.png",
+      "bytes": 13404573,
+      "sha256": "97b25ed9202ba42feb3d0fec7d8205aa20842eb9a46c512ecced6d164c8c7969"
+    },
+    {
+      "file": "annotium-search-results-5244x2950.png",
+      "bytes": 11334762,
+      "sha256": "30f0f407a4eadc4acfdc2876527e661a57abe02f64ee1c8c12c77f41a671837a"
+    },
+    {
+      "file": "annotium-search-results-concept.png",
+      "bytes": 2265229,
+      "sha256": "1f63e1b61b951611d16471abd61b5d16b7ccb151b563a6f06efbc549e16250af"
+    }
+  ]
+}
