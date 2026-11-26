@@ -20,6 +20,8 @@
 - [Rounded pointer callout](/tools/callout-rectangle) (Callout (Rectangle)).
 - Oval pointer callout.
 
+<img src="/images/tools/rounded-text-box/rounded-text-box-result.webp" alt="A rounded rectangular text box reading Check pipe sits over the brick wall; a red Highlight and pointer line remain visible from prior annotations." />
+
 ### Callout (Oval)
 
 Use an oval callout for a short note when the pointer should identify a nearby detail.

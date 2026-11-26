@@ -48,6 +48,7 @@ This is the working image guide for documentation authors and agents. Use it to 
 These are finished results or UI examples. Use them to show the tool’s actual rendering; do not feed them back as clean photo backgrounds.
 
 | [Text result](../../docs/public/images/tools/text/text-result.webp) | Full iPhone 18 screen: selected `Check pipe` label over brickwork; the prior Highlight is still visible on the pipe to the right. |
+| [Rounded Text Box result](../../docs/public/images/tools/rounded-text-box/rounded-text-box-result.webp) | Full iPhone 18 screen: `Check pipe` in a rounded rectangle; a Highlight and pointer line from prior annotations remain visible. |
 | [Callout Rectangle pipe result](../../docs/public/images/tools/callout-rectangle/callout-pipe-result.webp) | Full iPhone 18 screen: `Check pipe` in a rounded rectangular callout points to the drain pipe; the prior Highlight remains on the pipe to the right. |
 | [Callout Oval pipe result](../../docs/public/images/tools/callout-oval/callout-pipe-result.webp) | Full iPhone 18 screen: `Check pipe` in an oval callout points to a drain pipe; the prior Highlight remains visible on another pipe. |
 | [Highlight result](../../docs/public/images/tools/highlight/highlight-result.webp) | Full iPhone 18 screen: a selected translucent red Highlight stroke emphasizes an exposed pipe against the brick wall. |
