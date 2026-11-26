@@ -57,7 +57,11 @@ Mezzotint adds a fine black dot texture. The untreated glass on the left gives a
 
 Pointillize turns a selected area into a field of colored dots. The untouched glass on the right shows the source colors and patterns for comparison.
 
-- Color halftone (Premium).
+### Color Halftone (Premium)
+
+<img src="/images/tools/color-halftone-result.webp" alt="The original stained-glass panes remain on the right; the selected region on the left shows dense red, green, blue, and black halftone dots." style="width:100%;height:auto;border-radius:12px;" />
+
+Color Halftone applies a colored dot-screen effect. Keep an untreated area beside it to make the pattern and color shifts easy to compare.
 
 **Blur** and **Mosaic** are the current English tool labels. Use fictional content in every example.
 

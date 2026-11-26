@@ -43,5 +43,5 @@ Pick a tool by the result you want. The measurement examples use different photo
 - [Images and composition](/tools/images-compose)
 
 ::: info Screenshot status
-Line Measure uses a cropped editor capture. Arrow, Callout, Cloud Text, Burst Text, Thought Bubble, Icon, Text Icon, Plain Icon, Date & Time, Location, Spotlight, Spotlight (Rectangle), Spotlight (Polygon), Crystallize, Mezzotint, Pointillize, Loupe, Blur, and Mosaic use full-screen simulator captures. Dimension Line uses a user-supplied annotated reference photo. The Callout result is from manual app use; its integration-harness text issue is still noted in the guide.
+Line Measure uses a cropped editor capture. Arrow, Callout, Cloud Text, Burst Text, Thought Bubble, Icon, Text Icon, Plain Icon, Date & Time, Location, Spotlight, Spotlight (Rectangle), Spotlight (Polygon), Crystallize, Mezzotint, Pointillize, Color Halftone, Loupe, Blur, and Mosaic use full-screen simulator captures. Dimension Line uses a user-supplied annotated reference photo. The Callout result is from manual app use; its integration-harness text issue is still noted in the guide.
 :::
