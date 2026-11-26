@@ -40,7 +40,7 @@ The `R15 mm` label is illustrative; this photo has no calibrated scale.
 
 The `Ø30 mm` label is illustrative; this photo has no calibrated scale.
 
-<img src="/images/tools/angle-measure/angle-measure-result.webp" alt="Yellow Angle Measure arms meet at the bend of a drain pipe and show 24 degrees." />
+<img src="/images/tools/angle-measure/angle-measure-result.webp" alt="Yellow dashed Angle Measure arms meet beside a drain pipe and show 85 degrees." />
 
 ::: info Photo reference
 The Line Measure and Dimension Line pages include editor captures. Menu locations and the remaining measurement workflows still need verification on current phone and tablet builds.
