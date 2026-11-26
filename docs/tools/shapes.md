@@ -32,6 +32,8 @@
 
 <img src="/images/tools/arc/arc-result.webp" alt="An Arc annotation displays a red circular curve with yellow angle guides and a 228-degree label over a pipe bend." />
 
+<img src="/images/tools/donut/donut-result.webp" alt="A selected Donut ring with white and red segments and a 307-degree label overlays a plumbing photo." />
+
 <!-- TODO(screenshot): Shape group with free and Premium tools identified. -->
 
 ## Style a shape

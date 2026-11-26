@@ -15,6 +15,7 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 
 | Tool | Published result | Capture notes |
 | --- | --- | --- |
+| Donut | `docs/public/images/tools/donut/donut-result.webp` | Manual full-screen iPhone 18 capture: a selected white and red Donut ring over the plumbing photo, with angle label `307°` and edit handles visible. |
 | Arc | `docs/public/images/tools/arc/arc-result.webp` | Manual full-screen iPhone 18 capture: selected red circular arc over the drain bend with yellow angle guides and a `228°` label; control points are visible. |
 | Parallelogram | `docs/public/images/tools/parallelogram/parallelogram-result.webp` | Manual full-screen iPhone 18 capture: a selected red dashed parallelogram over the plumbing photo; edit handles and a `129°` angle label are visible. |
 | Polygon | `docs/public/images/tools/polygon/polygon-result.webp` | Manual full-screen iPhone 18 capture: a yellow dashed multi-point polygon surrounds the left brick wall and plumbing area; vertices are visible. |
