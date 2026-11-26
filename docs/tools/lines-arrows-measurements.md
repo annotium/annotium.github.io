@@ -28,6 +28,8 @@ Curve follows a bent path; the selected example shows the curve's arrowhead and 
 - **Tick Measure** (Premium) marks a line with repeated tick marks.
 - **Coordinate** (Premium) marks a point against coordinate axes.
 
+<img src="/images/tools/coordinate/coordinate-result.webp" alt="Red dashed horizontal and vertical Coordinate axes cross on a blank clipboard sheet, with arrowheads at the positive directions." />
+
 **Radius** and **Diameter** are in the Shapes group. Both measurement tools require Premium.
 
 ::: info Photo reference
