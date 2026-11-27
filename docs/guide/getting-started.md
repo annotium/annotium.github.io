@@ -1,51 +1,25 @@
 # Getting started
 
-<!-- <p class="guide-outline">
-  Outline · This page is ready for verified steps and current screenshots.
-</p> -->
+Open a photo, point to one detail with an arrow, and save your work.
 
-Annotium turns a photo into a clear visual explanation. A typical session is:
-choose a workspace, open an image, add annotations, then save or share the
-result.
+## Open a photo
 
-## The basic workflow
+1. Tap the workspace switcher at the top left of the home screen.
+2. Choose **Projects** to keep an editable project, or **Photos** to work from your device photo library.
+3. In **Projects**, tap **+** and choose **Gallery**, or use the camera button. In **Photos**, tap a thumbnail.
 
-1. Choose **Projects** for editable work or **Photos** to work directly with your device photo library.
-2. Open an existing image, import one from the gallery, or take a photo.
-3. Choose an annotation tool and draw on the image.
-4. Select the object to move it, reshape it, or change its properties.
-5. Leave the editor to save, or use **Export** to share an image or PDF.
+<img src="/images/getting-started/switching.jpg" alt="The home screen workspace switcher offers Projects and Photos." width="360" />
 
-<!-- TODO(screenshot): Projects and Photos switcher with both choices visible. -->
+## Draw your first arrow
 
-## Start from Projects
+1. Open the tool picker and select **Arrow** from the line tools.
+2. Drag from an open area toward the detail. The arrowhead lands where you release.
+3. To change the arrow color, select it, open **Properties**, and choose a color under **Stroke**.
 
-<img
-  src="/images/getting-started/projects.png"
-  alt="Projects workspace"
-  style="max-width: 360px; width: 100%; height: auto;"
-/>
-- Create a project from the gallery or camera.
-- Explain the **Original** versus **Crop** choice.
-- Add one arrow and change its color.
-- Leave the editor and explain how the project remains editable.
+<img src="/images/tools/arrow/arrow-drag-step.webp" alt="An arrow points from an electrical plug toward a wall outlet, with handles visible at its ends." width="360" />
 
-## Start from Photos
+## Save your work
 
-<img
-  src="/images/getting-started/photos.png"
-  alt="Projects workspace"
-  style="max-width: 360px; width: 100%; height: auto;"
-/>
+Tap **Back** in the editor and choose **Save** when prompted. **Projects** keeps the saved work in its grid. **Photos** saves an annotated image, normally to your device photo library. To send a copy from the editor, use **Export**.
 
-- Grant photo-library access.
-- Select an album and open a photo.
-- Add one annotation.
-- Explain that this workflow saves to the device photo library instead of the Projects grid.
-
-## Next steps
-
-- Compare [Projects and Photos](/guide/workspaces).
-- Learn the [editor controls](/guide/editor-overview).
-- Browse the complete [tool overview](/tools/overview).
-- Learn how to [save, export, and share](/workflows/save-export-share).
+[Compare workspaces](/guide/workspaces) · [Find the editor controls](/guide/editor-overview) · [Save, export, and share](/workflows/save-export-share)

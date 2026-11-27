@@ -1,61 +1,27 @@
 # Browse device photos
 
-<p class="guide-outline">
-  Outline · This page is ready for verified steps and current screenshots.
-</p>
+<p class="guide-outline">The steps follow the app source. The current Photos screens still need a device check on iOS and Android.</p>
 
-## Allow photo access
+## Open a photo
 
-- The first time you open Photos workspace, system will initially ask you permission to access Photos.
+1. Switch to **Photos** from the home screen.
+2. Allow photo access if your device asks. If access was denied, tap **Open Settings** and review Annotium's photo permissions.
+3. Tap the album title to choose an album, then tap a photo to edit it.
 
+<img src="/images/photos/browse.png" alt="The Photos workspace shows an album title above a grid of photo thumbnails." width="360" />
 
-<img
-  src="/images/photos/permission.png"
-  alt="Photos permission"
-  style="max-width: 360px; width: 100%; height: auto;"
-/>
+Pull down on the grid to refresh it. To start with a new photo, use the camera button. With Premium, open **+ → Compose** to [combine several photos](/tools/images-compose#compose-photos).
 
+## Save an annotated image
 
-- If app has no permission to access Photos, please open **Open Settings** and enable Annotium access it.
+Tap **Back** and choose **Save** when prompted. Photos saves a flattened image, with the device photo library as the default destination. To keep annotations editable for later, start in [Projects](/guide/projects).
 
-## Browse and switch albums
+## Delete photos
 
-1. Switch the home workspace to **Photos**.
-2. Tap the album title and choose another album.
-3. Pull down on the grid to refresh it.
+Touch and hold a thumbnail, tap any additional photos to select them, then choose **Delete** and review the confirmation.
 
-<img
-  src="/images/photos/browse.png"
-  alt="Photo browse"
-  style="max-width: 360px; width: 100%; height: auto;"
-/>
+<img src="/images/photos/delete.png" alt="The Photos workspace shows selected thumbnails and the controls for managing the selection." width="360" />
 
-
-## Open or create a photo
-
-- Tap a thumbnail to open it in the editor.
-- Use **New** to take a photo.
-- Use **Compose** to combine multiple photos (Premium).
-
-<img
-  src="/images/photos/create.png"
-  alt="Photo browse"
-  style="max-width: 360px; width: 100%; height: auto;"
-/>
-
-## Select and delete photos
-
-- Long-press one photo to begin selection.
-- Tap more photos to add or remove them from the selection.
-- Delete and respond to the Annotium or system confirmation.
-
-<img
-  src="/images/photos/delete.png"
-  alt="Photo browse"
-  style="max-width: 360px; width: 100%; height: auto;"
-/>
-
-::: danger Device photo deletion
-Deleting from Photos affects the device photo library and has no Annotium undo
-action. Make this warning prominent in the completed article.
+::: danger Device photo library
+Deleting here removes photos from your device library. Annotium's Undo applies to editor actions.
 :::

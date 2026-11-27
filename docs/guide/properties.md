@@ -1,40 +1,26 @@
 # Change properties
 
-<p class="guide-outline">
-  Outline · This page is ready for verified steps and current screenshots.
-</p>
+<p class="guide-outline">The screenshots show Properties on iPhone. The tablet inspector still needs a device check.</p>
 
-## Tool defaults and selected-object properties
+## Change an arrow's color
 
-- With no selected object, changes become defaults for the active tool.
-- With an object selected, changes update that object.
+1. Tap **Pan** and select an arrow on the canvas.
+2. Open **Properties** and choose **Stroke**.
+3. Tap a color. The selected arrow updates on the canvas.
 
-## Line and outline
+<img src="/images/tools/arrow/arrow-properties.webp" alt="The selected arrow's Properties show the Fill, Stroke, and Path tabs and a color palette." width="360" />
 
-- Stroke color and opacity.
-- Width and dash style.
-- Arrow head and tail styles where supported.
-- Optional decorated outline.
+To set a style for the next annotation, clear the selection, choose a drawing tool, and set its properties before drawing.
 
-## Fill
+## Choose the property you need
 
-- Fill on or off.
-- Fill color and opacity.
-- Fill patterns and their spacing or feature count.
+| To change | Look for |
+| --- | --- |
+| Outline color, opacity, width, or dash pattern | **Stroke** |
+| Color or opacity inside a closed shape or callout | **Fill** |
+| Arrow ends or geometry options for the selected tool | **Path** |
+| Font, size, alignment, or text color | Text settings on a selected text annotation |
 
-## Text
+The available controls depend on the selected tool. Some style controls require Premium.
 
-- Font family and size.
-- Text color and opacity.
-- Bold, italic, strikethrough, and alignment.
-- Imported fonts and the font catalog (Premium where applicable).
-
-## Tool-specific options
-
-- Rectangle corner radius and arc open or closed state.
-- Connector type and measurement label placement.
-- Spotlight type and magnification ratio.
-- Coordinate visibility.
-- Pixel-effect cell size and amount.
-
-<!-- TODO(screenshot): Phone properties menu and tablet inspector showing the same selected shape. -->
+[Draw an arrow](/tools/arrow) · [Style a callout](/tools/callout-rectangle)

@@ -1,37 +1,20 @@
 # Editor overview
 
-<p class="guide-outline">
-  Outline · This page is ready for verified steps and current screenshots.
-</p>
+<p class="guide-outline">The screenshots show the iPhone editor. Current tablet and landscape layouts still need a device check.</p>
 
-## Canvas navigation
+## Find tools and controls
 
-- Pan around an image and zoom accurately.
-  1. Zoom: Use 2 fingers to pinch/zoom the canvas.
-  1. Pan: Use two fingers simultaneously to pan, if zoomed
-- Reset or zoom to fit. Double tap to fit resize.
-- Explain the optional finger-following loupe and touch-area preferences.
-- Explain common-angle snapping when **Snap** is enabled.
+<img src="/images/tools/arrow/arrow-tool-picker.webp" alt="The phone editor shows the tool picker open over a photo, with Arrow highlighted." width="360" />
 
-## Phone layout
+- **Tools** opens the tool picker. Choose a tool, then draw on the photo.
+- **Properties** changes the selected annotation or the active tool's defaults.
+- **Undo** and **Redo** step through editor changes. **Back** closes the editor and prompts you to save if needed.
+- **Export** opens the options for sending a copy. A project can also include a [note](/workflows/notes).
 
-Document the overlaid controls in portrait and landscape:
+On tablets, look for the tool rail on the left and the properties inspector on the right.
 
-- Back, undo, redo, project note, and export.
-- Properties menu on the left and tools menu on the right.
-- Selection actions: properties, duplicate, delete, lock or unlock, bring to
-  front, and send to back where available.
+## Navigate the canvas
 
-<!-- TODO(screenshot): Phone editor with numbered callouts for every control cluster. -->
+Pinch with two fingers to zoom. When zoomed in, drag with two fingers to see another part of the photo. With a drawing tool active, double tap an empty area of the canvas to fit the image again.
 
-## Tablet layout
-
-- Top bar for back, history, object order, lock, note, and export.
-- Tool rail on the left.
-- Properties inspector on the right.
-- Contextual actions for selected objects.
-
-::: warning Layers
-Do not present **Layers** as available until its current tablet placeholder has
-been replaced by a working feature.
-:::
+[Select and edit objects](/guide/editing-basics) · [Change properties](/guide/properties) · [Explore annotation tools](/tools/overview)

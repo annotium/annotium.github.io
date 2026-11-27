@@ -1,43 +1,23 @@
 # Select and edit objects
 
-<p class="guide-outline">
-  Outline · This page is ready for verified steps and current screenshots.
-</p>
+<p class="guide-outline">The screenshots show selection and Pan on iPhone. Tablet controls still need a device check.</p>
 
-## Select an object
+## Move or reshape an annotation
 
-- Switch to the selection or drag tool as appropriate for phone and tablet.
-- Tap an annotation and identify its handles.
-- Explain how zoom affects visible handles without changing the object.
+1. Tap **Pan**, then tap an annotation. Its edit handles appear.
+2. Drag the body of the annotation to move it.
+3. Drag a handle to resize or reshape it. On an arrow, the end handles change its start or end point.
 
-## Move, resize, and reshape
+<img src="/images/guide/pan-object-selection.webp" alt="A selected red arrow points to damaged concrete and shows handles at both ends." width="360" />
 
-- Drag inside an object to move it.
-- Drag handles to resize or change endpoints and control points.
-- Cover multi-point tools such as polygons and curves separately.
+## Move around the canvas
 
-<img src="/images/guide/pan-object-selection.webp" alt="A selected red arrow points to damaged concrete; endpoint handles are visible for editing." />
+With **Pan** active, drag an empty area of the canvas to move the view. The photo and its annotations move together on screen.
 
-The handles show that the Arrow is selected. Drag its body to move it, or drag an endpoint to change where it points.
+<img src="/images/guide/pan-viewport-result.webp" alt="The damaged wall and its annotations have shifted together with Pan active." width="360" />
 
-<img src="/images/guide/pan-viewport-result.webp" alt="The damaged-wall photo and its annotations have shifted within the canvas after using Pan; the Pan control is active." />
+## Manage a selected annotation
 
-Drag the empty canvas with **Pan** to move the viewport without moving the selected annotation.
+Use the selection actions to duplicate or delete an annotation, change which annotation appears in front, or lock it to prevent accidental movement. Unlock it before adjusting its shape. Use **Undo** to reverse a change and **Redo** to reapply it.
 
-## Arrange and reuse objects
-
-- Bring a selected object to the front.
-- Send a selected object to the back.
-- Duplicate an object.
-- Copy an image region and confirm or cancel the copy operation.
-
-## Lock or delete
-
-- Lock an object to prevent accidental geometry changes.
-- Unlock it before changing its shape.
-- Delete a selected object and use Undo if necessary.
-
-## Undo and redo
-
-Explain which actions enter editor history and how disabled history controls
-show that no action is available.
+[Change properties](/guide/properties) · [Copy an image region](/tools/images-compose#copy-an-image-region)

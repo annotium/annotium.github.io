@@ -1,36 +1,29 @@
 # Manage projects
 
-<p class="guide-outline">
-  Outline · This page is ready for verified steps and current screenshots.
-</p>
+<p class="guide-outline">The steps follow the app source. The current project menus still need a device check.</p>
 
 ## Create a project
 
-- Start from an image in the gallery.
-- Take a new photo with the camera.
-- Compose a collage or stitched image (Premium).
-- Choose the original image or crop it before editing.
+<img src="/images/getting-started/projects.png" alt="The Projects workspace shows the project grid and controls for starting new work." width="360" />
 
-<!-- TODO(screenshot): New action sheet showing Gallery, Camera, Compose, and New Folder. -->
+1. Open **Projects**.
+2. Tap **+**, then choose **Gallery** and select a photo. You can also start with the camera button.
+3. Add your annotations in the editor. Use [Crop](/tools/images-compose#crop) if you want to trim the photo.
+4. Tap **Back** and choose **Save** when prompted. The saved project appears in the grid.
 
-## Organize the grid
+With Premium, choose **Compose** to [combine multiple photos](/tools/images-compose#compose-photos) before annotating.
 
-- Create and open folders.
-- Select one or more projects with a long press.
-- Duplicate selected projects.
-- Move projects or folders to another folder.
-- Rename one project or folder.
-- Delete projects and folders, including the folder-content warning.
+## Organize your projects
+
+- Choose **+ → New Folder** to create a folder. Tap a folder to open it.
+- Touch and hold a project to begin selecting. Tap other items to select them, then use the available actions to move or delete them.
+- Open an individual item's actions to rename it. Duplicate a project when you want a separate version.
+- Before deleting a folder, check which projects it contains.
 
 ## Reopen a project
 
-- Premium users reopen the saved document and continue editing its objects.
-- Free users can create a flattened copy while the original project remains
-  unchanged, or choose to unlock Premium.
+Tap the project thumbnail. **Premium** opens the original with its annotations still editable. On the free tier, choose **Edit copy** to start a separate project with the existing annotations baked into its background.
 
-## Export a folder
+With Premium, open a folder's actions and choose **Export PDF** to combine the projects directly inside it into one PDF.
 
-Document folder PDF export separately from exporting one open project. Include
-the Premium requirement, project ordering, and tested error behavior.
-
-See also [Projects as a workflow](/workflows/projects).
+[Project workflow](/workflows/projects) · [Save and export](/workflows/save-export-share)
