@@ -65,6 +65,10 @@ This example shows four selected photos in the **4-grid** layout. The other visi
 
 Choose **Stitch vertically** to join photos from top to bottom. Here, two plumbing-construction photos form one continuous view, and their thumbnails remain available for reordering or removal.
 
+<img src="/images/tools/images-compose/stitch-vertical-tables-result.webp" alt="The Compose screen previews three table photos stacked top-to-bottom in vertical stitch mode, with all three source thumbnails visible." />
+
+With three photos selected, **Stitch vertically** stacks each image below the previous one. The preview follows the source order shown in the thumbnails.
+
 <img src="/images/tools/images-compose/stitch-horizontal-result.webp" alt="The Compose screen previews three table photos arranged side by side in horizontal stitch mode, with all three source thumbnails visible." />
 
 Choose **Stitch horizontally** to join photos from left to right. This example places three table photos side by side; the source thumbnails remain available below the preview.
