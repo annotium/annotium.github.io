@@ -6,6 +6,7 @@ import { es } from './locales/es'
 import { ptBR } from './locales/pt-BR'
 import { ru } from './locales/ru'
 import { ja } from './locales/ja'
+import { th } from './locales/th'
 
 export default defineConfig({
   title: 'Annotium',
@@ -22,7 +23,8 @@ export default defineConfig({
     es,
     'pt-BR': ptBR,
     ru,
-    ja
+    ja,
+    th
   },
   themeConfig: {
     logo: '/logo.png',
@@ -31,6 +33,26 @@ export default defineConfig({
       provider: 'local',
       options: {
         locales: {
+          th: {
+            translations: {
+              button: { buttonText: 'ค้นหา', buttonAriaLabel: 'ค้นหา' },
+              modal: {
+                displayDetails: 'แสดงรายการแบบละเอียด',
+                resetButtonTitle: 'ล้างการค้นหา',
+                backButtonTitle: 'ปิดการค้นหา',
+                noResultsText: 'ไม่พบผลลัพธ์สำหรับ',
+                footer: {
+                  selectText: 'เลือก',
+                  selectKeyAriaLabel: 'enter',
+                  navigateText: 'เลื่อน',
+                  navigateUpKeyAriaLabel: 'ลูกศรขึ้น',
+                  navigateDownKeyAriaLabel: 'ลูกศรลง',
+                  closeText: 'ปิด',
+                  closeKeyAriaLabel: 'esc'
+                }
+              }
+            }
+          },
           ja: {
             translations: {
               button: { buttonText: '検索', buttonAriaLabel: '検索' },

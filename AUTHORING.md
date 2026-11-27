@@ -85,3 +85,5 @@ termos da interface vêm de `app_pt.arb`.
 
 日本語 (`docs/ja/`, locale `ja`) も同じルールに従います。UI 用語は `app_ja.arb`
 から取ります。
+
+ภาษาไทย (`docs/th/`, locale `th`) ใช้กฎเดียวกัน คำศัพท์ใน UI มาจาก `app_th.arb`
