@@ -55,11 +55,15 @@ The Erase result removes the selected area and leaves a blank region in its plac
 
 ## Compose photos
 
-Document the Premium composition modes:
+Choose a composition mode, then review the arrangement before you finish.
+
+<img src="/images/tools/images-compose/compose-grid-result.webp" alt="The Compose screen previews four selected construction and electrical photos in a 4-grid collage, with 4-row and 4-big-top layouts, spacing controls, and source thumbnails." />
+
+This example shows four selected photos in the **4-grid** layout. The other visible layout choices are **4-row** and **4-big-top**; the thumbnails below the controls show the selected source photos.
+
+Composition modes include:
 
 - Collage.
 - Stitch vertically.
 - Stitch horizontally.
 - Add, reorder, and remove source photos.
-
-<!-- TODO(screenshot): Compose screen showing the mode control and selected photos. -->
