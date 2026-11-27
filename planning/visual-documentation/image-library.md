@@ -48,6 +48,7 @@ This is the working image guide for documentation authors and agents. Use it to 
 These are finished results or UI examples. Use them to show the tool’s actual rendering; do not feed them back as clean photo backgrounds.
 
 | [Compose 4-grid result](../../docs/public/images/tools/images-compose/compose-grid-result.webp) | Full iPhone 18 screen: Compose previews four selected construction and electrical photos in 4-grid mode; 4-row and 4-big-top options, spacing controls, and source thumbnails are visible. |
+| [Stitch vertically result](../../docs/public/images/tools/images-compose/stitch-vertical-result.webp) | Full iPhone 18 screen: two plumbing-construction photos are joined top-to-bottom; vertical stitch mode is selected and both source thumbnails are visible. |
 | [Text result](../../docs/public/images/tools/text/text-result.webp) | Full iPhone 18 screen: selected `Check pipe` label over brickwork; the prior Highlight is still visible on the pipe to the right. |
 | [Rounded Text Box result](../../docs/public/images/tools/rounded-text-box/rounded-text-box-result.webp) | Full iPhone 18 screen: `Check pipe` in a rounded rectangle; a Highlight and pointer line from prior annotations remain visible. |
 | [Oval Text Box result](../../docs/public/images/tools/oval-text-box/oval-text-box-result.webp) | Full iPhone 18 screen: `Check pipe` in an oval text box without a pointer; the prior Highlight remains visible over the right-hand pipe. |

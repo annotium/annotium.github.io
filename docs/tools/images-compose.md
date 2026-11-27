@@ -61,6 +61,10 @@ Choose a composition mode, then review the arrangement before you finish.
 
 This example shows four selected photos in the **4-grid** layout. The other visible layout choices are **4-row** and **4-big-top**; the thumbnails below the controls show the selected source photos.
 
+<img src="/images/tools/images-compose/stitch-vertical-result.webp" alt="The Compose screen previews two plumbing-construction photos joined vertically, with the vertical stitch mode selected and both source thumbnails visible." />
+
+Choose **Stitch vertically** to join photos from top to bottom. Here, two plumbing-construction photos form one continuous view, and their thumbnails remain available for reordering or removal.
+
 Composition modes include:
 
 - Collage.
