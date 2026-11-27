@@ -1,103 +1,48 @@
 import { defineConfig } from 'vitepress'
+import { en } from './locales/en'
+import { zhCN } from './locales/zh-CN'
 
 export default defineConfig({
   title: 'Annotium',
-  description: 'The user guide for Annotium, a modern photo annotation app.',
   cleanUrls: true,
   lastUpdated: true,
   head: [
     ['meta', { name: 'theme-color', content: '#174a3a' }],
     ['link', { rel: 'icon', href: '/logo.png', type: 'image/png' }]
   ],
+  locales: {
+    root: en,
+    'zh-CN': zhCN
+  },
   themeConfig: {
     logo: '/logo.png',
     siteTitle: 'Annotium',
-    nav: [
-      { text: 'Guide', link: '/guide/getting-started' },
-      { text: 'Tools', link: '/tools/overview' },
-      { text: 'Workflows', link: '/workflows/projects' },
-      { text: 'Help', link: '/help/troubleshooting' },
-      { text: 'Updates', link: '/updates/' }
-    ],
-    sidebar: {
-      '/guide/': [
-        {
-          text: 'Start here',
-          items: [
-            { text: 'Getting started', link: '/guide/getting-started' },
-            { text: 'Projects and Photos', link: '/guide/workspaces' }
-          ]
-        },
-        {
-          text: 'Choose a workspace',
-          items: [
-            { text: 'Manage projects', link: '/guide/projects' },
-            { text: 'Browse device photos', link: '/guide/photos' }
-          ]
-        },
-        {
-          text: 'Use the editor',
-          items: [
-            { text: 'Editor overview', link: '/guide/editor-overview' },
-            { text: 'Select and edit objects', link: '/guide/editing-basics' },
-            { text: 'Change properties', link: '/guide/properties' }
-          ]
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          'zh-CN': {
+            translations: {
+              button: { buttonText: '搜索', buttonAriaLabel: '搜索' },
+              modal: {
+                displayDetails: '显示详细列表',
+                resetButtonTitle: '清除查询条件',
+                backButtonTitle: '关闭搜索',
+                noResultsText: '无法找到相关结果',
+                footer: {
+                  selectText: '选择',
+                  selectKeyAriaLabel: '输入',
+                  navigateText: '切换',
+                  navigateUpKeyAriaLabel: '上方向键',
+                  navigateDownKeyAriaLabel: '下方向键',
+                  closeText: '关闭',
+                  closeKeyAriaLabel: 'esc'
+                }
+              }
+            }
+          }
         }
-      ],
-      '/tools/': [
-        {
-          text: 'Annotation tools',
-          items: [
-            { text: 'Tool overview', link: '/tools/overview' },
-            { text: 'Lines, arrows, and measurements', link: '/tools/lines-arrows-measurements' },
-            { text: 'Arrow', link: '/tools/arrow' },
-            { text: 'Line Measure', link: '/tools/line-measure' },
-            { text: 'Dimension Line', link: '/tools/dimension-line' },
-            { text: 'Shapes', link: '/tools/shapes' },
-            { text: 'Text and callouts', link: '/tools/text-callouts' },
-            { text: 'Callout (Rectangle)', link: '/tools/callout-rectangle' },
-            { text: 'Icons and stamps', link: '/tools/icons-stamps' },
-            { text: 'Focus and privacy', link: '/tools/focus-privacy' },
-            { text: 'Loupe', link: '/tools/loupe' },
-            { text: 'Blur and Mosaic', link: '/tools/blur-and-mosaic' },
-            { text: 'Freehand and highlight', link: '/tools/freehand-highlight' },
-            { text: 'Images and composition', link: '/tools/images-compose' }
-          ]
-        }
-      ],
-      '/workflows/': [
-        {
-          text: 'Finish your work',
-          items: [
-            { text: 'Projects', link: '/workflows/projects' },
-            { text: 'Project notes', link: '/workflows/notes' },
-            { text: 'Save, export, and share', link: '/workflows/save-export-share' }
-          ]
-        }
-      ],
-      '/help/': [
-        {
-          text: 'Account and preferences',
-          items: [
-            { text: 'Settings', link: '/help/settings' },
-            { text: 'Premium and purchases', link: '/help/premium' }
-          ]
-        },
-        {
-          text: 'Help',
-          items: [
-            { text: 'FAQ', link: '/help/faq' },
-            { text: 'Troubleshooting', link: '/help/troubleshooting' }
-          ]
-        }
-      ],
-      '/updates/': [
-        { text: 'Updates', items: [{ text: 'What’s new', link: '/updates/' }] }
-      ]
-    },
-    outline: { level: [2, 3], label: 'On this page' },
-    search: { provider: 'local' },
-    footer: { message: 'Built for Annotium users.', copyright: 'Copyright © Annotium' },
-    docFooter: { prev: 'Previous', next: 'Next' }
+      }
+    }
   }
 })

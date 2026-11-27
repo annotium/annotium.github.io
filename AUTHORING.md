@@ -57,3 +57,16 @@ comment after checking the instructions and screenshots against the current app.
 The public guide is currently English. Keep `/docs` as the English source of
 truth. When localization begins, translate only completed English topics and
 use a separate VitePress locale tree rather than mixing languages in one page.
+
+## Localization (zh-CN)
+
+- Simplified Chinese lives in `docs/zh-CN/` with the same filenames as English.
+  Locale config is in `docs/.vitepress/locales/`.
+- UI terms come from the app's `app_zh_CN.arb` (the zh-CN lookup target in
+  `app_localizations.dart`). Show the English label in parentheses at first
+  mention because screenshots remain English.
+- Internal links in translated pages point to `/zh-CN/...`. `/legal/...` stays
+  English until the legal pages are reviewed.
+- When a translated heading is linked by fragment, give it an explicit anchor
+  that matches the English one, for example `## 裁剪 {#crop}`.
+- When an English page changes, update its `docs/zh-CN/` counterpart.
