@@ -61,6 +61,18 @@ Choose a composition mode, then review the arrangement before you finish.
 
 This example shows four selected photos in the **4-grid** layout. The other visible layout choices are **4-row** and **4-big-top**; the thumbnails below the controls show the selected source photos.
 
+<img src="/images/tools/images-compose/compose-3-top-2-bottom-result.webp" alt="The Compose screen previews three furniture photos in a collage with one wide photo above two smaller photos; the 3-top-2-bottom layout is selected." />
+
+For three photos, the **3-top-2-bottom** collage places one image across the top and two below. Use the layout choices to change how the selected photos share the available space.
+
+<img src="/images/tools/images-compose/compose-3-strip-result.webp" alt="Three furniture photos are arranged side by side in the Compose 3-strip collage layout, with the layout and source thumbnails visible." />
+
+The **3-strip** layout gives each of the three selected photos one panel in a single row.
+
+<img src="/images/tools/images-compose/compose-3-big-left-result.webp" alt="Three furniture photos are arranged in a collage with one large photo on the left and two smaller photos stacked on the right; the 3-big-left layout is selected." />
+
+The **3-big-left** layout emphasizes one photo on the left and stacks the other two on the right.
+
 <img src="/images/tools/images-compose/stitch-vertical-result.webp" alt="The Compose screen previews two plumbing-construction photos joined vertically, with the vertical stitch mode selected and both source thumbnails visible." />
 
 Choose **Stitch vertically** to join photos from top to bottom. Here, two plumbing-construction photos form one continuous view, and their thumbnails remain available for reordering or removal.
