@@ -16,7 +16,13 @@
 - Drag handles to resize or change endpoints and control points.
 - Cover multi-point tools such as polygons and curves separately.
 
-<!-- TODO(screenshot): Selected arrow with endpoint handles and selection actions. -->
+<img src="/images/guide/pan-object-selection.webp" alt="A selected red arrow points to damaged concrete; endpoint handles are visible for editing." />
+
+The handles show that the Arrow is selected. Drag its body to move it, or drag an endpoint to change where it points.
+
+<img src="/images/guide/pan-viewport-result.webp" alt="The damaged-wall photo and its annotations have shifted within the canvas after using Pan; the Pan control is active." />
+
+Drag the empty canvas with **Pan** to move the viewport without moving the selected annotation.
 
 ## Arrange and reuse objects
 
