@@ -4,9 +4,7 @@
 
 ## Insert an image
 
-- Explain the Premium requirement before opening the picker.
-- Pick an image and place it over the base image.
-- Move and resize the inserted image.
+**Insert Image** requires Premium. Choose the tool, select a photo, then place it over the base image. Select the inserted photo to move or resize it.
 
 <img src="/images/tools/insert-image-result.webp" alt="A small hinge photo is inserted at the upper left of a garage-door photo and selected with its resize outline visible." style="width:100%;height:auto;border-radius:12px;" />
 
@@ -27,7 +25,6 @@ Copy Region creates a movable duplicate of the selected photo area. The example 
 - Enter crop mode.
 - Move each edge or corner.
 - Confirm or cancel the crop.
-- Explain that cropping changes the project's base image.
 
 <img src="/images/tools/crop-frame.webp" alt="The Crop preview frame surrounds the garage door and both notices, with a grid and corner handles visible." style="width:100%;height:auto;border-radius:12px;" />
 
@@ -53,7 +50,7 @@ The Erase result removes the selected area and leaves a blank region in its plac
 
 ## Compose photos
 
-Choose a composition mode, then review the arrangement before you finish.
+**Compose** requires Premium. In Projects, tap **+** and choose **Compose**, select photos, arrange them, then tap **Done** to create a combined image. Choose a collage layout or stitch photos vertically or horizontally, and use the thumbnails to reorder or remove photos before finishing.
 
 <img src="/images/tools/images-compose/compose-grid-result.webp" alt="The Compose screen previews four selected construction and electrical photos in a 4-grid collage, with 4-row and 4-big-top layouts, spacing controls, and source thumbnails." />
 
@@ -82,10 +79,3 @@ With three photos selected, **Stitch vertically** stacks each image below the pr
 <img src="/images/tools/images-compose/stitch-horizontal-result.webp" alt="The Compose screen previews three table photos arranged side by side in horizontal stitch mode, with all three source thumbnails visible." />
 
 Choose **Stitch horizontally** to join photos from left to right. This example places three table photos side by side; the source thumbnails remain available below the preview.
-
-Composition modes include:
-
-- Collage.
-- Stitch vertically.
-- Stitch horizontally.
-- Add, reorder, and remove source photos.

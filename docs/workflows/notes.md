@@ -36,5 +36,12 @@ Use a text annotation when the words must travel with the exported image. Use a 
 
 ## Before sharing
 
-Choose a PDF template that suits the amount of note text. Review the exported
-PDF before sharing, especially when the note is empty or lengthy.
+When exporting a project PDF, choose one of four layouts:
+
+- **Image Above, Text Below** places the image in the upper half and the note below.
+- **Text Above, Image Below** reverses that order.
+- **Text Left, Image Right** places the note on the left and image on the right.
+- **Image Left, Text Right** reverses the side-by-side layout.
+
+The note is rendered as styled text. Review the PDF before sharing to confirm
+that the note and image are legible in the chosen layout.

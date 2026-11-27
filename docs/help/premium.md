@@ -14,7 +14,6 @@ Premium unlocks additional tools and workflows, including:
 - Advanced pixel effects.
 - Inserted images and photo composition.
 - Project notes and PDF export.
-- Editable project sharing when available in the released app.
 - Font catalog.
 
 <!-- TODO(screenshot): Current Premium screen captured from each store build. -->
