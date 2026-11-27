@@ -16,6 +16,7 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 | Tool | Published result | Capture notes |
 | --- | --- | --- |
 | Leader Line | `docs/public/images/tools/leader-line/leader-line-result.webp` | Manual full-screen iPhone 18 capture on `home-water-pipes.jpg`: dashed yellow line starts at a pipe joint, bends toward the `Check joint` label, and runs below it. |
+| Tick Measure | `docs/public/images/tools/tick-measure/tick-measure-result.webp` | Manual full-screen iPhone 18 simulator capture on the bolt-and-nut image: a red dashed Tick Measure with repeated ticks and sample label `0.5 in`; endpoint and position handles are visible. |
 | Angle Measure | `docs/public/images/tools/angle-measure/angle-measure-result.webp` | Manual full-screen iPhone 18 capture on `home-water-pipes.jpg`: yellow dashed arms meet beside the pipe and show `85°`; illustrative angle on the photo. |
 | Diameter | `docs/public/images/tools/diameter/diameter-result.webp` | Manual full-screen iPhone 18 capture over `exposed-electrical-socket.jpg`: red line with arrowheads spans the circular socket through its center and shows `Ø30 mm`; illustrative value, not calibrated to the photo. |
 | Radius | `docs/public/images/tools/radius/radius-result.webp` | Manual full-screen iPhone 18 capture over `exposed-electrical-socket.jpg`: orange radius outline on a circular socket with `R15 mm` label; illustrative value, not calibrated to the photo. |
@@ -64,12 +65,6 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 | Crop | `docs/public/images/tools/crop-frame.webp`; `docs/public/images/tools/crop-result.webp` | Manual iPhone 18 captures show the Crop frame around the garage door and both notices, then the confirmed result filling the canvas with most outer wall and pavement removed. |
 | Lasso (selection preview) | `docs/public/images/tools/lasso-selection.webp` | Manual full-screen iPhone 18 capture on the cracked plaster photo: a freeform boundary surrounds the damaged opening and nearby wall; Crop and Erase actions are visible. This is before applying either operation. |
 | Lasso Crop and Erase | `docs/public/images/tools/lasso-crop-result.webp`; `docs/public/images/tools/lasso-erase-result.webp` | Manual full-screen iPhone 18 captures show Crop keeping the selected damaged wall as an irregular cutout, and Erase removing the selected area, leaving a blank patch in the wall. |
-
-## Capture held for review
-
-| Tool | Temporary capture | Review note |
-| --- | --- | --- |
-| Tick Measure | `planning/visual-documentation/captures/tick-measure-simulator-capture.webp` | Manual iPhone 18 capture on a bolt-and-nut image, with a red dashed `0.5 in` tick measurement and edit handles visible. The source photo contains a faint embedded stock watermark, so do not publish this capture; recapture on a clean, approved image. |
 
 The Line Measure WebP is cropped to the editor canvas. Arrow, Loupe, Blur, and Mosaic are full-screen simulator captures; Dimension Line is a user-supplied JPG reference. The original harness screenshots and automation result are in the app repository under `apps/annotium_mobile/build/automation/pilot-2026-11-10/` and should be treated as temporary capture output.
 

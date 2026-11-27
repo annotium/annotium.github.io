@@ -48,6 +48,10 @@ The `Ø30 mm` label is illustrative; this photo has no calibrated scale.
 
 <img src="/images/tools/leader-line/leader-line-result.webp" alt="A dashed yellow Leader Line starts at a pipe joint, turns toward the label Check joint, and runs beneath it." />
 
+<img src="/images/tools/tick-measure/tick-measure-result.webp" alt="A red dashed Tick Measure crosses a bolt and nut at an angle, with repeated tick marks, a 0.5 in label, and edit handles visible." />
+
+The `0.5 in` value is an example label.
+
 ::: info Photo reference
 The Line Measure and Dimension Line pages include editor captures. Menu locations and the remaining measurement workflows still need verification on current phone and tablet builds.
 :::
