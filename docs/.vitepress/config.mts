@@ -7,6 +7,7 @@ import { ptBR } from './locales/pt-BR'
 import { ru } from './locales/ru'
 import { ja } from './locales/ja'
 import { th } from './locales/th'
+import { ko } from './locales/ko'
 
 export default defineConfig({
   title: 'Annotium',
@@ -24,7 +25,8 @@ export default defineConfig({
     'pt-BR': ptBR,
     ru,
     ja,
-    th
+    th,
+    ko
   },
   themeConfig: {
     logo: '/logo.png',
@@ -33,6 +35,26 @@ export default defineConfig({
       provider: 'local',
       options: {
         locales: {
+          ko: {
+            translations: {
+              button: { buttonText: '검색', buttonAriaLabel: '검색' },
+              modal: {
+                displayDetails: '상세 목록 표시',
+                resetButtonTitle: '검색 지우기',
+                backButtonTitle: '검색 닫기',
+                noResultsText: '결과를 찾을 수 없습니다',
+                footer: {
+                  selectText: '선택',
+                  selectKeyAriaLabel: 'Enter',
+                  navigateText: '이동',
+                  navigateUpKeyAriaLabel: '위쪽 화살표',
+                  navigateDownKeyAriaLabel: '아래쪽 화살표',
+                  closeText: '닫기',
+                  closeKeyAriaLabel: 'Esc'
+                }
+              }
+            }
+          },
           th: {
             translations: {
               button: { buttonText: 'ค้นหา', buttonAriaLabel: 'ค้นหา' },

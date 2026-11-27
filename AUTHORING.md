@@ -87,3 +87,6 @@ termos da interface vêm de `app_pt.arb`.
 から取ります。
 
 ภาษาไทย (`docs/th/`, locale `th`) ใช้กฎเดียวกัน คำศัพท์ใน UI มาจาก `app_th.arb`
+
+한국어 (`docs/ko/`, locale `ko`)도 같은 규칙을 따릅니다. UI 용어는 `app_ko.arb`에서
+가져옵니다. 단, `Opacity`는 ARB의 "불透明度" 오타 대신 "불투명도"를 씁니다.
