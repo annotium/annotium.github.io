@@ -70,3 +70,6 @@ use a separate VitePress locale tree rather than mixing languages in one page.
 - When a translated heading is linked by fragment, give it an explicit anchor
   that matches the English one, for example `## 裁剪 {#crop}`.
 - When an English page changes, update its `docs/zh-CN/` counterpart.
+
+Français (`docs/fr/`, locale `fr`) suit les mêmes règles ; les termes d’interface
+viennent de `app_fr.arb`.
