@@ -82,3 +82,6 @@ termos da interface vêm de `app_pt.arb`.
 
 Русский (`docs/ru/`, locale `ru`): те же правила; термины интерфейса берутся из
 `app_ru.arb`.
+
+日本語 (`docs/ja/`, locale `ja`) も同じルールに従います。UI 用語は `app_ja.arb`
+から取ります。

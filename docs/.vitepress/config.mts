@@ -5,6 +5,7 @@ import { fr } from './locales/fr'
 import { es } from './locales/es'
 import { ptBR } from './locales/pt-BR'
 import { ru } from './locales/ru'
+import { ja } from './locales/ja'
 
 export default defineConfig({
   title: 'Annotium',
@@ -20,7 +21,8 @@ export default defineConfig({
     fr,
     es,
     'pt-BR': ptBR,
-    ru
+    ru,
+    ja
   },
   themeConfig: {
     logo: '/logo.png',
@@ -29,6 +31,26 @@ export default defineConfig({
       provider: 'local',
       options: {
         locales: {
+          ja: {
+            translations: {
+              button: { buttonText: '検索', buttonAriaLabel: '検索' },
+              modal: {
+                displayDetails: '詳細リストを表示',
+                resetButtonTitle: '検索をクリア',
+                backButtonTitle: '検索を閉じる',
+                noResultsText: '次の検索結果はありません:',
+                footer: {
+                  selectText: '選択',
+                  selectKeyAriaLabel: 'Enter',
+                  navigateText: '移動',
+                  navigateUpKeyAriaLabel: '上矢印',
+                  navigateDownKeyAriaLabel: '下矢印',
+                  closeText: '閉じる',
+                  closeKeyAriaLabel: 'Esc'
+                }
+              }
+            }
+          },
           ru: {
             translations: {
               button: { buttonText: 'Поиск', buttonAriaLabel: 'Поиск' },
