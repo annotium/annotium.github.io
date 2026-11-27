@@ -6,6 +6,8 @@ import './custom.css'
 const heroAlt: Record<string, string> = {
   'en-US':
     'Annotated garage photo showing a Check clearance callout, a highlighted hinge, and a 2.40 m dimension line.',
+  'es-ES':
+    'Foto anotada de un garaje con una llamada «Comprobar holgura», una bisagra resaltada y una línea de cota de 2,40 m.',
   'fr-FR':
     'Photo annotée d’un garage avec une bulle « Vérifier le dégagement », une charnière surlignée et une ligne de cote de 2,40 m.',
   'zh-CN':

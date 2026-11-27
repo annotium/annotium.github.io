@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import { en } from './locales/en'
 import { zhCN } from './locales/zh-CN'
 import { fr } from './locales/fr'
+import { es } from './locales/es'
 
 export default defineConfig({
   title: 'Annotium',
@@ -14,7 +15,8 @@ export default defineConfig({
   locales: {
     root: en,
     'zh-CN': zhCN,
-    fr
+    fr,
+    es
   },
   themeConfig: {
     logo: '/logo.png',
@@ -23,6 +25,26 @@ export default defineConfig({
       provider: 'local',
       options: {
         locales: {
+          es: {
+            translations: {
+              button: { buttonText: 'Buscar', buttonAriaLabel: 'Buscar' },
+              modal: {
+                displayDetails: 'Mostrar lista detallada',
+                resetButtonTitle: 'Borrar búsqueda',
+                backButtonTitle: 'Cerrar búsqueda',
+                noResultsText: 'No se encontraron resultados para',
+                footer: {
+                  selectText: 'seleccionar',
+                  selectKeyAriaLabel: 'intro',
+                  navigateText: 'navegar',
+                  navigateUpKeyAriaLabel: 'flecha arriba',
+                  navigateDownKeyAriaLabel: 'flecha abajo',
+                  closeText: 'cerrar',
+                  closeKeyAriaLabel: 'esc'
+                }
+              }
+            }
+          },
           fr: {
             translations: {
               button: { buttonText: 'Rechercher', buttonAriaLabel: 'Rechercher' },

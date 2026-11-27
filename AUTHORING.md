@@ -73,3 +73,6 @@ use a separate VitePress locale tree rather than mixing languages in one page.
 
 Français (`docs/fr/`, locale `fr`) suit les mêmes règles ; les termes d’interface
 viennent de `app_fr.arb`.
+
+Español (`docs/es/`, locale `es`) sigue las mismas reglas; los términos de la
+interfaz vienen de `app_es.arb`.
