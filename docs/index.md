@@ -70,11 +70,11 @@ Annotium measures **angles** on a photo. For lengths, you measure on site with a
 <div class="home-plan-grid">
   <section class="home-plan-card">
     <h3>Free</h3>
-    <p>Arrows, lines, shapes, text and callouts, angle measure, spotlight, loupe, blur and mosaic, crop, JPEG/PNG export. Free exports carry a small Annotium stamp.</p>
+    <p>Arrows, lines, shapes, text and callouts, angle measure, spotlight, loupe, blur and mosaic, crop, and watermark-free JPEG/PNG export.</p>
   </section>
   <section class="home-plan-card">
     <h3>Premium</h3>
-    <p>Dimension, leader, tick, radius and diameter tools, polygon spotlight, text inside shapes, lasso erase/crop, group, move mode, PDF export, notes, collage and stitching, more pixel effects, zoom to 10×, no export stamp.</p>
+    <p>Dimension, leader, tick, radius and diameter tools, polygon spotlight, text inside shapes, lasso erase/crop, group, move mode, PDF export, notes, collage and stitching, more pixel effects, and zoom to 10×.</p>
   </section>
 </div>
 

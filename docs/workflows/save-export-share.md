@@ -39,6 +39,6 @@
   style="max-width: 360px; width: 100%; height: auto;"
 />
 
-## Quality, format, and watermark
+## Quality and format
 
-Document **Image Quality** and **Save Image Format** settings. Confirm current free-tier watermark and install-day behavior in a release build before writing user-facing promises.
+Choose **Image Quality** and **Save Image Format** before exporting. Exported images no longer include an Annotium watermark.

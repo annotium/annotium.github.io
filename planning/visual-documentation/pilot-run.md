@@ -34,6 +34,7 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 | Highlight | `docs/public/images/tools/highlight/highlight-result.webp` | Manual full-screen capture in the running iPhone 18 app: translucent red Highlight covers a long section of the exposed pipe against the brick wall; the selection handle remains visible. |
 | Free Draw | `docs/public/images/tools/free-draw/free-draw-result.webp` | Manual full-screen capture in the running iPhone 18 app: a red freehand stroke traces the drain bend in `home-water-pipes.jpg`; one separate vertical red stroke remains elsewhere in the image. |
 | Curve | `docs/public/images/tools/curve/curve-result.webp` | Manual full-screen capture in the running iPhone 18 app: a red curved arrow follows the visible drain bend; three control handles remain visible on the selected curve. |
+| Connector | `docs/public/images/tools/connector/connector-result.webp` | Manual full-screen iPhone 18 simulator capture on `electrical-plug.jpg`: a selected red routed connector links the plug to the lower outlet; endpoint and bend handles are visible. |
 | Line | `docs/public/images/tools/line/line-result.webp` | Manual full-screen capture in the running iPhone 18 app: a straight red Line follows a crack in concrete, with no arrowhead. |
 | Arrow | `docs/public/images/tools/arrow/arrow-result.webp`; `docs/public/images/tools/arrow/arrow-tool-picker.webp`; `docs/public/images/tools/arrow/arrow-drag-step.webp`; `docs/public/images/tools/arrow/arrow-properties.webp` | Result image is the manual full-screen capture from the running iPhone 18 app: a long red Arrow to an exposed wall socket, with a Loupe visible over the target. Tool picker image shows Arrow selected over the plug-and-outlet scene. Drag step shows the selected Arrow running from the plug toward the outlet, with the existing Loupe visible. Properties image shows Fill/Stroke/Path, opacity, colors, and unlocked style controls under debug-only `FORCE_PREMIUM=true`. The separate harness result remains in the app repo's pilot output. |
 | Line Measure | `docs/public/images/tools/line-measure/line-measure-result.webp` | Garage door span follows the marketing reference. `2.40 m` is sample text typed into the annotation, not inferred from the photo. Premium was test-seeded. |
@@ -63,6 +64,12 @@ Run: 2026-11-10 · app source `42c2bb1f` · version `4.16.0+428`
 | Crop | `docs/public/images/tools/crop-frame.webp`; `docs/public/images/tools/crop-result.webp` | Manual iPhone 18 captures show the Crop frame around the garage door and both notices, then the confirmed result filling the canvas with most outer wall and pavement removed. |
 | Lasso (selection preview) | `docs/public/images/tools/lasso-selection.webp` | Manual full-screen iPhone 18 capture on the cracked plaster photo: a freeform boundary surrounds the damaged opening and nearby wall; Crop and Erase actions are visible. This is before applying either operation. |
 | Lasso Crop and Erase | `docs/public/images/tools/lasso-crop-result.webp`; `docs/public/images/tools/lasso-erase-result.webp` | Manual full-screen iPhone 18 captures show Crop keeping the selected damaged wall as an irregular cutout, and Erase removing the selected area, leaving a blank patch in the wall. |
+
+## Capture held for review
+
+| Tool | Temporary capture | Review note |
+| --- | --- | --- |
+| Tick Measure | `planning/visual-documentation/captures/tick-measure-simulator-capture.webp` | Manual iPhone 18 capture on a bolt-and-nut image, with a red dashed `0.5 in` tick measurement and edit handles visible. The source photo contains a faint embedded stock watermark, so do not publish this capture; recapture on a clean, approved image. |
 
 The Line Measure WebP is cropped to the editor canvas. Arrow, Loupe, Blur, and Mosaic are full-screen simulator captures; Dimension Line is a user-supplied JPG reference. The original harness screenshots and automation result are in the app repository under `apps/annotium_mobile/build/automation/pilot-2026-11-10/` and should be treated as temporary capture output.
 

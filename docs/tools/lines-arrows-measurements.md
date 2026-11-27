@@ -19,6 +19,10 @@ The Line is drawn from one endpoint to the other. In this example, it marks the 
 
 Curve follows a bent path; the selected example shows the curve's arrowhead and its editable control points.
 
+<img src="/images/tools/connector/connector-result.webp" alt="A selected red routed Connector links the plug to the lower outlet, with its endpoint and bend handles visible." />
+
+Connector routes between two locations. Drag its handles to adjust the endpoints and bends.
+
 ## Measurement tools
 
 - [**Line Measure**](/tools/line-measure) (Premium) labels a span directly across its endpoints.
