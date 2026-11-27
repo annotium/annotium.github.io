@@ -25,7 +25,7 @@ Drag from the open area toward the detail. The arrowhead lands at the end of the
 
 <figure>
   <img src="/images/tools/arrow/arrow-properties.webp" alt="Properties for a selected red Arrow show Fill, Stroke, and Path tabs, opacity, color choices, and unlocked style controls." style="width:100%;height:auto;border-radius:12px;" />
-  <figcaption>Step 3: open Properties to change the selected arrow's appearance. Premium style controls are unlocked in this simulator capture.</figcaption>
+  <figcaption>Step 3: open Properties to change the selected arrow's appearance.</figcaption>
 </figure>
 
 The arrow above was drawn with one continuous drag. Projects keep the annotation editable; Photos works from your device library.

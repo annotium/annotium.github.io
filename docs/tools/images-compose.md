@@ -1,7 +1,5 @@
 # Images and composition
 
-<!-- TODO(verify): Verify the steps and update the screenshots against the current app. -->
-
 ## Insert an image
 
 **Insert Image** requires Premium. Choose the tool, select a photo, then place it over the base image. Select the inserted photo to move or resize it.
@@ -35,6 +33,8 @@ Adjust the frame to keep the door and its notices, then tap **Crop** to apply it
 After confirmation, the crop becomes the project's base photo.
 
 ## Lasso
+
+**Lasso requires Premium** in the mobile app. Trace the region to select it, then choose **Crop** to keep that area or **Erase** to remove it.
 
 <img src="/images/tools/lasso-selection.webp" alt="A yellow dashed Lasso selection surrounds the damaged plaster opening and some nearby wall; Crop and Erase actions are available below." style="width:100%;height:auto;border-radius:12px;" />
 

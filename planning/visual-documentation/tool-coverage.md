@@ -8,9 +8,9 @@ Trước khi chọn ảnh nền cho brief, dùng [image-library.md](image-librar
 
 Nhãn English lấy từ `apps/annotium_mobile/lib/l10n/app_en.arb` qua `TextProvider`. Đã xác nhận key `tooltipdrag`: "Pan" (ARB dòng 322), getter `TextProvider.tooltipDrag` và mapping `ProductId.drag: t.tooltipDrag` trong `model/iap/constants.dart`. `select` là ID core; đây là mapping nhãn mobile, chưa xác minh tương đương hành vi Pan/chọn đối tượng trên từng UI.
 
-**Đã đối chiếu core + mobile lockedTools** cho cả 50 mục: cột core ghi feature từ `kEditorToolCatalog`; cột mobile chỉ ghi membership trong `ProductManager.lockedTools`. Hai nguồn đồng ý về membership cho 49 mục; Lasso là ngoại lệ cần xác minh gate mobile. Membership không chứng minh entry point thực thi gate: chưa trace toàn bộ enforcement hay chạy app. Move/Open/Close và các thao tác riêng vẫn phải kiểm tra. Parallelogram hiện không gate ở hai danh sách này.
+**Đã đối chiếu core + mobile lockedTools** cho cả 50 mục: cột core ghi feature từ `kEditorToolCatalog`; cột mobile ghi membership trong `ProductManager.lockedTools`. Hai nguồn khác nhau với Lasso: mobile khóa tool này. Xác nhận từ người dùng rằng Lasso là tool bị khóa trên mobile. Bảng ghi nhận danh sách gate, không xác nhận mọi entry point hoặc enforcement trên các build. Move/Open/Close và các thao tác riêng vẫn cần kiểm tra. Parallelogram hiện không gate ở hai danh sách này.
 
-**Lasso:** core cho vào/vẽ không gate và gate Crop/Erase; mobile liệt kê `ProductId.lasso` trong lockedTools. Overlay có gate khi áp dụng. Không viết lời hứa vào/vẽ miễn phí trên mobile trước khi xác minh entry point phone/tablet và app thực tế.
+**Lasso:** core cho vào/vẽ không gate và gate Crop/Erase; mobile liệt kê `ProductId.lasso` trong `lockedTools`. Theo xác nhận của người dùng, Lasso bị khóa trên mobile. Tài liệu mobile cần nêu Premium trước khi hướng dẫn sử dụng.
 
 **Legacy purchases:** `ProductManager` vẫn đăng ký SKU callout đã ngừng bán (`ProductId.textPointer`), với `textPointerRoundRect`, `textPointerOval`, `burstText` trong danh sách unlock. Vì vậy PRO trong bảng là yêu cầu catalog, không phải khẳng định PRO là đường sở hữu duy nhất. Chưa xác minh restore/enforcement của SKU cũ; cần kiểm tra trước khi mô tả quyền của người mua cũ. `textPointerRoundRect` không gate ở hai danh sách hiện tại dù vẫn thuộc SKU cũ.
 
@@ -22,7 +22,7 @@ Trang đích là nhóm biên tập, không phải menu app. Radius/Diameter thu�
 | --- | --- | --- | --- | --- | --- |
 | `select` | Pan | `guide/editing-basics` | Không gate ở catalog | Không có trong lockedTools; khớp core | Đã chụp hai trạng thái: Arrow được chọn với endpoint handles; và Pan active sau khi viewport dịch chuyển, phân biệt Pan với move object. |
 | `crop` | Crop | `tools/images-compose` | Không gate ở catalog | Không có trong lockedTools; khớp core | Ảnh garage có mép thừa: khung crop giữ cửa và bỏ phần đường; đặt ảnh gốc, vùng crop và kết quả cạnh nhau. |
-| `lasso` | Lasso | `tools/images-compose` | Core: vào/vẽ không gate, Crop/Erase gated; mobile: có trong lockedTools — cần xác minh gate mobile | Có trong lockedTools; khác core, chưa xác minh enforcement | Ảnh tường vữa vỡ: vùng chọn tự do; Crop giữ phần trong thành cutout, Erase xóa phần trong và để lại nền trắng. |
+| `lasso` | Lasso | `tools/images-compose` | Core: vào/vẽ không gate, Crop/Erase gated; mobile: gated | Có trong lockedTools; khác core | Ảnh tường vữa vỡ: vùng chọn tự do; Crop giữ phần trong thành cutout, Erase xóa phần trong và để lại nền trắng. |
 | `line` | Line | `tools/lines-arrows-measurements` | Không gate ở catalog | Không có trong lockedTools; khớp core | Đã chụp: nét Line đỏ thẳng bám vết nứt bê tông, không có đầu mũi tên. |
 | `curve` | Curve | `tools/lines-arrows-measurements` | Không gate ở catalog | Không có trong lockedTools; khớp core | Đã chụp trên `home-water-pipes.jpg`: mũi tên cong đỏ bám đoạn ống thoát nước uốn; ba điểm điều khiển đang hiện. |
 | `freeHand` | Free Draw | `tools/freehand-highlight` | Không gate ở catalog | Không có trong lockedTools; khớp core | Đã chụp trên `home-water-pipes.jpg`: nét tự do đỏ bám đoạn ống thoát nước uốn; còn một nét đỏ dọc riêng trong ảnh. |
