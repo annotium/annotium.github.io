@@ -76,3 +76,6 @@ viennent de `app_fr.arb`.
 
 Español (`docs/es/`, locale `es`) sigue las mismas reglas; los términos de la
 interfaz vienen de `app_es.arb`.
+
+Português do Brasil (`docs/pt-BR/`, locale `pt-BR`) segue as mesmas regras; os
+termos da interface vêm de `app_pt.arb`.

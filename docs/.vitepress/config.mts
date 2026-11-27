@@ -3,6 +3,7 @@ import { en } from './locales/en'
 import { zhCN } from './locales/zh-CN'
 import { fr } from './locales/fr'
 import { es } from './locales/es'
+import { ptBR } from './locales/pt-BR'
 
 export default defineConfig({
   title: 'Annotium',
@@ -16,7 +17,8 @@ export default defineConfig({
     root: en,
     'zh-CN': zhCN,
     fr,
-    es
+    es,
+    'pt-BR': ptBR
   },
   themeConfig: {
     logo: '/logo.png',
@@ -25,6 +27,26 @@ export default defineConfig({
       provider: 'local',
       options: {
         locales: {
+          'pt-BR': {
+            translations: {
+              button: { buttonText: 'Pesquisar', buttonAriaLabel: 'Pesquisar' },
+              modal: {
+                displayDetails: 'Mostrar lista detalhada',
+                resetButtonTitle: 'Limpar pesquisa',
+                backButtonTitle: 'Fechar pesquisa',
+                noResultsText: 'Nenhum resultado para',
+                footer: {
+                  selectText: 'selecionar',
+                  selectKeyAriaLabel: 'enter',
+                  navigateText: 'navegar',
+                  navigateUpKeyAriaLabel: 'seta para cima',
+                  navigateDownKeyAriaLabel: 'seta para baixo',
+                  closeText: 'fechar',
+                  closeKeyAriaLabel: 'esc'
+                }
+              }
+            }
+          },
           es: {
             translations: {
               button: { buttonText: 'Buscar', buttonAriaLabel: 'Buscar' },
