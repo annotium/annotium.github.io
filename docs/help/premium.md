@@ -7,7 +7,7 @@ currency, taxes, and availability depend on platform and region.
 
 ## Premium unlock
 
-Group Premium benefits by task:
+Premium unlocks additional tools and workflows, including:
 
 - Advanced shapes and callouts.
 - Professional line and measurement tools.
@@ -28,5 +28,5 @@ Group Premium benefits by task:
 
 ## Reopen projects without Premium
 
-Explain the flattened-copy option and emphasize that the original editable
-project remains intact.
+Without Premium, choose **Edit copy** to create a separate flattened project.
+The original project and its annotations remain unchanged.

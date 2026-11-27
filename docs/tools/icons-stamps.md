@@ -31,10 +31,10 @@ Plain Icons show the symbol without a circular marker. Here, the yellow checks m
 
 Insert a Date & Time stamp to record when the photo was annotated. This example uses the simulator's displayed date and time.
 
-## Date and time stamp
+## Date & Time stamp
 
-Explain that the stamp is inserted with a tap rather than becoming a persistent
-drawing mode. Cover its generated content, placement, and styling.
+Tap the image to place a Date & Time stamp. Move and style the stamp like other
+annotations.
 
 ## Location marker
 

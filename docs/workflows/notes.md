@@ -36,5 +36,5 @@ Use a text annotation when the words must travel with the exported image. Use a 
 
 ## Before sharing
 
-Explain how each PDF template arranges the image and note text. Include the
-behavior for empty and very long notes after testing both cases.
+Choose a PDF template that suits the amount of note text. Review the exported
+PDF before sharing, especially when the note is empty or lengthy.

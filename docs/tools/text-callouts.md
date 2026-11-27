@@ -59,5 +59,5 @@ Thought Bubble works for a short idea or alternative on a planning surface.
 
 ## Move the pointer
 
-Explain which handle moves the text container and which handle positions a
-callout tail or pointer.
+Select a callout to show its handles. Drag the body to move the label and drag
+the pointer handle to aim its tail at a detail.

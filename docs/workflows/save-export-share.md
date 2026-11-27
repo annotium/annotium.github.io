@@ -42,4 +42,4 @@ Photos saves a flattened image, with the device photo library as the default des
 
 ## Quality and format
 
-Choose **Image Quality** and **Save Image Format** before exporting. Exported images no longer include an Annotium watermark.
+Choose **Image Quality** and **Save Image Format** before exporting.

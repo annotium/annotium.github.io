@@ -97,10 +97,6 @@ export default defineConfig({
     },
     outline: { level: [2, 3], label: 'On this page' },
     search: { provider: 'local' },
-    editLink: {
-      pattern: 'https://github.com/annotium/annotium.github.io/edit/main/docs/:path',
-      text: 'Suggest an edit'
-    },
     footer: { message: 'Built for Annotium users.', copyright: 'Copyright © Annotium' },
     docFooter: { prev: 'Previous', next: 'Next' }
   }
