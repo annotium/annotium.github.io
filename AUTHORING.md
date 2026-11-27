@@ -79,3 +79,6 @@ interfaz vienen de `app_es.arb`.
 
 Português do Brasil (`docs/pt-BR/`, locale `pt-BR`) segue as mesmas regras; os
 termos da interface vêm de `app_pt.arb`.
+
+Русский (`docs/ru/`, locale `ru`): те же правила; термины интерфейса берутся из
+`app_ru.arb`.
