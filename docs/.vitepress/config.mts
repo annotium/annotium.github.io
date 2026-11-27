@@ -102,7 +102,6 @@ export default defineConfig({
       text: 'Suggest an edit'
     },
     footer: { message: 'Built for Annotium users.', copyright: 'Copyright © Annotium' },
-    docFooter: { prev: 'Previous', next: 'Next' },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/annotium' }]
+    docFooter: { prev: 'Previous', next: 'Next' }
   }
 })
