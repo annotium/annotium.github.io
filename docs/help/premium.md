@@ -1,8 +1,6 @@
 # Premium and purchases
 
-<p class="guide-outline">
-  Outline · This page is ready for verified steps and current screenshots.
-</p>
+<!-- TODO(verify): Verify the steps and update the screenshots against the current app. -->
 
 Annotium offers one-time purchases rather than a subscription. Store price,
 currency, taxes, and availability depend on platform and region.
@@ -18,15 +16,8 @@ Group Premium benefits by task:
 - Project notes and PDF export.
 - Editable project sharing when available in the released app.
 - Font catalog.
-- Ad removal.
 
 <!-- TODO(screenshot): Current Premium screen captured from each store build. -->
-
-## Remove Ads
-
-The separate Remove Ads purchase removes advertising but does not unlock every
-Premium feature. Do not imply it can be converted or credited unless that
-policy exists in the store implementation.
 
 ## Restore purchases
 

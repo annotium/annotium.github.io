@@ -1,8 +1,6 @@
 # Settings
 
-<p class="guide-outline">
-  Outline · This page is ready for verified steps and current screenshots.
-</p>
+<!-- TODO(verify): Verify the steps and update the screenshots against the current app. -->
 
 Open **About** from the information button on either home workspace. The screen
 contains purchases, editor preferences, output preferences, fonts, help, and

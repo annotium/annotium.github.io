@@ -128,6 +128,6 @@ Không chốt lịch theo ngày trước khi biết tốc độ chụp và kiể
 - Với privacy dùng dữ liệu giả; xem lại ảnh xuất cuối cùng. Với measurement nêu rõ scale/đơn vị và giới hạn, không suy ra độ chính xác vật lý chỉ từ ảnh.
 - Kiểm tra trang ở 360/390 px và tablet/desktop; annotation đọc được, không tràn ngang, ảnh mở lớn được; alt text mô tả kết quả có ý nghĩa.
 - Chạy `npm run docs:build`, kiểm tra link và ảnh, local search, light/dark, keyboard và thời gian tải gallery. Render/kiểm tra UI sau khi có component thực tế.
-- Chỉ bỏ `guide-outline` sau khi trang đạt các điều kiện trên. Mỗi release thay tool/property/gate cần rà lại dòng tương ứng trong coverage và tái chụp ảnh liên quan.
+- Chỉ bỏ comment `TODO(verify)` sau khi trang đạt các điều kiện trên. Mỗi release thay tool/property/gate cần rà lại dòng tương ứng trong coverage và tái chụp ảnh liên quan.
 
 Website public đã được cập nhật cho pilot ảnh. Các bài ngoài pilot, thao tác Projects/Photos, lưu/xuất, Android/tablet và kiểm chứng store build vẫn cần hoàn thiện theo các đợt ở trên. Không có thay đổi trong tài liệu pháp lý.

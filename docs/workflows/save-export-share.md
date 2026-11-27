@@ -21,8 +21,9 @@
 
 ## Save from Photos
 
-- Explain that the result goes to the device photo library and does not appear in Projects.
-- Verify overwrite versus new-item behavior separately on Android and iOS before removing the outline notice.
+Photos saves a flattened image, with the device photo library as the default destination.
+
+<!-- TODO(verify): Check overwrite versus new-item behavior on Android and iOS. -->
 
 ## Export and share
 

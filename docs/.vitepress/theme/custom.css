@@ -107,22 +107,6 @@
   height: 56px;
 }
 
-.guide-outline {
-  margin: 24px 0;
-  padding: 12px 16px;
-  border: 1px solid #e6c761;
-  border-radius: 8px;
-  color: #6c5514;
-  background: #fff8e5;
-  font-size: 14px;
-}
-
-.dark .guide-outline {
-  border-color: #8a7429;
-  color: #f0d980;
-  background: rgba(138, 116, 41, 0.16);
-}
-
 /* Keep documentation screenshots useful without letting portrait captures
    dominate the article column or push the instructions far below the fold. */
 .vp-doc img {

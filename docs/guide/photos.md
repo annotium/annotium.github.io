@@ -1,6 +1,6 @@
 # Browse device photos
 
-<p class="guide-outline">The steps follow the app source. The current Photos screens still need a device check on iOS and Android.</p>
+<!-- TODO(verify): The steps follow the app source. The current Photos screens still need a device check on iOS and Android. -->
 
 ## Open a photo
 

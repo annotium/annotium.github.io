@@ -1,8 +1,6 @@
 # Lines, arrows, and measurements
 
-<p class="guide-outline">
-  Outline · This page is ready for verified steps and current screenshots.
-</p>
+<!-- TODO(verify): Verify the steps and update the screenshots against the current app. -->
 
 ## Point out a feature
 
@@ -52,9 +50,7 @@ The `Ø30 mm` label is illustrative; this photo has no calibrated scale.
 
 The `0.5 in` value is an example label.
 
-::: info Photo reference
-The Line Measure and Dimension Line pages include editor captures. Menu locations and the remaining measurement workflows still need verification on current phone and tablet builds.
-:::
+<!-- TODO(verify): The Line Measure and Dimension Line pages include editor captures. Menu locations and the remaining measurement workflows still need verification on current phone and tablet builds. -->
 
 ## Shared properties
 

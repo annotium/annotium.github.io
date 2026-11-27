@@ -42,6 +42,4 @@ Pick a tool by the result you want. The measurement examples use different photo
 - [Freehand and highlight](/tools/freehand-highlight)
 - [Images and composition](/tools/images-compose)
 
-::: info Screenshot status
-Line Measure uses a cropped editor capture. Crop has full-screen frame preview and confirmed result captures. Lasso has full-screen selection, Crop, and Erase captures. Arrow, Callout, Cloud Text, Burst Text, Thought Bubble, Icon, Text Icon, Plain Icon, Date & Time, Location, Spotlight, Spotlight (Rectangle), Spotlight (Polygon), Crystallize, Mezzotint, Pointillize, Color Halftone, Copy Region, Insert Image, Loupe, Blur, and Mosaic use full-screen simulator captures. Dimension Line uses a user-supplied annotated reference photo. The Callout result is from manual app use; its integration-harness text issue is still noted in the guide.
-:::
+<!-- TODO(verify): Line Measure uses a cropped editor capture. Crop has full-screen frame preview and confirmed result captures. Lasso has full-screen selection, Crop, and Erase captures. Arrow, Callout, Cloud Text, Burst Text, Thought Bubble, Icon, Text Icon, Plain Icon, Date & Time, Location, Spotlight, Spotlight (Rectangle), Spotlight (Polygon), Crystallize, Mezzotint, Pointillize, Color Halftone, Copy Region, Insert Image, Loupe, Blur, and Mosaic use full-screen simulator captures. Dimension Line uses a user-supplied annotated reference photo. The Callout result is from manual app use; its integration-harness text issue is still noted in the guide. -->

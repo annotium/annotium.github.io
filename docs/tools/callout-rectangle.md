@@ -40,9 +40,7 @@ Use a brief label when the detail needs an explanation.
 
 Keep the label concise. Use an [Arrow](/tools/arrow) when a pointer alone is enough.
 
-::: info Illustration status
-The text was entered in the running app and is visible in this manual simulator capture. The pointer is positioned on the yellow notice. The earlier integration-harness capture still failed to render callout text.
-:::
+<!-- TODO(verify): The text was entered in the running app and is visible in this manual simulator capture. The pointer is positioned on the yellow notice. The earlier integration-harness capture still failed to render callout text. -->
 
 ## Next
 

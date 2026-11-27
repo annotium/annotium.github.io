@@ -1,6 +1,6 @@
 # Change properties
 
-<p class="guide-outline">The screenshots show Properties on iPhone. The tablet inspector still needs a device check.</p>
+<!-- TODO(verify): The screenshots show Properties on iPhone. The tablet inspector still needs a device check. -->
 
 ## Change an arrow's color
 

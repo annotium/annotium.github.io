@@ -1,6 +1,6 @@
 # Editor overview
 
-<p class="guide-outline">The screenshots show the iPhone editor. Current tablet and landscape layouts still need a device check.</p>
+<!-- TODO(verify): The screenshots show the iPhone editor. Current tablet and landscape layouts still need a device check. -->
 
 ## Find tools and controls
 

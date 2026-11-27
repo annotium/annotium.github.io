@@ -70,7 +70,7 @@ Annotium measures **angles** on a photo. For lengths, you measure on site with a
 <div class="home-plan-grid">
   <section class="home-plan-card">
     <h3>Free</h3>
-    <p>Arrows, lines, shapes, text and callouts, angle measure, spotlight, loupe, blur and mosaic, crop, and watermark-free JPEG/PNG export.</p>
+    <p>Arrows, lines, shapes, text and callouts, angle measure, spotlight, loupe, blur and mosaic, crop, and JPEG/PNG export.</p>
   </section>
   <section class="home-plan-card">
     <h3>Premium</h3>

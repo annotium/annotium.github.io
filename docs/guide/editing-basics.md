@@ -1,6 +1,6 @@
 # Select and edit objects
 
-<p class="guide-outline">The screenshots show selection and Pan on iPhone. Tablet controls still need a device check.</p>
+<!-- TODO(verify): The screenshots show selection and Pan on iPhone. Tablet controls still need a device check. -->
 
 ## Move or reshape an annotation
 

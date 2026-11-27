@@ -1,8 +1,6 @@
 # Projects
 
-<p class="guide-outline">
-  Outline · This page is ready for verified steps and current screenshots.
-</p>
+<!-- TODO(verify): Verify the steps and update the screenshots against the current app. -->
 
 Projects are the working files for annotations you may revisit. They preserve
 the base image, supported annotation objects, and project context.

@@ -13,9 +13,8 @@ the site.
    `/images/<topic>/<filename>.png`.
 6. Run `npm run docs:build` and fix every broken link before publishing.
 
-Pages containing `<p class="guide-outline">` are structured outlines. Remove
-that element only after the instructions and screenshots have been verified
-against the current app.
+Track pending verification in a `<!-- TODO(verify): … -->` comment. Remove the
+comment after checking the instructions and screenshots against the current app.
 
 ## Writing rules
 
@@ -39,7 +38,7 @@ against the current app.
 - Premium requirements are visible before gated actions.
 - Screenshots are current, consistent, and have useful alt text.
 - Related links work and `npm run docs:build` succeeds.
-- The outline notice has been removed.
+- The verification comment has been resolved.
 
 ## App source map
 

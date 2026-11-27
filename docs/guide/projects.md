@@ -1,6 +1,6 @@
 # Manage projects
 
-<p class="guide-outline">The steps follow the app source. The current project menus still need a device check.</p>
+<!-- TODO(verify): The steps follow the app source. The current project menus still need a device check. -->
 
 ## Create a project
 
