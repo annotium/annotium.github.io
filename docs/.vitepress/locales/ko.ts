@@ -92,7 +92,6 @@ export const ko: LocaleSpecificConfig<DefaultTheme.Config> & { label: string; li
       ]
     },
     outline: { level: [2, 3], label: '이 페이지 목차' },
-    footer: { message: 'Annotium 사용자를 위해 만들었습니다.', copyright: 'Copyright © Annotium' },
     docFooter: { prev: '이전 페이지', next: '다음 페이지' },
     langMenuLabel: '언어 변경',
     returnToTopLabel: '맨 위로',

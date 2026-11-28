@@ -92,7 +92,6 @@ export const zhCN: LocaleSpecificConfig<DefaultTheme.Config> & { label: string; 
       ]
     },
     outline: { level: [2, 3], label: '本页内容' },
-    footer: { message: '为 Annotium 用户而建。', copyright: 'Copyright © Annotium' },
     docFooter: { prev: '上一页', next: '下一页' },
     langMenuLabel: '切换语言',
     returnToTopLabel: '返回顶部',

@@ -71,6 +71,12 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.png',
     siteTitle: 'Annotium',
+    lastUpdated: {
+      formatOptions: { dateStyle: 'medium', timeZone: 'UTC', forceLocale: true },
+    },
+    footer: {
+      copyright: `Copyright © ${new Date().getUTCFullYear()} Annotium`,
+    },
     search: {
       provider: 'local',
       options: {

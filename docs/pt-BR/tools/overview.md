@@ -1,3 +1,7 @@
+---
+lastUpdated: false
+---
+
 # Ferramentas de anotação
 
 Escolha uma ferramenta de acordo com o resultado que você quer. Os exemplos de medição usam fotos e ferramentas diferentes para tarefas distintas.

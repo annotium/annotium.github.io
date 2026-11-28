@@ -92,7 +92,6 @@ export const ja: LocaleSpecificConfig<DefaultTheme.Config> & { label: string; li
       ]
     },
     outline: { level: [2, 3], label: 'このページの内容' },
-    footer: { message: 'Annotium ユーザーのために。', copyright: 'Copyright © Annotium' },
     docFooter: { prev: '前のページ', next: '次のページ' },
     langMenuLabel: '言語を変更',
     returnToTopLabel: 'トップに戻る',

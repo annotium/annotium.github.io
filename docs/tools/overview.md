@@ -1,4 +1,5 @@
 ---
+lastUpdated: false
 description: Explore Annotium tools for arrows, measurements, callouts, magnification and privacy when marking up inspection and repair photos.
 ---
 

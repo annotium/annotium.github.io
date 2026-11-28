@@ -89,7 +89,6 @@ export const en: LocaleSpecificConfig<DefaultTheme.Config> & { label: string; li
       ]
     },
     outline: { level: [2, 3], label: 'On this page' },
-    footer: { message: 'Built for Annotium users.', copyright: 'Copyright © Annotium' },
     docFooter: { prev: 'Previous', next: 'Next' }
   }
 }

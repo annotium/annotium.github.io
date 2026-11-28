@@ -1,3 +1,7 @@
+---
+lastUpdated: false
+---
+
 # Outils d’annotation
 
 Choisissez un outil selon le résultat souhaité. Les exemples de mesure utilisent des photos et des outils différents selon la tâche.

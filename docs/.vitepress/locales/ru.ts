@@ -92,7 +92,6 @@ export const ru: LocaleSpecificConfig<DefaultTheme.Config> & { label: string; li
       ]
     },
     outline: { level: [2, 3], label: 'На этой странице' },
-    footer: { message: 'Создано для пользователей Annotium.', copyright: 'Copyright © Annotium' },
     docFooter: { prev: 'Назад', next: 'Далее' },
     langMenuLabel: 'Изменить язык',
     returnToTopLabel: 'Вернуться наверх',

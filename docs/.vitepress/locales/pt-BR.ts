@@ -92,7 +92,6 @@ export const ptBR: LocaleSpecificConfig<DefaultTheme.Config> & { label: string; 
       ]
     },
     outline: { level: [2, 3], label: 'Nesta página' },
-    footer: { message: 'Feito para os usuários do Annotium.', copyright: 'Copyright © Annotium' },
     docFooter: { prev: 'Anterior', next: 'Próxima' },
     langMenuLabel: 'Mudar idioma',
     returnToTopLabel: 'Voltar ao topo',

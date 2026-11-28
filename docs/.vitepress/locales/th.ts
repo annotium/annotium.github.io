@@ -92,7 +92,6 @@ export const th: LocaleSpecificConfig<DefaultTheme.Config> & { label: string; li
       ]
     },
     outline: { level: [2, 3], label: 'ในหน้านี้' },
-    footer: { message: 'สร้างขึ้นเพื่อผู้ใช้ Annotium', copyright: 'Copyright © Annotium' },
     docFooter: { prev: 'ก่อนหน้า', next: 'ถัดไป' },
     langMenuLabel: 'เปลี่ยนภาษา',
     returnToTopLabel: 'กลับขึ้นด้านบน',
