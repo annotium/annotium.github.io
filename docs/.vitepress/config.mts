@@ -17,6 +17,23 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#174a3a' }],
     ['link', { rel: 'icon', href: '/logo.png', type: 'image/png' }]
   ],
+  transformHead({ title, description }) {
+    const image = 'https://annotium.github.io/images/homepage/annotium-social.jpg'
+    return [
+      ['meta', { property: 'og:type', content: 'website' }],
+      ['meta', { property: 'og:site_name', content: 'Annotium' }],
+      ['meta', { property: 'og:title', content: title }],
+      ['meta', { property: 'og:description', content: description }],
+      ['meta', { property: 'og:image', content: image }],
+      ['meta', { property: 'og:image:width', content: '1200' }],
+      ['meta', { property: 'og:image:height', content: '675' }],
+      ['meta', { property: 'og:image:alt', content: 'Garage door annotated with a 2.40 m dimension line and a Check clearance callout' }],
+      ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+      ['meta', { name: 'twitter:title', content: title }],
+      ['meta', { name: 'twitter:description', content: description }],
+      ['meta', { name: 'twitter:image', content: image }]
+    ]
+  },
   locales: {
     root: en,
     'zh-CN': zhCN,

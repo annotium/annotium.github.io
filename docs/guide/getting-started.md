@@ -1,3 +1,7 @@
+---
+description: "Get started with Annotium: open a photo, add an arrow and save your first annotated image on your phone or tablet."
+---
+
 # Getting started
 
 Open a photo, point to one detail with an arrow, and save your work.

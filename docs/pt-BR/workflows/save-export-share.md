@@ -1,3 +1,7 @@
+---
+description: Salve projetos editáveis ou exporte fotos anotadas em JPEG, PNG ou PDF e compartilhe seu trabalho.
+---
+
 # Salvar, exportar e compartilhar
 
 ## Entender os tipos de saída

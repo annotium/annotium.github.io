@@ -1,4 +1,5 @@
 ---
+description: Anote fotos de inspeções e reparos com setas, chamadas e medidas, oculte dados sensíveis e compartilhe relatórios claros.
 layout: home
 
 hero:

@@ -1,3 +1,7 @@
+---
+description: Enregistrez des projets modifiables ou exportez vos photos annotées en JPEG, PNG ou PDF pour les partager.
+---
+
 # Enregistrer, exporter et partager
 
 ## Comprendre les types de sortie

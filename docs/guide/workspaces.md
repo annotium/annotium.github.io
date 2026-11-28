@@ -1,3 +1,7 @@
+---
+description: Compare Projects and Photos in Annotium and choose where to edit, save and organize your annotated images.
+---
+
 # Projects and Photos
 
 Tap the workspace switcher at the top left of the home screen to choose **Projects** or **Photos**. The heading and grid change when you switch.

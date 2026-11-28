@@ -1,3 +1,7 @@
+---
+description: Save editable projects or export annotated photos as JPEG, PNG or PDF. Learn how to choose a format and share your work from Annotium.
+---
+
 # Save, export, and share
 
 ## Understand the output types

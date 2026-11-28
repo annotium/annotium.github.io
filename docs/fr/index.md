@@ -1,4 +1,5 @@
 ---
+description: Annotez vos photos d’inspection et de réparation avec des flèches, des bulles et des mesures, puis masquez les données sensibles et partagez vos rapports.
 layout: home
 
 hero:

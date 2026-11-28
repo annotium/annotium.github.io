@@ -1,3 +1,7 @@
+---
+description: Explore Annotium tools for arrows, measurements, callouts, magnification and privacy when marking up inspection and repair photos.
+---
+
 # Annotation tools
 
 Pick a tool by the result you want. The measurement examples use different photos and tools for different tasks.

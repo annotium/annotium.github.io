@@ -1,3 +1,7 @@
+---
+description: Guarda proyectos editables o exporta fotos anotadas como JPEG, PNG o PDF y comparte tu trabajo.
+---
+
 # Guardar, exportar y compartir
 
 ## Entender los tipos de archivo

@@ -1,3 +1,7 @@
+---
+description: Compare Annotium Free and Premium features, including measurement tools, PDF export and purchase options.
+---
+
 # Premium and purchases
 
 <!-- TODO(verify): Verify the steps and update the screenshots against the current app. -->

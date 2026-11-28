@@ -1,4 +1,7 @@
 ---
+title: Annotium – Photo Markup for Site Inspections & Repairs
+titleTemplate: false
+description: Annotate inspection and repair photos with arrows, callouts and measurements. Hide sensitive details and share clear reports from your phone or tablet.
 layout: home
 
 hero:

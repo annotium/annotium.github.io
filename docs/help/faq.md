@@ -1,3 +1,7 @@
+---
+description: Find answers about editable projects, exported photos, saving images and using Annotium on your devices.
+---
+
 # Frequently asked questions
 
 ## Why can’t I select an annotation in an exported photo?
