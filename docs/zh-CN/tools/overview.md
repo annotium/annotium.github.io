@@ -41,5 +41,3 @@
 - [聚焦和隐私](/zh-CN/tools/focus-privacy)
 - [手绘和高亮](/zh-CN/tools/freehand-highlight)
 - [图片和拼图](/zh-CN/tools/images-compose)
-
-<YouTubeVideo id="MXtZjhwHF98" title="Annotium - Photo Annotation App for iOS and Android" />

@@ -23,5 +23,3 @@
 エディターで**戻る (Back)**をタップし、確認メッセージが表示されたら**保存する (Save)**を選びます。**プロジェクト**では、保存した作業がグリッドに表示されます。**写真**では注釈付き画像が通常、端末の写真ライブラリに保存されます。エディターからコピーを送信するには**エクスポート (Export)**を使います。
 
 [ワークスペースを比較する](/ja/guide/workspaces) · [エディターのコントロールを確認する](/ja/guide/editor-overview) · [保存、書き出し、共有](/ja/workflows/save-export-share)
-
-<YouTubeVideo id="IYfZZODo6pY" title="Annotium - Photo Annotation User Guide" />

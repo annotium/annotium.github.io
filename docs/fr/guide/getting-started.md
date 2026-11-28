@@ -23,5 +23,3 @@ Ouvrez une photo, désignez un détail avec une flèche, puis enregistrez votre 
 Touchez **Retour (Back)** dans l’éditeur, puis choisissez **Enregistrer (Save)** à l’invite. **Projets (Projects)** conserve le travail enregistré dans sa grille. **Photos** enregistre une image annotée, normalement dans la photothèque de votre appareil. Pour envoyer une copie depuis l’éditeur, utilisez **Exporter (Export)**.
 
 [Comparer les espaces de travail](/fr/guide/workspaces) · [Repérer les commandes de l’éditeur](/fr/guide/editor-overview) · [Enregistrer, exporter et partager](/fr/workflows/save-export-share)
-
-<YouTubeVideo id="IYfZZODo6pY" title="Annotium - Photo Annotation User Guide" />

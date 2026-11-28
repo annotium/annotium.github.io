@@ -23,5 +23,3 @@
 편집기에서 **뒤로 (Back)**를 탭하고 메시지가 표시되면 **저장 (Save)**을 선택하세요. **프로젝트**는 저장된 작업을 그리드에 보관합니다. **사진**은 주석이 추가된 이미지를 보통 기기의 사진 보관함에 저장합니다. 편집기에서 사본을 보내려면 **내보내기 (Export)**를 사용하세요.
 
 [작업 공간 비교](/ko/guide/workspaces) · [편집기 제어 항목 찾기](/ko/guide/editor-overview) · [저장, 내보내기 및 공유](/ko/workflows/save-export-share)
-
-<YouTubeVideo id="IYfZZODo6pY" title="Annotium - Photo Annotation User Guide" />

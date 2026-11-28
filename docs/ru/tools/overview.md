@@ -41,5 +41,3 @@
 - [Фокус и конфиденциальность](/ru/tools/focus-privacy)
 - [Рисование от руки и выделение](/ru/tools/freehand-highlight)
 - [Изображения и композиция](/ru/tools/images-compose)
-
-<YouTubeVideo id="MXtZjhwHF98" title="Annotium - Photo Annotation App for iOS and Android" />

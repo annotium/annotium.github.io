@@ -41,5 +41,3 @@
 - [フォーカスとプライバシー](/ja/tools/focus-privacy)
 - [フリーハンドとハイライト](/ja/tools/freehand-highlight)
 - [画像と合成](/ja/tools/images-compose)
-
-<YouTubeVideo id="MXtZjhwHF98" title="Annotium - Photo Annotation App for iOS and Android" />

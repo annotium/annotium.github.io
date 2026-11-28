@@ -41,5 +41,3 @@
 - [จุดเน้นและความเป็นส่วนตัว](/th/tools/focus-privacy)
 - [วาดอิสระและไฮไลต์](/th/tools/freehand-highlight)
 - [รูปภาพและการจัดองค์ประกอบ](/th/tools/images-compose)
-
-<YouTubeVideo id="MXtZjhwHF98" title="Annotium - Photo Annotation App for iOS and Android" />

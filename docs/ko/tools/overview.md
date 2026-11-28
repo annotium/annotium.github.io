@@ -41,5 +41,3 @@
 - [초점 및 개인정보 보호](/ko/tools/focus-privacy)
 - [자유 그리기 및 하이라이트](/ko/tools/freehand-highlight)
 - [이미지 및 합성](/ko/tools/images-compose)
-
-<YouTubeVideo id="MXtZjhwHF98" title="Annotium - Photo Annotation App for iOS and Android" />
