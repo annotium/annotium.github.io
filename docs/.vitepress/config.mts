@@ -25,7 +25,7 @@ export default defineConfig({
   lastUpdated: true,
   sitemap: { hostname: siteUrl },
   head: [
-    ['meta', { name: 'theme-color', content: '#174a3a' }],
+    ['meta', { name: 'theme-color', content: '#c2410c' }],
     ['link', { rel: 'icon', href: '/logo.png', type: 'image/png' }]
   ],
   transformHead({ title, description, pageData, siteConfig }) {
