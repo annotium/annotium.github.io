@@ -11,7 +11,11 @@
 
 <img src="/images/tools/polygon/polygon-result.webp" alt="รูปหลายเหลี่ยมเส้นประสีเหลืองแบบหลายจุดล้อมบริเวณผนังอิฐด้านซ้ายและพื้นที่ท่อประปา" />
 
+<YouTubeVideo id="OYGQapjtBJI" title="Annotium - Draw polygon" vertical />
+
 <img src="/images/tools/rectangle/rectangle-result.webp" alt="สี่เหลี่ยมผืนผ้ามุมโค้งสีแดงล้อมข้อต่อท่อน้ำและบริเวณอิฐโดยรอบ" />
+
+<YouTubeVideo id="kz3o6VOGNYA" title="Annotium - Draw rectangle" vertical />
 
 <img src="/images/tools/oval/oval-result.webp" alt="วงรีสีแดงล้อมจุดเชื่อมท่อน้ำด้านบนและท่อใกล้เคียงบนผนังอิฐ" />
 

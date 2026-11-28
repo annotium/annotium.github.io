@@ -41,3 +41,5 @@ Choisissez un outil selon le résultat souhaité. Les exemples de mesure utilise
 - [Mise en évidence et confidentialité](/fr/tools/focus-privacy)
 - [Dessin à main levée et surlignage](/fr/tools/freehand-highlight)
 - [Images et composition](/fr/tools/images-compose)
+
+<YouTubeVideo id="MXtZjhwHF98" title="Annotium - Photo Annotation App for iOS and Android" />

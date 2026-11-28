@@ -13,9 +13,13 @@
 
 선은 한쪽 끝점에서 다른 쪽 끝점까지 그립니다. 이 예시에서는 화살촉 없이 균열을 표시합니다.
 
+<YouTubeVideo id="ths0OtldQMM" title="Annotium - Drawing line" vertical />
+
 <img src="/images/tools/curve/curve-result.webp" alt="빨간색 곡선 화살표가 노출된 배수관의 굽은 부분을 따라가며, 곡선 제어점이 표시되어 있습니다." />
 
 곡선은 굽은 경로를 따라갑니다. 선택된 예시에는 곡선의 화살촉과 편집 가능한 제어점이 표시되어 있습니다.
+
+<YouTubeVideo id="Twe83VeZ7DI" title="Annotium - Draw curve" vertical />
 
 <img src="/images/tools/connector/connector-result.webp" alt="선택된 빨간색 꺾은 연결선이 플러그와 아래쪽 콘센트를 연결하며, 끝점 및 꺾임 핸들이 표시되어 있습니다." />
 

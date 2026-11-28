@@ -41,3 +41,5 @@ Elige una herramienta según el resultado que quieras obtener. Los ejemplos de m
 - [Foco y privacidad](/es/tools/focus-privacy)
 - [Dibujo libre y resaltado](/es/tools/freehand-highlight)
 - [Imágenes y composición](/es/tools/images-compose)
+
+<YouTubeVideo id="MXtZjhwHF98" title="Annotium - Photo Annotation App for iOS and Android" />

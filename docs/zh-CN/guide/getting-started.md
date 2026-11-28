@@ -23,3 +23,5 @@
 点按编辑器中的 **返回 (Back)**，并在提示时选择 **保存 (Save)**。已保存的工作会保留在**项目**网格中。**照片**会保存带标注的扁平化图片，通常保存到设备照片图库。要从编辑器发送副本，请使用 **导出 (Export)**。
 
 [比较工作区](/zh-CN/guide/workspaces) · [查找编辑器控件](/zh-CN/guide/editor-overview) · [保存、导出和分享](/zh-CN/workflows/save-export-share)
+
+<YouTubeVideo id="IYfZZODo6pY" title="Annotium - Photo Annotation User Guide" />

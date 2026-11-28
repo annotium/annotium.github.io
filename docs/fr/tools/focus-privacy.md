@@ -37,6 +37,8 @@ Utilisez un rectangle pour isoler un détail compact comme une prise. Les poign�
 
 ## Effets de pixels avancés
 
+<YouTubeVideo id="zbad41CRqMA" title="Annotium - Pixelate" vertical />
+
 ### **Cristallisation (Crystallize)** (Premium)
 
 <img src="/images/tools/crystallize-result.webp" alt="La photo de vitrail apparaît en version originale à gauche et avec un effet Cristallisation à facettes à droite ; la zone sélectionnée est délimitée." style="width:100%;height:auto;border-radius:12px;" />

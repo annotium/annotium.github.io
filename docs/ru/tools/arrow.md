@@ -30,6 +30,8 @@ description: Укажите на деталь фотографии с помощ
 
 Стрелка выше нарисована одним непрерывным движением. Проекты (Projects) сохраняют аннотацию редактируемой; раздел «Фото (Photos)» открывает библиотеку устройства.
 
+<YouTubeVideo id="zTTl7vG_94k" title="Annotium - Draw arrow on photo" vertical />
+
 ## Далее
 
 [Добавить выноску](/ru/tools/callout-rectangle) · [Все инструменты](/ru/tools/overview)

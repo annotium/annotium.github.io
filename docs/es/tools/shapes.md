@@ -11,7 +11,11 @@
 
 <img src="/images/tools/polygon/polygon-result.webp" alt="Un Polígono amarillo discontinuo de varios puntos marca el muro de ladrillo de la izquierda y el área de las tuberías." />
 
+<YouTubeVideo id="OYGQapjtBJI" title="Annotium - Draw polygon" vertical />
+
 <img src="/images/tools/rectangle/rectangle-result.webp" alt="Un Rectángulo rojo redondeado marca una conexión de tubería de agua y los ladrillos que la rodean." />
+
+<YouTubeVideo id="kz3o6VOGNYA" title="Annotium - Draw rectangle" vertical />
 
 <img src="/images/tools/oval/oval-result.webp" alt="Un Óvalo rojo marca la unión superior de una tubería de agua y las tuberías cercanas en un muro de ladrillo." />
 

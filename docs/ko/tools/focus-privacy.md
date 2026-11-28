@@ -37,6 +37,8 @@
 
 ## 고급 픽셀 효과
 
+<YouTubeVideo id="zbad41CRqMA" title="Annotium - Pixelate" vertical />
+
 ### 크리스탈라이즈 (Crystallize, 프리미엄)
 
 <img src="/images/tools/crystallize-result.webp" alt="왼쪽에는 스테인드글라스 사진 원본이 있고, 오른쪽에는 면으로 나뉜 크리스탈라이즈 효과가 적용된 사진이 있습니다. 선택 영역의 윤곽선이 표시됩니다." style="width:100%;height:auto;border-radius:12px;" />

@@ -37,6 +37,8 @@ Use a rectangle to isolate a compact detail such as an outlet. The handles show 
 
 ## Advanced pixel effects
 
+<YouTubeVideo id="zbad41CRqMA" title="Annotium - Pixelate" vertical />
+
 ### Crystallize (Premium)
 
 <img src="/images/tools/crystallize-result.webp" alt="The stained-glass photo is shown as an original on the left and a faceted Crystallize effect on the right, with the selected region outlined." style="width:100%;height:auto;border-radius:12px;" />

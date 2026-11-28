@@ -23,3 +23,5 @@ Abra uma foto, aponte para um detalhe com uma seta e salve seu trabalho.
 Toque em **Voltar (Back)** no editor e escolha **Salve (Save)** quando solicitado. **Projetos** mantém o trabalho salvo na grade. **Fotos** salva uma imagem anotada, normalmente na biblioteca de fotos do dispositivo. Para enviar uma cópia pelo editor, use **Exportar (Export)**.
 
 [Comparar espaços de trabalho](/pt-BR/guide/workspaces) · [Encontrar os controles do editor](/pt-BR/guide/editor-overview) · [Salvar, exportar e compartilhar](/pt-BR/workflows/save-export-share)
+
+<YouTubeVideo id="IYfZZODo6pY" title="Annotium - Photo Annotation User Guide" />

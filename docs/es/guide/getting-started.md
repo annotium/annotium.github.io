@@ -23,3 +23,5 @@ Abre una foto, señala un detalle con una flecha y guarda tu trabajo.
 Toca **Atrás (Back)** en el editor y elige **Guardar (Save)** cuando se te indique. **Proyectos** conserva el trabajo guardado en su cuadrícula. **Fotos** guarda una imagen anotada, normalmente en la fototeca de tu dispositivo. Para enviar una copia desde el editor, usa **Exportar (Export)**.
 
 [Comparar espacios de trabajo](/es/guide/workspaces) · [Encontrar los controles del editor](/es/guide/editor-overview) · [Guardar, exportar y compartir](/es/workflows/save-export-share)
+
+<YouTubeVideo id="IYfZZODo6pY" title="Annotium - Photo Annotation User Guide" />

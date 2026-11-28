@@ -15,6 +15,8 @@ Tracez une ligne de mesure directement sur l’élément, par exemple sur la lar
 
 L’étiquette `2.40 m` est un exemple de texte, pas une mesure tirée de cette photo. Définissez et vérifiez une échelle avant d’utiliser une mesure comme dimension réelle. **La mesure de ligne nécessite Premium.**
 
+<YouTubeVideo id="Uj1aw_O5OO0" title="Annotium - Draw line measure" vertical />
+
 ## Suivant
 
 [Ajouter une ligne de cote](/fr/tools/dimension-line) · [Parcourir tous les outils](/fr/tools/overview)

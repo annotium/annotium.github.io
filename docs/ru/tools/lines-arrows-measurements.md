@@ -13,9 +13,13 @@
 
 Линия проводится от одной конечной точки до другой. В этом примере она отмечает трещину без наконечника стрелки.
 
+<YouTubeVideo id="ths0OtldQMM" title="Annotium - Drawing line" vertical />
+
 <img src="/images/tools/curve/curve-result.webp" alt="Красная изогнутая стрелка повторяет изгиб открытой сливной трубы; видны контрольные точки кривой." />
 
 Кривая повторяет изгиб; на выбранном примере видны наконечник стрелки и редактируемые контрольные точки.
+
+<YouTubeVideo id="Twe83VeZ7DI" title="Annotium - Draw curve" vertical />
 
 <img src="/images/tools/connector/connector-result.webp" alt="Выбранный красный соединитель с изгибами связывает вилку с нижней розеткой; видны маркеры конечной точки и изгибов." />
 

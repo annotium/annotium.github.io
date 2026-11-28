@@ -15,6 +15,8 @@ Marca la distancia directamente sobre el elemento, como el ancho de la puerta de
 
 La etiqueta `2.40 m` es texto de ejemplo, no un valor medido en esta foto. Define y verifica una escala antes de usar una medición como dimensión del mundo real. **Medición de línea requiere Premium.**
 
+<YouTubeVideo id="Uj1aw_O5OO0" title="Annotium - Draw line measure" vertical />
+
 ## Siguiente
 
 [Añadir una línea de cota con Línea de cota](/es/tools/dimension-line) · [Explorar todas las herramientas](/es/tools/overview)

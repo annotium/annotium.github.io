@@ -11,7 +11,11 @@
 
 <img src="/images/tools/polygon/polygon-result.webp" alt="노란색 점선 다각형이 여러 점을 사용해 왼쪽 벽돌 벽과 배관 영역의 윤곽을 표시합니다." />
 
+<YouTubeVideo id="OYGQapjtBJI" title="Annotium - Draw polygon" vertical />
+
 <img src="/images/tools/rectangle/rectangle-result.webp" alt="빨간색 둥근 사각형이 수도관 연결부와 주변 벽돌을 둘러쌉니다." />
+
+<YouTubeVideo id="kz3o6VOGNYA" title="Annotium - Draw rectangle" vertical />
 
 <img src="/images/tools/oval/oval-result.webp" alt="빨간색 타원이 벽돌 벽의 위쪽 수도관 연결부와 주변 배관을 둘러쌉니다." />
 

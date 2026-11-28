@@ -11,7 +11,11 @@
 
 <img src="/images/tools/polygon/polygon-result.webp" alt="黄色虚线多边形由多个点组成，圈出左侧砖墙和管道区域。" />
 
+<YouTubeVideo id="OYGQapjtBJI" title="Annotium - Draw polygon" vertical />
+
 <img src="/images/tools/rectangle/rectangle-result.webp" alt="红色圆角矩形圈出水管接头及周围的砖墙。" />
+
+<YouTubeVideo id="kz3o6VOGNYA" title="Annotium - Draw rectangle" vertical />
 
 <img src="/images/tools/oval/oval-result.webp" alt="红色椭圆圈出砖墙上方的水管接头及附近管道。" />
 

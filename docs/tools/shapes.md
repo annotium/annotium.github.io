@@ -11,7 +11,11 @@
 
 <img src="/images/tools/polygon/polygon-result.webp" alt="A yellow dashed multi-point polygon outlines the left brick wall and plumbing area." />
 
+<YouTubeVideo id="OYGQapjtBJI" title="Annotium - Draw polygon" vertical />
+
 <img src="/images/tools/rectangle/rectangle-result.webp" alt="A red rounded rectangle outlines a water-pipe connection and surrounding brickwork." />
+
+<YouTubeVideo id="kz3o6VOGNYA" title="Annotium - Draw rectangle" vertical />
 
 <img src="/images/tools/oval/oval-result.webp" alt="A red oval outlines the upper water-pipe junction and nearby pipework on a brick wall." />
 

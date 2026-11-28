@@ -13,9 +13,13 @@
 
 La ligne est tracée d’une extrémité à l’autre. Dans cet exemple, elle marque la fissure sans pointe de flèche.
 
+<YouTubeVideo id="ths0OtldQMM" title="Annotium - Drawing line" vertical />
+
 <img src="/images/tools/curve/curve-result.webp" alt="Une flèche rouge courbe suit le coude d’un tuyau d’évacuation apparent ; les points de contrôle de la courbe sont visibles." />
 
 La courbe suit un tracé sinueux ; l’exemple sélectionné montre sa pointe de flèche et ses points de contrôle modifiables.
+
+<YouTubeVideo id="Twe83VeZ7DI" title="Annotium - Draw curve" vertical />
 
 <img src="/images/tools/connector/connector-result.webp" alt="Un connecteur rouge à plusieurs segments relie la fiche électrique à la prise du bas ; son extrémité et ses poignées de coude sont visibles." />
 

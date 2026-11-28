@@ -37,6 +37,8 @@
 
 ## เอฟเฟกต์พิกเซลขั้นสูง
 
+<YouTubeVideo id="zbad41CRqMA" title="Annotium - Pixelate" vertical />
+
 ### คริสตัลไลซ์ (Crystallize) (พรีเมียม)
 
 <img src="/images/tools/crystallize-result.webp" alt="ภาพกระจกสีแสดงต้นฉบับทางซ้ายและเอฟเฟกต์คริสตัลไลซ์แบบเหลี่ยมทางขวา โดยมีเส้นขอบล้อมพื้นที่ที่เลือก" style="width:100%;height:auto;border-radius:12px;" />

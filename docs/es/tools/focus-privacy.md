@@ -37,6 +37,8 @@ Usa un rectángulo para aislar un detalle compacto, como un enchufe. Los control
 
 ## Efectos de píxeles avanzados
 
+<YouTubeVideo id="zbad41CRqMA" title="Annotium - Pixelate" vertical />
+
 ### Cristalización (Crystallize) (Premium)
 
 <img src="/images/tools/crystallize-result.webp" alt="La foto de vitrales aparece en su estado original a la izquierda y con un efecto de Cristalización facetada a la derecha; el área seleccionada está delineada." style="width:100%;height:auto;border-radius:12px;" />

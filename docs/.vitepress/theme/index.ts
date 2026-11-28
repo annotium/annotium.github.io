@@ -1,6 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
 import { h } from 'vue'
+import YouTubeVideo from './YouTubeVideo.vue'
 import './custom.css'
 
 const heroAlt: Record<string, string> = {
@@ -26,6 +27,9 @@ const heroAlt: Record<string, string> = {
 
 export default {
   extends: DefaultTheme,
+  enhanceApp({ app }) {
+    app.component('YouTubeVideo', YouTubeVideo)
+  },
   Layout: () => {
     const { lang } = useData()
     return h(

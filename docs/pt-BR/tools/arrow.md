@@ -30,6 +30,8 @@ Arraste de uma área livre até o detalhe. A ponta da seta fica no fim do arrast
 
 A seta acima foi desenhada com um único arraste contínuo. **Projetos (Projects)** mantêm a anotação editável; em **Fotos (Photos)**, você trabalha com a biblioteca do dispositivo.
 
+<YouTubeVideo id="zTTl7vG_94k" title="Annotium - Draw arrow on photo" vertical />
+
 ## Próximos passos
 
 [Adicionar um balão](/pt-BR/tools/callout-rectangle) · [Ver todas as ferramentas](/pt-BR/tools/overview)

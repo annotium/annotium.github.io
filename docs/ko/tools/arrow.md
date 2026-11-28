@@ -30,6 +30,8 @@ description: 사진의 한 세부 항목을 조절 가능한 선명한 화살표
 
 위 화살표는 한 번의 연속된 드래그로 그렸습니다. 프로젝트에서는 주석을 편집 가능한 상태로 유지하고, 사진에서는 기기 사진 보관함을 사용합니다.
 
+<YouTubeVideo id="zTTl7vG_94k" title="Annotium - Draw arrow on photo" vertical />
+
 ## 다음
 
 [말풍선 추가하기](/ko/tools/callout-rectangle) · [모든 도구 살펴보기](/ko/tools/overview)

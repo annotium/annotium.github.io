@@ -27,3 +27,5 @@ Open a photo, point to one detail with an arrow, and save your work.
 Tap **Back** in the editor and choose **Save** when prompted. **Projects** keeps the saved work in its grid. **Photos** saves an annotated image, normally to your device photo library. To send a copy from the editor, use **Export**.
 
 [Compare workspaces](/guide/workspaces) · [Find the editor controls](/guide/editor-overview) · [Save, export, and share](/workflows/save-export-share)
+
+<YouTubeVideo id="IYfZZODo6pY" title="Annotium - Photo Annotation User Guide" />

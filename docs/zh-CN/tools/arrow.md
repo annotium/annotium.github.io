@@ -30,6 +30,8 @@ description: 用清晰且可调整的箭头指向照片中的某个细节。
 
 上方的箭头通过一次连续拖动绘制。项目中的标注可继续编辑；照片使用设备图库中的照片。
 
+<YouTubeVideo id="zTTl7vG_94k" title="Annotium - Draw arrow on photo" vertical />
+
 ## 下一步
 
 [添加标注](/zh-CN/tools/callout-rectangle) · [浏览所有工具](/zh-CN/tools/overview)

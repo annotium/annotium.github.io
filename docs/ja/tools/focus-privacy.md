@@ -37,6 +37,8 @@
 
 ## 高度なピクセル効果
 
+<YouTubeVideo id="zbad41CRqMA" title="Annotium - Pixelate" vertical />
+
 ### クリスタライズ（プレミアム） (Crystallize)
 
 <img src="/images/tools/crystallize-result.webp" alt="ステンドグラスの写真が左側に元画像、右側に選択範囲を縁取った多面体状のクリスタライズ効果として表示されています。" style="width:100%;height:auto;border-radius:12px;" />

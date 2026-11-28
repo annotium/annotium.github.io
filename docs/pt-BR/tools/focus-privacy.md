@@ -37,6 +37,8 @@ Use um retângulo para isolar um detalhe compacto, como uma tomada. As alças mo
 
 ## Efeitos avançados de pixels
 
+<YouTubeVideo id="zbad41CRqMA" title="Annotium - Pixelate" vertical />
+
 ### Cristalização (Crystallize) (Premium)
 
 <img src="/images/tools/crystallize-result.webp" alt="A foto do vitral aparece como original à esquerda e com um efeito de cristalização facetado à direita; a região selecionada está contornada." style="width:100%;height:auto;border-radius:12px;" />

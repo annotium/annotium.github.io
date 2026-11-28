@@ -11,7 +11,11 @@
 
 <img src="/images/tools/polygon/polygon-result.webp" alt="黄色の破線の多角形が左側のレンガ壁と配管部分を囲んでいます。" />
 
+<YouTubeVideo id="OYGQapjtBJI" title="Annotium - Draw polygon" vertical />
+
 <img src="/images/tools/rectangle/rectangle-result.webp" alt="赤い角丸長方形が水道管の接続部と周囲のレンガを囲んでいます。" />
+
+<YouTubeVideo id="kz3o6VOGNYA" title="Annotium - Draw rectangle" vertical />
 
 <img src="/images/tools/oval/oval-result.webp" alt="赤い楕円がレンガ壁の上部にある水道管の接合部と周辺の配管を囲んでいます。" />
 

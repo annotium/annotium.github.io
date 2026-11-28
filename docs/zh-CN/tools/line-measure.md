@@ -15,6 +15,8 @@ description: 用朝内的箭头和居中的标签标记一段距离。
 
 `2.40 m` 是示例文字，并非从这张照片测得的数值。若要将测量结果用作实际尺寸，请先设置并核实比例尺。**直线测量需要高级版。**
 
+<YouTubeVideo id="Uj1aw_O5OO0" title="Annotium - Draw line measure" vertical />
+
 ## 下一步
 
 [使用尺寸线添加测量线](/zh-CN/tools/dimension-line) · [浏览所有工具](/zh-CN/tools/overview)

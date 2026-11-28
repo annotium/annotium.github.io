@@ -11,7 +11,11 @@
 
 <img src="/images/tools/polygon/polygon-result.webp" alt="Um polígono amarelo tracejado com vários pontos contorna a parede de tijolos à esquerda e a área dos encanamentos." />
 
+<YouTubeVideo id="OYGQapjtBJI" title="Annotium - Draw polygon" vertical />
+
 <img src="/images/tools/rectangle/rectangle-result.webp" alt="Um retângulo vermelho com cantos arredondados contorna uma conexão de canos de água e os tijolos ao redor." />
+
+<YouTubeVideo id="kz3o6VOGNYA" title="Annotium - Draw rectangle" vertical />
 
 <img src="/images/tools/oval/oval-result.webp" alt="Um oval vermelho contorna a junção superior dos canos de água e os tubos próximos em uma parede de tijolos." />
 

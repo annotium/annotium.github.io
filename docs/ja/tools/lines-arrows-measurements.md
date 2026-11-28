@@ -13,9 +13,13 @@
 
 直線は一方の端点からもう一方の端点に向かって描かれます。この例では、矢印の先端を付けずにひびを示しています。
 
+<YouTubeVideo id="ths0OtldQMM" title="Annotium - Drawing line" vertical />
+
 <img src="/images/tools/curve/curve-result.webp" alt="赤い曲線の矢印が露出した排水管の曲がりに沿い、曲線の制御点が表示されています。" />
 
 曲線は曲がった経路に沿います。選択中の例では、矢印の先端と編集可能な制御点が表示されています。
+
+<YouTubeVideo id="Twe83VeZ7DI" title="Annotium - Draw curve" vertical />
 
 <img src="/images/tools/connector/connector-result.webp" alt="選択中の赤い折れ線コネクタがプラグと下側のコンセントをつなぎ、端点と折れ曲がりのハンドルが表示されています。" />
 

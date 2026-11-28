@@ -13,9 +13,13 @@
 
 La Línea se dibuja de un extremo al otro. En este ejemplo, marca la grieta sin una punta de flecha.
 
+<YouTubeVideo id="ths0OtldQMM" title="Annotium - Drawing line" vertical />
+
 <img src="/images/tools/curve/curve-result.webp" alt="Una flecha roja curva sigue el recodo de un tubo de desagüe expuesto; se ven los puntos de control de la curva." />
 
 La Curva sigue un recorrido doblado; el ejemplo seleccionado muestra la punta de flecha de la curva y sus puntos de control editables.
+
+<YouTubeVideo id="Twe83VeZ7DI" title="Annotium - Draw curve" vertical />
 
 <img src="/images/tools/connector/connector-result.webp" alt="Un Conector rojo con recorrido seleccionado une el enchufe con la toma de corriente inferior; se ven los controles de los extremos y del codo." />
 

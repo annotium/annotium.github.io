@@ -11,7 +11,11 @@
 
 <img src="/images/tools/polygon/polygon-result.webp" alt="Un polygone jaune pointillé à plusieurs points délimite le mur de briques de gauche et la zone de plomberie." />
 
+<YouTubeVideo id="OYGQapjtBJI" title="Annotium - Draw polygon" vertical />
+
 <img src="/images/tools/rectangle/rectangle-result.webp" alt="Un rectangle rouge arrondi encadre un raccord de conduite d’eau et les briques alentour." />
+
+<YouTubeVideo id="kz3o6VOGNYA" title="Annotium - Draw rectangle" vertical />
 
 <img src="/images/tools/oval/oval-result.webp" alt="Un ovale rouge encadre le raccord supérieur d’une conduite d’eau et les tuyaux voisins sur un mur de briques." />
 

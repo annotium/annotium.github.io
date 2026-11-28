@@ -13,9 +13,13 @@
 
 เส้นลากจากจุดปลายด้านหนึ่งไปยังอีกด้าน ในตัวอย่างนี้ เส้นทำเครื่องหมายรอยร้าวโดยไม่มีหัวลูกศร
 
+<YouTubeVideo id="ths0OtldQMM" title="Annotium - Drawing line" vertical />
+
 <img src="/images/tools/curve/curve-result.webp" alt="ลูกศรเส้นโค้งสีแดงลากตามส่วนโค้งของท่อระบายน้ำที่เปิดให้เห็น พร้อมจุดควบคุมเส้นโค้ง" />
 
 เส้นโค้งลากตามแนวโค้ง ตัวอย่างที่เลือกแสดงหัวลูกศรและจุดควบคุมที่แก้ไขได้
+
+<YouTubeVideo id="Twe83VeZ7DI" title="Annotium - Draw curve" vertical />
 
 <img src="/images/tools/connector/connector-result.webp" alt="เส้นเชื่อมสีแดงแบบมีมุมที่เลือกไว้เชื่อมปลั๊กกับเต้ารับด้านล่าง พร้อมจุดจับปลายเส้นและจุดหักมุม" />
 

@@ -15,6 +15,8 @@ Marque um trecho diretamente sobre o elemento, como a largura da porta da garage
 
 O rótulo `2.40 m` é um texto de exemplo, não um valor medido nesta foto. Defina e verifique uma escala antes de usar uma medida como dimensão do mundo real. **Medição de linha requer Premium.**
 
+<YouTubeVideo id="Uj1aw_O5OO0" title="Annotium - Draw line measure" vertical />
+
 ## Próximos passos
 
 [Adicione uma linha de cota com Linha de cota](/pt-BR/tools/dimension-line) · [Ver todas as ferramentas](/pt-BR/tools/overview)

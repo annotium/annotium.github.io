@@ -15,6 +15,8 @@ description: 양 끝 화살표와 가운데 라벨로 길이를 표시합니다.
 
 `2.40 m` 라벨은 샘플 텍스트이며 이 사진에서 측정한 값이 아닙니다. 실제 길이로 사용하기 전에 축척을 설정하고 확인하세요. **선 측정에는 프리미엄이 필요합니다.**
 
+<YouTubeVideo id="Uj1aw_O5OO0" title="Annotium - Draw line measure" vertical />
+
 ## 다음
 
 [치수선으로 측정 눈금 추가하기](/ko/tools/dimension-line) · [모든 도구 살펴보기](/ko/tools/overview)

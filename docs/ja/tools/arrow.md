@@ -30,6 +30,8 @@ description: 写真の細部を、見やすく調整可能な矢印で指し示�
 
 上の矢印は、途切れずに一度ドラッグして描きました。プロジェクトでは注釈を編集可能な状態で保持できます。写真では端末のライブラリを使用します。
 
+<YouTubeVideo id="zTTl7vG_94k" title="Annotium - Draw arrow on photo" vertical />
+
 ## 次の操作
 
 [吹き出しを追加 (Add a callout)](/ja/tools/callout-rectangle) · [すべてのツールを見る (Browse all tools)](/ja/tools/overview)

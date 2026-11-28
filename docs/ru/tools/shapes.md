@@ -11,7 +11,11 @@
 
 <img src="/images/tools/polygon/polygon-result.webp" alt="Жёлтый пунктирный многоугольник с несколькими точками очерчивает левую кирпичную стену и область с трубами." />
 
+<YouTubeVideo id="OYGQapjtBJI" title="Annotium - Draw polygon" vertical />
+
 <img src="/images/tools/rectangle/rectangle-result.webp" alt="Красный скруглённый прямоугольник очерчивает соединение водопроводных труб и окружающую кирпичную кладку." />
+
+<YouTubeVideo id="kz3o6VOGNYA" title="Annotium - Draw rectangle" vertical />
 
 <img src="/images/tools/oval/oval-result.webp" alt="Красный овал очерчивает верхний стык водопроводных труб и соседние трубы на кирпичной стене." />
 

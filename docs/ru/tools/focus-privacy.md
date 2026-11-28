@@ -37,6 +37,8 @@
 
 ## Дополнительные пиксельные эффекты
 
+<YouTubeVideo id="zbad41CRqMA" title="Annotium - Pixelate" vertical />
+
 ### Кристаллизация (Crystallize, Премиум)
 
 <img src="/images/tools/crystallize-result.webp" alt="Слева показан оригинал фото витража, а справа — выбранная область с гранёным эффектом кристаллизации; контур области выделен." style="width:100%;height:auto;border-radius:12px;" />

@@ -30,6 +30,8 @@ Faites glisser depuis une zone dégagée vers le détail. La pointe de la flèch
 
 La flèche ci-dessus a été tracée d’un seul geste continu. **Projets (Projects)** conserve l’annotation modifiable ; **Photos (Photos)** utilise la photothèque de votre appareil.
 
+<YouTubeVideo id="zTTl7vG_94k" title="Annotium - Draw arrow on photo" vertical />
+
 ## Suivant
 
 [Ajouter une bulle](/fr/tools/callout-rectangle) · [Parcourir tous les outils](/fr/tools/overview)

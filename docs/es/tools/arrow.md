@@ -30,6 +30,8 @@ Arrastra desde un espacio libre hacia el detalle. La punta de la flecha queda al
 
 La flecha de arriba se dibujó con un solo arrastre continuo. Los Proyectos (Projects) conservan la anotación editable; Fotos (Photos) funciona con la biblioteca de tu dispositivo.
 
+<YouTubeVideo id="zTTl7vG_94k" title="Annotium - Draw arrow on photo" vertical />
+
 ## Siguiente
 
 [Añadir una llamada](/es/tools/callout-rectangle) · [Explorar todas las herramientas](/es/tools/overview)

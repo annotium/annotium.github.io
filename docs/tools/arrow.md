@@ -30,6 +30,8 @@ Drag from the open area toward the detail. The arrowhead lands at the end of the
 
 The arrow above was drawn with one continuous drag. Projects keep the annotation editable; Photos works from your device library.
 
+<YouTubeVideo id="zTTl7vG_94k" title="Annotium - Draw arrow on photo" vertical />
+
 ## Next
 
 [Add a callout](/tools/callout-rectangle) · [Browse all tools](/tools/overview)

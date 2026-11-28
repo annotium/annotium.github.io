@@ -13,9 +13,13 @@
 
 A Linha é desenhada de uma extremidade à outra. Neste exemplo, ela marca a rachadura sem uma ponta de seta.
 
+<YouTubeVideo id="ths0OtldQMM" title="Annotium - Drawing line" vertical />
+
 <img src="/images/tools/curve/curve-result.webp" alt="Uma seta curva vermelha acompanha a curva de um cano de escoamento exposto, com pontos de controle visíveis." />
 
 A Curva acompanha um caminho sinuoso; o exemplo selecionado mostra a ponta de seta da curva e seus pontos de controle editáveis.
+
+<YouTubeVideo id="Twe83VeZ7DI" title="Annotium - Draw curve" vertical />
 
 <img src="/images/tools/connector/connector-result.webp" alt="Um Conector vermelho roteado e selecionado liga o plugue à tomada inferior, com as alças das extremidades e das curvas visíveis." />
 

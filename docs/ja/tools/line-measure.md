@@ -15,6 +15,8 @@ description: 内向きの矢印と中央のラベルで長さを示します。
 
 ラベルの`2.40 m`はサンプルテキストで、この写真から測定した値ではありません。実際の寸法として使う前に、縮尺を設定して確認してください。**直線計測にはプレミアムが必要です。**
 
+<YouTubeVideo id="Uj1aw_O5OO0" title="Annotium - Draw line measure" vertical />
+
 ## 次の操作
 
 [寸法線で計測線を追加 (Add a measurement rail with Dimension Line)](/ja/tools/dimension-line) · [すべてのツールを見る (Browse all tools)](/ja/tools/overview)

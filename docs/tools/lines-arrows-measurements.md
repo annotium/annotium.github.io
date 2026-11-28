@@ -13,9 +13,13 @@
 
 The Line is drawn from one endpoint to the other. In this example, it marks the crack without an arrowhead.
 
+<YouTubeVideo id="ths0OtldQMM" title="Annotium - Drawing line" vertical />
+
 <img src="/images/tools/curve/curve-result.webp" alt="A red curved arrow follows the bend of an exposed drain pipe, with curve control points visible." />
 
 Curve follows a bent path; the selected example shows the curve's arrowhead and its editable control points.
+
+<YouTubeVideo id="Twe83VeZ7DI" title="Annotium - Draw curve" vertical />
 
 <img src="/images/tools/connector/connector-result.webp" alt="A selected red routed Connector links the plug to the lower outlet, with its endpoint and bend handles visible." />
 

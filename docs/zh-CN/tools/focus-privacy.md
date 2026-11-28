@@ -37,6 +37,8 @@
 
 ## 高级像素效果
 
+<YouTubeVideo id="zbad41CRqMA" title="Annotium - Pixelate" vertical />
+
 ### 结晶化 (Crystallize)（高级版）
 
 <img src="/images/tools/crystallize-result.webp" alt="彩色玻璃照片左侧显示原图，右侧选区应用了多面结晶化效果，并以轮廓标出选区。" style="width:100%;height:auto;border-radius:12px;" />

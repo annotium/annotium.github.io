@@ -13,9 +13,13 @@
 
 直线从一个端点绘制到另一个端点。此示例中，直线标记了裂缝，且没有箭头尖端。
 
+<YouTubeVideo id="ths0OtldQMM" title="Annotium - Drawing line" vertical />
+
 <img src="/images/tools/curve/curve-result.webp" alt="一支红色曲线箭头沿着露出的排水管弯折处延伸，曲线控制点清晰可见。" />
 
 曲线沿弯曲路径延伸；所选示例显示了曲线的箭头尖端和可编辑控制点。
+
+<YouTubeVideo id="Twe83VeZ7DI" title="Annotium - Draw curve" vertical />
 
 <img src="/images/tools/connector/connector-result.webp" alt="选中的红色折线路径连接线连接插头和下方插座，端点和弯折手柄清晰可见。" />
 

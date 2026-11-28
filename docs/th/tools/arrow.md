@@ -30,6 +30,8 @@ description: ชี้รายละเอียดหนึ่งจุดใ�
 
 ลูกศรด้านบนวาดด้วยการลากต่อเนื่องเพียงครั้งเดียว โปรเจกต์จะเก็บคำอธิบายไว้ให้แก้ไขได้ ส่วนรูปภาพใช้รูปจากคลังในอุปกรณ์ของคุณ
 
+<YouTubeVideo id="zTTl7vG_94k" title="Annotium - Draw arrow on photo" vertical />
+
 ## ถัดไป
 
 [เพิ่มคำบรรยาย (Callout)](/th/tools/callout-rectangle) · [ดูเครื่องมือทั้งหมด](/th/tools/overview)

@@ -15,6 +15,8 @@ Mark a span directly across the feature, like the garage-door width below.
 
 The `2.40 m` label is sample text, not a value measured from this photo. Set and verify a scale before using a measurement as a real-world dimension. **Line Measure requires Premium.**
 
+<YouTubeVideo id="Uj1aw_O5OO0" title="Annotium - Draw line measure" vertical />
+
 ## Next
 
 [Add a measurement rail with Dimension Line](/tools/dimension-line) · [Browse all tools](/tools/overview)
