@@ -9,17 +9,40 @@ import { ja } from './locales/ja'
 import { th } from './locales/th'
 import { ko } from './locales/ko'
 
+const siteUrl = 'https://annotium.github.io'
+const localeLanguages: Record<string, string> = {
+  'zh-CN': 'zh-CN', fr: 'fr', es: 'es', 'pt-BR': 'pt-BR',
+  ru: 'ru', ja: 'ja', th: 'th', ko: 'ko'
+}
+
+function pageUrl(page: string) {
+  return `${siteUrl}/${page.replace(/(^|\/)index\.md$/, '$1').replace(/\.md$/, '')}`
+}
+
 export default defineConfig({
   title: 'Annotium',
   cleanUrls: true,
   lastUpdated: true,
+  sitemap: { hostname: siteUrl },
   head: [
     ['meta', { name: 'theme-color', content: '#174a3a' }],
     ['link', { rel: 'icon', href: '/logo.png', type: 'image/png' }]
   ],
-  transformHead({ title, description }) {
-    const image = 'https://annotium.github.io/images/homepage/annotium-social.jpg'
+  transformHead({ title, description, pageData, siteConfig }) {
+    const image = `${siteUrl}/images/homepage/annotium-social.jpg`
+    const page = pageData.relativePath
+    const segments = page.split('/')
+    if (segments[0] in localeLanguages) segments.shift()
+    const topic = segments.join('/')
+    const variants = [
+      { lang: 'en-US', page: topic },
+      ...Object.entries(localeLanguages).map(([dir, lang]) => ({ lang, page: `${dir}/${topic}` }))
+    ].filter((variant) => siteConfig.pages.includes(variant.page))
     return [
+      ['link', { rel: 'canonical', href: pageUrl(page) }],
+      ...(variants.length > 1 ? variants.map((variant) =>
+        ['link', { rel: 'alternate', hreflang: variant.lang, href: pageUrl(variant.page) }] as ['link', Record<string, string>]
+      ) : []),
       ['meta', { property: 'og:type', content: 'website' }],
       ['meta', { property: 'og:site_name', content: 'Annotium' }],
       ['meta', { property: 'og:title', content: title }],
